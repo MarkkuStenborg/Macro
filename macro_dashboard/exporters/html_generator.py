@@ -1,3 +1,7 @@
+# ============================================================================
+# File: macro_dashboard/exporters/html_generator.py
+# ============================================================================
+
 # Tallennuspaikka: C:\Users\markk\Talous\macro_dashboard\exporters\html_generator.py
 """Plotly-kuvaajien upotus siistiin, responsiiviseen Tailwind-pohjaan.
 

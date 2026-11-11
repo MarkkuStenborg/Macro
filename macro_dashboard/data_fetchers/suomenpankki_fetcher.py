@@ -1,3 +1,7 @@
+# ============================================================================
+# File: macro_dashboard/data_fetchers/suomenpankki_fetcher.py
+# ============================================================================
+
 # Tallennuspaikka: C:\Users\markk\Talous\macro_dashboard\data_fetchers\suomenpankki_fetcher.py
 """Suomen Pankin viitelainojen tuotot (päivädata), raportin CSV-vienti.
 

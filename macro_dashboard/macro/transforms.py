@@ -1,3 +1,7 @@
+# ============================================================================
+# File: macro_dashboard/macro/transforms.py
+# ============================================================================
+
 # Tallennuspaikka: C:\Users\markk\Talous\macro_dashboard\macro\transforms.py
 """Sarjamuunnokset. Tallennettu sarja on aina lähteen alkuperäinen; muunnos tehdään sivua rakennettaessa.
 

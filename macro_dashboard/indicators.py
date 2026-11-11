@@ -1,3 +1,7 @@
+# ============================================================================
+# File: macro_dashboard/indicators.py
+# ============================================================================
+
 # Tallennuspaikka: C:\Users\markk\Talous\macro_dashboard\indicators.py
 """Sivun alun avainindikaattorit ("vitals"): Suomi, euroalue, Saksa (10 v tuotto) ja USA:n S&P 500.
 

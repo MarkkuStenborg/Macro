@@ -1,3 +1,7 @@
+# ============================================================================
+# File: macro_dashboard/tests/test_suomenpankki_offline.py
+# ============================================================================
+
 # Tallennuspaikka: C:\Users\markk\Talous\macro_dashboard\tests\test_suomenpankki_offline.py
 """Offline-testi Suomen Pankin hakijalle OIKEALLA CSV-näytteellä (tests/data/).
 

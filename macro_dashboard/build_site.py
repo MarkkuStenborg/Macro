@@ -1,3 +1,7 @@
+# ============================================================================
+# File: macro_dashboard/build_site.py
+# ============================================================================
+
 # Tallennuspaikka: C:\Users\markk\Talous\macro_dashboard\build_site.py
 """Makroseuranta: hae sarjat luettelosta varastoon ja rakenna sivut.
 

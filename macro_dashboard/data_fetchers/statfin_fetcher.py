@@ -1,3 +1,7 @@
+# ============================================================================
+# File: macro_dashboard/data_fetchers/statfin_fetcher.py
+# ============================================================================
+
 # Tallennuspaikka: C:\Users\markk\Talous\macro_dashboard\data_fetchers\statfin_fetcher.py
 """Tilastokeskuksen hakija (PxWeb API, StatFin-tietokanta, JSON-stat2).
 

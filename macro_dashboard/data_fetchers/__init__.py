@@ -1,3 +1,7 @@
+# ============================================================================
+# File: macro_dashboard/data_fetchers/__init__.py
+# ============================================================================
+
 # Tallennuspaikka: C:\Users\markk\Talous\macro_dashboard\data_fetchers\__init__.py
 """data_fetchers: yhtenäinen rajapinta makrotaloudellisen datan hakuun.
 

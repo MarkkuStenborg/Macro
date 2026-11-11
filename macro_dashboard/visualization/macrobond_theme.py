@@ -1,3 +1,7 @@
+# ============================================================================
+# File: macro_dashboard/visualization/macrobond_theme.py
+# ============================================================================
+
 # Tallennuspaikka: C:\Users\markk\Talous\macro_dashboard\visualization\macrobond_theme.py
 """Macrobond-tyylinen Plotly-pohja.
 

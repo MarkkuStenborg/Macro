@@ -1,3 +1,7 @@
+# ============================================================================
+# File: macro_dashboard/probe.py
+# ============================================================================
+
 # Tallennuspaikka: C:\Users\markk\Talous\macro_dashboard\probe.py
 """Tutki, mitä dimensioita ja arvoja Eurostatin ja OECD:n aineistoissa on (sarjakoodien korjaamiseen).
 

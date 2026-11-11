@@ -1,3 +1,7 @@
+# ============================================================================
+# File: macro_dashboard/vitals.py
+# ============================================================================
+
 # Tallennuspaikka: C:\Users\markk\Talous\macro_dashboard\vitals.py
 """Avainindikaattorien laskenta: tuorein havainto, muutos edelliseen, sparkline-data.
 

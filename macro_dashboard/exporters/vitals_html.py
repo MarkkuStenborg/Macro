@@ -1,3 +1,7 @@
+# ============================================================================
+# File: macro_dashboard/exporters/vitals_html.py
+# ============================================================================
+
 # Tallennuspaikka: C:\Users\markk\Talous\macro_dashboard\exporters\vitals_html.py
 """Avainindikaattoriikkuna HTML:ksi (sivun alkuun).
 

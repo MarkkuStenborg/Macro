@@ -1,3 +1,7 @@
+# ============================================================================
+# File: macro_dashboard/data_fetchers/_time.py
+# ============================================================================
+
 # Tallennuspaikka: C:\Users\markk\Talous\macro_dashboard\data_fetchers\_time.py
 """Aikakoodien jäsennys ja muotoilu, jaettu kaikille hakijoille.
 

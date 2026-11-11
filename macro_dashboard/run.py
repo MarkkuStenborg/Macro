@@ -1,3 +1,7 @@
+# ============================================================================
+# File: macro_dashboard/run.py
+# ============================================================================
+
 # Tallennuspaikka: C:\Users\markk\Talous\macro_dashboard\run.py
 """Hae data, laske avainindikaattorit, sovella Macrobond-tyyli ja tallenna output/index.html.
 

@@ -1,3 +1,7 @@
+# ============================================================================
+# File: macro_dashboard/tests/test_pipeline_offline.py
+# ============================================================================
+
 # Tallennuspaikka: C:\Users\markk\Talous\macro_dashboard\tests\test_pipeline_offline.py
 """Offline-testi: Eurostat-hakija -> kanoninen muoto -> Macrobond-tyyli -> HTML.
 

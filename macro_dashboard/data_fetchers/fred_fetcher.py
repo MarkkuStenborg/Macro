@@ -1,3 +1,7 @@
+# ============================================================================
+# File: macro_dashboard/data_fetchers/fred_fetcher.py
+# ============================================================================
+
 # Tallennuspaikka: C:\Users\markk\Talous\macro_dashboard\data_fetchers\fred_fetcher.py
 """FRED-hakija (St. Louis Fed, ``fred/series/observations``).
 

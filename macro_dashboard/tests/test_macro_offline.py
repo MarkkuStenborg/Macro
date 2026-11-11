@@ -1,3 +1,7 @@
+# ============================================================================
+# File: macro_dashboard/tests/test_macro_offline.py
+# ============================================================================
+
 # Tallennuspaikka: C:\Users\markk\Talous\macro_dashboard\tests\test_macro_offline.py
 """Offline-testi makroseurannalle. Data on TEKAISTUA (satunnaiskulku), joten testi tarkistaa
 vain luettelon latauksen, varaehdokkaat, muunnokset, virheiden eristyksen ja sivujen rakenteen.

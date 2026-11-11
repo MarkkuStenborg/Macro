@@ -1,3 +1,7 @@
+# ============================================================================
+# File: macro_dashboard/macro/store.py
+# ============================================================================
+
 # Tallennuspaikka: C:\Users\markk\Talous\macro_dashboard\macro\store.py
 """Haetun lähdedatan paikallinen varasto (CSV + index.json).
 

@@ -1,3 +1,7 @@
+# ============================================================================
+# File: macro_dashboard/data_fetchers/bundesbank_fetcher.py
+# ============================================================================
+
 # Tallennuspaikka: C:\Users\markk\Talous\macro_dashboard\data_fetchers\bundesbank_fetcher.py
 """Bundesbankin hakija (SDMX Web Service, ``api.statistiken.bundesbank.de``, CSV).
 

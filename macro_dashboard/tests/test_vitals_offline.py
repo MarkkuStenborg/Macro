@@ -1,3 +1,7 @@
+# ============================================================================
+# File: macro_dashboard/tests/test_vitals_offline.py
+# ============================================================================
+
 # Tallennuspaikka: C:\Users\markk\Talous\macro_dashboard\tests\test_vitals_offline.py
 """Offline-testi avainindikaattoreille. Data on TEKAISTUA (satunnaiskulku),
 joten testi tarkistaa vain laskennan, varakoodipolut, virheiden eristyksen ja HTML:n.

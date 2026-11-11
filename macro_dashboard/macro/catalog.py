@@ -1,3 +1,7 @@
+# ============================================================================
+# File: macro_dashboard/macro/catalog.py
+# ============================================================================
+
 # Tallennuspaikka: C:\Users\markk\Talous\macro_dashboard\macro\catalog.py
 """Sarjaluettelon lataus (``catalog/*.yaml``) ja laajennus yksittäisiksi hakuehdokkaiksi.
 

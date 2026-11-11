@@ -1,3 +1,7 @@
+# ============================================================================
+# File: macro_dashboard/tests/test_fetchers_offline.py
+# ============================================================================
+
 # Tallennuspaikka: C:\Users\markk\Talous\macro_dashboard\tests\test_fetchers_offline.py
 """Offline-testit FRED-, OECD-, Tilastokeskus- ja IMF-hakijoille sekä HttpClientille.
 

@@ -1,3 +1,7 @@
+# ============================================================================
+# File: macro_dashboard/tests/test_bundesbank_offline.py
+# ============================================================================
+
 # Tallennuspaikka: C:\Users\markk\Talous\macro_dashboard\tests\test_bundesbank_offline.py
 """Offline-testi Bundesbank-hakijalle TEKAISTUILLA CSV-vastauksilla.
 

@@ -1,3 +1,7 @@
+# ============================================================================
+# File: macro_dashboard/data_fetchers/_http.py
+# ============================================================================
+
 # Tallennuspaikka: C:\Users\markk\Talous\macro_dashboard\data_fetchers\_http.py
 """Jaettu HTTP-kerros: levyvälimuisti, kutsuväli (rate limit) ja uudelleenyritys.
 

@@ -1,3 +1,7 @@
+# ============================================================================
+# File: macro_dashboard/macro/update.py
+# ============================================================================
+
 # Tallennuspaikka: C:\Users\markk\Talous\macro_dashboard\macro\update.py
 """Hae luettelon sarjat varastoon.
 

@@ -1,3 +1,7 @@
+# ============================================================================
+# File: macro_dashboard/set_fred_key.py
+# ============================================================================
+
 # Tallennuspaikka: C:\Users\markk\Talous\macro_dashboard\set_fred_key.py
 """Tallenna FRED API -avain pysyvästi käyttäjän ympäristömuuttujaksi FRED_API_KEY.
 

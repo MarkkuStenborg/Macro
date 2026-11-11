@@ -1,3 +1,7 @@
+# ============================================================================
+# File: macro_dashboard/data_fetchers/_jsonstat.py
+# ============================================================================
+
 # Tallennuspaikka: C:\Users\markk\Talous\macro_dashboard\data_fetchers\_jsonstat.py
 """JSON-stat 2.0 -dekooderi yhden sarjan vastaukselle (Eurostat, Tilastokeskus/PxWeb)."""
 

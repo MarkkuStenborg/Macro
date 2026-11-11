@@ -1,3 +1,7 @@
+# ============================================================================
+# File: macro_dashboard/data_fetchers/eurostat_fetcher.py
+# ============================================================================
+
 # Tallennuspaikka: C:\Users\markk\Talous\macro_dashboard\data_fetchers\eurostat_fetcher.py
 """Eurostat-hakija (Statistics API, JSON-stat 2.0).
 

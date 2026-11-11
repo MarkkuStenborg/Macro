@@ -1,3 +1,7 @@
+# ============================================================================
+# File: macro_dashboard/data_fetchers/dbnomics_fetcher.py
+# ============================================================================
+
 # Tallennuspaikka: C:\Users\markk\Talous\macro_dashboard\data_fetchers\dbnomics_fetcher.py
 """DBnomics-hakija (api.db.nomics.world). Ei API-avainta.
 

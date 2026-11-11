@@ -1,3 +1,7 @@
+# ============================================================================
+# File: macro_dashboard/macro/pages.py
+# ============================================================================
+
 # Tallennuspaikka: C:\Users\markk\Talous\macro_dashboard\macro\pages.py
 """Makroseurannan sivut varastosta (``macro.store.Store``) ja luettelosta.
 

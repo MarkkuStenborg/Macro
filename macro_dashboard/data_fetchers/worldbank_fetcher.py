@@ -1,3 +1,7 @@
+# ============================================================================
+# File: macro_dashboard/data_fetchers/worldbank_fetcher.py
+# ============================================================================
+
 # Tallennuspaikka: C:\Users\markk\Talous\macro_dashboard\data_fetchers\worldbank_fetcher.py
 """Maailmanpankin hakija (World Development Indicators, API v2). Ei API-avainta.
 

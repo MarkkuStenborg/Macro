@@ -1,3 +1,7 @@
+# ============================================================================
+# File: macro_dashboard/data_fetchers/base.py
+# ============================================================================
+
 # Tallennuspaikka: C:\Users\markk\Talous\macro_dashboard\data_fetchers\base.py
 """Kantaluokka ja kanoninen datamuoto kaikille data_fetchers-alimoduuleille.
 
