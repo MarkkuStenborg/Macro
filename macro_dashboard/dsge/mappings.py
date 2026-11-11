@@ -13,6 +13,8 @@ MAPPINGS = {
     "HICP_FI": "inflation",
     "HICP_EA": "inflation",
     "CPI_US": "inflation",
+    "CHINA_CPI": "china_inflation",
+    "CHINA_IP": "china_activity",
 
     "UNRATE_FI": "labor_slack",
     "UNRATE_EA": "labor_slack",
