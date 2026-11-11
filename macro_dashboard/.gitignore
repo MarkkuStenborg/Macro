@@ -1,0 +1,22 @@
+# Python
+
+__pycache__/
+*.pyc
+
+# Local cache
+
+.cache/
+
+# Virtual env
+
+.venv/
+venv/
+
+# OS
+
+Thumbs.db
+.DS_Store
+
+# Runtime
+
+runtime/
