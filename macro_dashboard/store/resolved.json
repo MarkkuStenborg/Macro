@@ -1,0 +1,1362 @@
+{
+ "FI.gdp_yoy": {
+  "raw_key": "eurostat_namq_10_gdp_c4f44a37",
+  "source": "eurostat",
+  "code": "namq_10_gdp",
+  "geo": "FI",
+  "post": null,
+  "freq": "Q",
+  "last_obs": "2026-07-01",
+  "stale": false
+ },
+ "EA.gdp_yoy": {
+  "raw_key": "eurostat_namq_10_gdp_bf75240c",
+  "source": "eurostat",
+  "code": "namq_10_gdp",
+  "geo": "EA",
+  "post": null,
+  "freq": "Q",
+  "last_obs": "2026-07-01",
+  "stale": false
+ },
+ "DE.gdp_yoy": {
+  "raw_key": "eurostat_namq_10_gdp_77428b04",
+  "source": "eurostat",
+  "code": "namq_10_gdp",
+  "geo": "DE",
+  "post": null,
+  "freq": "Q",
+  "last_obs": "2026-07-01",
+  "stale": false
+ },
+ "FR.gdp_yoy": {
+  "raw_key": "eurostat_namq_10_gdp_cc93e06d",
+  "source": "eurostat",
+  "code": "namq_10_gdp",
+  "geo": "FR",
+  "post": null,
+  "freq": "Q",
+  "last_obs": "2026-07-01",
+  "stale": false
+ },
+ "SE.gdp_yoy": {
+  "raw_key": "eurostat_namq_10_gdp_823ec762",
+  "source": "eurostat",
+  "code": "namq_10_gdp",
+  "geo": "SE",
+  "post": null,
+  "freq": "Q",
+  "last_obs": "2026-07-01",
+  "stale": false
+ },
+ "US.gdp_yoy": {
+  "raw_key": "fred_GDPC1_122eaa68",
+  "source": "fred",
+  "code": "GDPC1",
+  "geo": null,
+  "post": "yoy",
+  "freq": "Q",
+  "last_obs": "2026-07-01",
+  "stale": false
+ },
+ "UK.gdp_yoy": {
+  "raw_key": "fred_CLVMNACSCAB1GQUK_2e7ab7db",
+  "source": "fred",
+  "code": "CLVMNACSCAB1GQUK",
+  "geo": null,
+  "post": "yoy",
+  "freq": "Q",
+  "last_obs": "2020-07-01",
+  "stale": true
+ },
+ "FI.gdp_qoq": {
+  "raw_key": "eurostat_namq_10_gdp_33da1bdf",
+  "source": "eurostat",
+  "code": "namq_10_gdp",
+  "geo": "FI",
+  "post": null,
+  "freq": "Q",
+  "last_obs": "2026-07-01",
+  "stale": false
+ },
+ "EA.gdp_qoq": {
+  "raw_key": "eurostat_namq_10_gdp_ddd9e422",
+  "source": "eurostat",
+  "code": "namq_10_gdp",
+  "geo": "EA",
+  "post": null,
+  "freq": "Q",
+  "last_obs": "2026-07-01",
+  "stale": false
+ },
+ "DE.gdp_qoq": {
+  "raw_key": "eurostat_namq_10_gdp_944b061c",
+  "source": "eurostat",
+  "code": "namq_10_gdp",
+  "geo": "DE",
+  "post": null,
+  "freq": "Q",
+  "last_obs": "2026-07-01",
+  "stale": false
+ },
+ "FR.gdp_qoq": {
+  "raw_key": "eurostat_namq_10_gdp_d98f796a",
+  "source": "eurostat",
+  "code": "namq_10_gdp",
+  "geo": "FR",
+  "post": null,
+  "freq": "Q",
+  "last_obs": "2026-07-01",
+  "stale": false
+ },
+ "SE.gdp_qoq": {
+  "raw_key": "eurostat_namq_10_gdp_fa53c65a",
+  "source": "eurostat",
+  "code": "namq_10_gdp",
+  "geo": "SE",
+  "post": null,
+  "freq": "Q",
+  "last_obs": "2026-07-01",
+  "stale": false
+ },
+ "US.gdp_qoq": {
+  "raw_key": "fred_GDPC1_122eaa68",
+  "source": "fred",
+  "code": "GDPC1",
+  "geo": null,
+  "post": "pch",
+  "freq": "Q",
+  "last_obs": "2026-07-01",
+  "stale": false
+ },
+ "UK.gdp_qoq": {
+  "raw_key": "fred_CLVMNACSCAB1GQUK_2e7ab7db",
+  "source": "fred",
+  "code": "CLVMNACSCAB1GQUK",
+  "geo": null,
+  "post": "pch",
+  "freq": "Q",
+  "last_obs": "2020-07-01",
+  "stale": true
+ },
+ "FI.cpi_yoy": {
+  "raw_key": "eurostat_prc_hicp_minr_821089e4",
+  "source": "eurostat",
+  "code": "prc_hicp_minr",
+  "geo": "FI",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "EA.cpi_yoy": {
+  "raw_key": "eurostat_prc_hicp_minr_d338297c",
+  "source": "eurostat",
+  "code": "prc_hicp_minr",
+  "geo": "EA",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "DE.cpi_yoy": {
+  "raw_key": "eurostat_prc_hicp_minr_b2a6d7ea",
+  "source": "eurostat",
+  "code": "prc_hicp_minr",
+  "geo": "DE",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "FR.cpi_yoy": {
+  "raw_key": "eurostat_prc_hicp_minr_3e49073e",
+  "source": "eurostat",
+  "code": "prc_hicp_minr",
+  "geo": "FR",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "SE.cpi_yoy": {
+  "raw_key": "eurostat_prc_hicp_minr_7410f39b",
+  "source": "eurostat",
+  "code": "prc_hicp_minr",
+  "geo": "SE",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-09-01",
+  "stale": false
+ },
+ "US.cpi_yoy": {
+  "raw_key": "fred_CPIAUCSL_94bdc64b",
+  "source": "fred",
+  "code": "CPIAUCSL",
+  "geo": null,
+  "post": "yoy",
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "UK.cpi_yoy": {
+  "raw_key": "oecd_OECD_SDD_TPS_DSD_PRICES_DF_PRICES_ALL_fc27ed29",
+  "source": "oecd",
+  "code": "OECD.SDD.TPS,DSD_PRICES@DF_PRICES_ALL",
+  "geo": "GBR",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-09-01",
+  "stale": false
+ },
+ "JP.cpi_yoy": {
+  "raw_key": "oecd_OECD_SDD_TPS_DSD_PRICES_COICOP2018_DF_PR_e80241c3",
+  "source": "oecd",
+  "code": "OECD.SDD.TPS,DSD_PRICES_COICOP2018@DF_PRICES_C2018_ALL",
+  "geo": "JPN",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-09-01",
+  "stale": false
+ },
+ "CN.cpi_yoy": {
+  "raw_key": "oecd_OECD_SDD_TPS_DSD_PRICES_DF_PRICES_ALL_764d2c77",
+  "source": "oecd",
+  "code": "OECD.SDD.TPS,DSD_PRICES@DF_PRICES_ALL",
+  "geo": "CHN",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-09-01",
+  "stale": false
+ },
+ "FI.cpi_mom": {
+  "raw_key": "eurostat_prc_hicp_minr_728a27b3",
+  "source": "eurostat",
+  "code": "prc_hicp_minr",
+  "geo": "FI",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "EA.cpi_mom": {
+  "raw_key": "eurostat_prc_hicp_minr_8d6ceb1a",
+  "source": "eurostat",
+  "code": "prc_hicp_minr",
+  "geo": "EA",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "DE.cpi_mom": {
+  "raw_key": "eurostat_prc_hicp_minr_7899a67b",
+  "source": "eurostat",
+  "code": "prc_hicp_minr",
+  "geo": "DE",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "FR.cpi_mom": {
+  "raw_key": "eurostat_prc_hicp_minr_1f1c51ca",
+  "source": "eurostat",
+  "code": "prc_hicp_minr",
+  "geo": "FR",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "SE.cpi_mom": {
+  "raw_key": "eurostat_prc_hicp_minr_26b21a4c",
+  "source": "eurostat",
+  "code": "prc_hicp_minr",
+  "geo": "SE",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-09-01",
+  "stale": false
+ },
+ "US.cpi_mom": {
+  "raw_key": "fred_CPIAUCSL_94bdc64b",
+  "source": "fred",
+  "code": "CPIAUCSL",
+  "geo": null,
+  "post": "pch",
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "UK.cpi_mom": {
+  "raw_key": "oecd_OECD_SDD_TPS_DSD_PRICES_DF_PRICES_ALL_cf64db13",
+  "source": "oecd",
+  "code": "OECD.SDD.TPS,DSD_PRICES@DF_PRICES_ALL",
+  "geo": "GBR",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-09-01",
+  "stale": false
+ },
+ "JP.cpi_mom": {
+  "raw_key": "oecd_OECD_SDD_TPS_DSD_PRICES_COICOP2018_DF_PR_af151bf7",
+  "source": "oecd",
+  "code": "OECD.SDD.TPS,DSD_PRICES_COICOP2018@DF_PRICES_C2018_ALL",
+  "geo": "JPN",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-09-01",
+  "stale": false
+ },
+ "CN.cpi_mom": {
+  "raw_key": "oecd_OECD_SDD_TPS_DSD_PRICES_DF_PRICES_ALL_fcd9505b",
+  "source": "oecd",
+  "code": "OECD.SDD.TPS,DSD_PRICES@DF_PRICES_ALL",
+  "geo": "CHN",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-09-01",
+  "stale": false
+ },
+ "FI.core_yoy": {
+  "raw_key": "eurostat_prc_hicp_minr_f605185c",
+  "source": "eurostat",
+  "code": "prc_hicp_minr",
+  "geo": "FI",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "EA.core_yoy": {
+  "raw_key": "eurostat_prc_hicp_minr_9ab3bee1",
+  "source": "eurostat",
+  "code": "prc_hicp_minr",
+  "geo": "EA",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "DE.core_yoy": {
+  "raw_key": "eurostat_prc_hicp_minr_89df2a76",
+  "source": "eurostat",
+  "code": "prc_hicp_minr",
+  "geo": "DE",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "FR.core_yoy": {
+  "raw_key": "eurostat_prc_hicp_minr_a8c8e5da",
+  "source": "eurostat",
+  "code": "prc_hicp_minr",
+  "geo": "FR",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "SE.core_yoy": {
+  "raw_key": "eurostat_prc_hicp_minr_c773d8e2",
+  "source": "eurostat",
+  "code": "prc_hicp_minr",
+  "geo": "SE",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-09-01",
+  "stale": false
+ },
+ "US.core_yoy": {
+  "raw_key": "fred_CPILFESL_10501336",
+  "source": "fred",
+  "code": "CPILFESL",
+  "geo": null,
+  "post": "yoy",
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "UK.core_yoy": {
+  "raw_key": "oecd_OECD_SDD_TPS_DSD_PRICES_DF_PRICES_ALL_28b79728",
+  "source": "oecd",
+  "code": "OECD.SDD.TPS,DSD_PRICES@DF_PRICES_ALL",
+  "geo": "GBR",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-09-01",
+  "stale": false
+ },
+ "JP.core_yoy": {
+  "raw_key": "oecd_OECD_SDD_TPS_DSD_PRICES_DF_PRICES_ALL_70f6e915",
+  "source": "oecd",
+  "code": "OECD.SDD.TPS,DSD_PRICES@DF_PRICES_ALL",
+  "geo": "JPN",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2021-06-01",
+  "stale": true
+ },
+ "FI.ip_yoy": {
+  "raw_key": "eurostat_sts_inpr_m_ed1cacc8",
+  "source": "eurostat",
+  "code": "sts_inpr_m",
+  "geo": "FI",
+  "post": "yoy",
+  "freq": "M",
+  "last_obs": "2026-08-01",
+  "stale": false
+ },
+ "EA.ip_yoy": {
+  "raw_key": "eurostat_sts_inpr_m_9aca092b",
+  "source": "eurostat",
+  "code": "sts_inpr_m",
+  "geo": "EA21",
+  "post": "yoy",
+  "freq": "M",
+  "last_obs": "2026-08-01",
+  "stale": false
+ },
+ "DE.ip_yoy": {
+  "raw_key": "eurostat_sts_inpr_m_8cb6e23f",
+  "source": "eurostat",
+  "code": "sts_inpr_m",
+  "geo": "DE",
+  "post": "yoy",
+  "freq": "M",
+  "last_obs": "2026-09-01",
+  "stale": false
+ },
+ "FR.ip_yoy": {
+  "raw_key": "eurostat_sts_inpr_m_e61b50e7",
+  "source": "eurostat",
+  "code": "sts_inpr_m",
+  "geo": "FR",
+  "post": "yoy",
+  "freq": "M",
+  "last_obs": "2026-09-01",
+  "stale": false
+ },
+ "SE.ip_yoy": {
+  "raw_key": "eurostat_sts_inpr_m_f683b861",
+  "source": "eurostat",
+  "code": "sts_inpr_m",
+  "geo": "SE",
+  "post": "yoy",
+  "freq": "M",
+  "last_obs": "2026-08-01",
+  "stale": false
+ },
+ "US.ip_yoy": {
+  "raw_key": "fred_INDPRO_6b12dca4",
+  "source": "fred",
+  "code": "INDPRO",
+  "geo": null,
+  "post": "yoy",
+  "freq": "M",
+  "last_obs": "2026-09-01",
+  "stale": false
+ },
+ "UK.ip_yoy": {
+  "raw_key": "oecd_OECD_SDD_STES_DSD_STES_DF_INDSERV_a5860ba7",
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_INDSERV",
+  "geo": "GBR",
+  "post": "yoy",
+  "freq": "M",
+  "last_obs": "2026-08-01",
+  "stale": false
+ },
+ "JP.ip_yoy": {
+  "raw_key": "oecd_OECD_SDD_STES_DSD_STES_DF_INDSERV_515602df",
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_INDSERV",
+  "geo": "JPN",
+  "post": "yoy",
+  "freq": "M",
+  "last_obs": "2026-09-01",
+  "stale": false
+ },
+ "FI.ip_mom": {
+  "raw_key": "eurostat_sts_inpr_m_ed1cacc8",
+  "source": "eurostat",
+  "code": "sts_inpr_m",
+  "geo": "FI",
+  "post": "pch",
+  "freq": "M",
+  "last_obs": "2026-08-01",
+  "stale": false
+ },
+ "EA.ip_mom": {
+  "raw_key": "eurostat_sts_inpr_m_9aca092b",
+  "source": "eurostat",
+  "code": "sts_inpr_m",
+  "geo": "EA21",
+  "post": "pch",
+  "freq": "M",
+  "last_obs": "2026-08-01",
+  "stale": false
+ },
+ "DE.ip_mom": {
+  "raw_key": "eurostat_sts_inpr_m_8cb6e23f",
+  "source": "eurostat",
+  "code": "sts_inpr_m",
+  "geo": "DE",
+  "post": "pch",
+  "freq": "M",
+  "last_obs": "2026-09-01",
+  "stale": false
+ },
+ "FR.ip_mom": {
+  "raw_key": "eurostat_sts_inpr_m_e61b50e7",
+  "source": "eurostat",
+  "code": "sts_inpr_m",
+  "geo": "FR",
+  "post": "pch",
+  "freq": "M",
+  "last_obs": "2026-09-01",
+  "stale": false
+ },
+ "SE.ip_mom": {
+  "raw_key": "eurostat_sts_inpr_m_f683b861",
+  "source": "eurostat",
+  "code": "sts_inpr_m",
+  "geo": "SE",
+  "post": "pch",
+  "freq": "M",
+  "last_obs": "2026-08-01",
+  "stale": false
+ },
+ "US.ip_mom": {
+  "raw_key": "fred_INDPRO_6b12dca4",
+  "source": "fred",
+  "code": "INDPRO",
+  "geo": null,
+  "post": "pch",
+  "freq": "M",
+  "last_obs": "2026-09-01",
+  "stale": false
+ },
+ "UK.ip_mom": {
+  "raw_key": "oecd_OECD_SDD_STES_DSD_STES_DF_INDSERV_a5860ba7",
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_INDSERV",
+  "geo": "GBR",
+  "post": "pch",
+  "freq": "M",
+  "last_obs": "2026-08-01",
+  "stale": false
+ },
+ "JP.ip_mom": {
+  "raw_key": "oecd_OECD_SDD_STES_DSD_STES_DF_INDSERV_515602df",
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_INDSERV",
+  "geo": "JPN",
+  "post": "pch",
+  "freq": "M",
+  "last_obs": "2026-09-01",
+  "stale": false
+ },
+ "US.orders_yoy": {
+  "raw_key": "fred_DGORDER_0e6e2c95",
+  "source": "fred",
+  "code": "DGORDER",
+  "geo": null,
+  "post": "yoy",
+  "freq": "M",
+  "last_obs": "2026-09-01",
+  "stale": false
+ },
+ "FI.bci": {
+  "raw_key": "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_34493d25",
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "FIN",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "EA.bci": {
+  "raw_key": "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_66bb0a3f",
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "EA20",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-09-01",
+  "stale": false
+ },
+ "DE.bci": {
+  "raw_key": "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_8b798006",
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "DEU",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "FR.bci": {
+  "raw_key": "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_f090b16c",
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "FRA",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "SE.bci": {
+  "raw_key": "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_ee087877",
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "SWE",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "US.bci": {
+  "raw_key": "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_9bdc8914",
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "USA",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "UK.bci": {
+  "raw_key": "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_ad161947",
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "GBR",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "JP.bci": {
+  "raw_key": "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_3cb7beac",
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "JPN",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-09-01",
+  "stale": false
+ },
+ "CN.bci": {
+  "raw_key": "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_3d422cbf",
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "CHN",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "FI.cci": {
+  "raw_key": "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_4b6e97a9",
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "FIN",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "EA.cci": {
+  "raw_key": "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_68adbcb1",
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "EA20",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "DE.cci": {
+  "raw_key": "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_6f82fce4",
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "DEU",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "FR.cci": {
+  "raw_key": "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_e526a309",
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "FRA",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "SE.cci": {
+  "raw_key": "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_60b9a061",
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "SWE",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "US.cci": {
+  "raw_key": "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_a615db19",
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "USA",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "UK.cci": {
+  "raw_key": "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_d167ba36",
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "GBR",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "JP.cci": {
+  "raw_key": "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_80fa7822",
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "JPN",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "CN.cci": {
+  "raw_key": "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_e27fbee8",
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "CHN",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-09-01",
+  "stale": false
+ },
+ "DE.cli": {
+  "raw_key": "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_282ff4bc",
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "DEU",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "FR.cli": {
+  "raw_key": "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_81ec1903",
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "FRA",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-09-01",
+  "stale": false
+ },
+ "US.cli": {
+  "raw_key": "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_1401443e",
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "USA",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "UK.cli": {
+  "raw_key": "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_b48997fa",
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "GBR",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "JP.cli": {
+  "raw_key": "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_0aecc761",
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "JPN",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "CN.cli": {
+  "raw_key": "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_a7ef52ea",
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "CHN",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "FI.esi": {
+  "raw_key": "eurostat_ei_bssi_m_r2_d54693d8",
+  "source": "eurostat",
+  "code": "ei_bssi_m_r2",
+  "geo": "FI",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "EA.esi": {
+  "raw_key": "eurostat_ei_bssi_m_r2_a03bc7e1",
+  "source": "eurostat",
+  "code": "ei_bssi_m_r2",
+  "geo": "EA21",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "DE.esi": {
+  "raw_key": "eurostat_ei_bssi_m_r2_5d2a34a2",
+  "source": "eurostat",
+  "code": "ei_bssi_m_r2",
+  "geo": "DE",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "FR.esi": {
+  "raw_key": "eurostat_ei_bssi_m_r2_80e263f0",
+  "source": "eurostat",
+  "code": "ei_bssi_m_r2",
+  "geo": "FR",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "SE.esi": {
+  "raw_key": "eurostat_ei_bssi_m_r2_0ae7e3bb",
+  "source": "eurostat",
+  "code": "ei_bssi_m_r2",
+  "geo": "SE",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "FI.conf_industry": {
+  "raw_key": "eurostat_ei_bssi_m_r2_f641b465",
+  "source": "eurostat",
+  "code": "ei_bssi_m_r2",
+  "geo": "FI",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "EA.conf_industry": {
+  "raw_key": "eurostat_ei_bssi_m_r2_8e2f8bdc",
+  "source": "eurostat",
+  "code": "ei_bssi_m_r2",
+  "geo": "EA21",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "DE.conf_industry": {
+  "raw_key": "eurostat_ei_bssi_m_r2_d4b92931",
+  "source": "eurostat",
+  "code": "ei_bssi_m_r2",
+  "geo": "DE",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "FR.conf_industry": {
+  "raw_key": "eurostat_ei_bssi_m_r2_3f889c76",
+  "source": "eurostat",
+  "code": "ei_bssi_m_r2",
+  "geo": "FR",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "SE.conf_industry": {
+  "raw_key": "eurostat_ei_bssi_m_r2_0b33734a",
+  "source": "eurostat",
+  "code": "ei_bssi_m_r2",
+  "geo": "SE",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "FI.conf_consumer": {
+  "raw_key": "eurostat_ei_bssi_m_r2_20c432d9",
+  "source": "eurostat",
+  "code": "ei_bssi_m_r2",
+  "geo": "FI",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "EA.conf_consumer": {
+  "raw_key": "eurostat_ei_bssi_m_r2_2d4efe15",
+  "source": "eurostat",
+  "code": "ei_bssi_m_r2",
+  "geo": "EA21",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "DE.conf_consumer": {
+  "raw_key": "eurostat_ei_bssi_m_r2_8968cd31",
+  "source": "eurostat",
+  "code": "ei_bssi_m_r2",
+  "geo": "DE",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "FR.conf_consumer": {
+  "raw_key": "eurostat_ei_bssi_m_r2_f574f0a2",
+  "source": "eurostat",
+  "code": "ei_bssi_m_r2",
+  "geo": "FR",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "SE.conf_consumer": {
+  "raw_key": "eurostat_ei_bssi_m_r2_cf0a583f",
+  "source": "eurostat",
+  "code": "ei_bssi_m_r2",
+  "geo": "SE",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "FI.unemp": {
+  "raw_key": "eurostat_une_rt_m_84e2e1f3",
+  "source": "eurostat",
+  "code": "une_rt_m",
+  "geo": "FI",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-09-01",
+  "stale": false
+ },
+ "EA.unemp": {
+  "raw_key": "eurostat_une_rt_m_532c4164",
+  "source": "eurostat",
+  "code": "une_rt_m",
+  "geo": "EA21",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-09-01",
+  "stale": false
+ },
+ "DE.unemp": {
+  "raw_key": "eurostat_une_rt_m_7501f028",
+  "source": "eurostat",
+  "code": "une_rt_m",
+  "geo": "DE",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-09-01",
+  "stale": false
+ },
+ "FR.unemp": {
+  "raw_key": "eurostat_une_rt_m_b9a9a73e",
+  "source": "eurostat",
+  "code": "une_rt_m",
+  "geo": "FR",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-09-01",
+  "stale": false
+ },
+ "SE.unemp": {
+  "raw_key": "eurostat_une_rt_m_3202a860",
+  "source": "eurostat",
+  "code": "une_rt_m",
+  "geo": "SE",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-09-01",
+  "stale": false
+ },
+ "US.unemp": {
+  "raw_key": "fred_UNRATE_9b96493f",
+  "source": "fred",
+  "code": "UNRATE",
+  "geo": null,
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "UK.unemp": {
+  "raw_key": "fred_LRHUTTTTGBM156S_20078225",
+  "source": "fred",
+  "code": "LRHUTTTTGBM156S",
+  "geo": null,
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-06-01",
+  "stale": false
+ },
+ "JP.unemp": {
+  "raw_key": "fred_LRHUTTTTJPM156S_ada7522b",
+  "source": "fred",
+  "code": "LRHUTTTTJPM156S",
+  "geo": null,
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-08-01",
+  "stale": false
+ },
+ "FI.unemp_youth": {
+  "raw_key": "eurostat_une_rt_m_6a41ca3c",
+  "source": "eurostat",
+  "code": "une_rt_m",
+  "geo": "FI",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-09-01",
+  "stale": false
+ },
+ "EA.unemp_youth": {
+  "raw_key": "eurostat_une_rt_m_c4490b51",
+  "source": "eurostat",
+  "code": "une_rt_m",
+  "geo": "EA21",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-09-01",
+  "stale": false
+ },
+ "DE.unemp_youth": {
+  "raw_key": "eurostat_une_rt_m_c368732e",
+  "source": "eurostat",
+  "code": "une_rt_m",
+  "geo": "DE",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-09-01",
+  "stale": false
+ },
+ "FR.unemp_youth": {
+  "raw_key": "eurostat_une_rt_m_aa664bf0",
+  "source": "eurostat",
+  "code": "une_rt_m",
+  "geo": "FR",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-09-01",
+  "stale": false
+ },
+ "SE.unemp_youth": {
+  "raw_key": "eurostat_une_rt_m_5955f0cb",
+  "source": "eurostat",
+  "code": "une_rt_m",
+  "geo": "SE",
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-09-01",
+  "stale": false
+ },
+ "US.unemp_youth": {
+  "raw_key": "fred_LNS14024887_eeda69c3",
+  "source": "fred",
+  "code": "LNS14024887",
+  "geo": null,
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "FI.employment_yoy": {
+  "raw_key": "eurostat_namq_10_pe_ea60a55e",
+  "source": "eurostat",
+  "code": "namq_10_pe",
+  "geo": "FI",
+  "post": "yoy",
+  "freq": "Q",
+  "last_obs": "2026-07-01",
+  "stale": false
+ },
+ "EA.employment_yoy": {
+  "raw_key": "eurostat_namq_10_pe_92579663",
+  "source": "eurostat",
+  "code": "namq_10_pe",
+  "geo": "EA",
+  "post": "yoy",
+  "freq": "Q",
+  "last_obs": "2026-04-01",
+  "stale": false
+ },
+ "DE.employment_yoy": {
+  "raw_key": "eurostat_namq_10_pe_f094b498",
+  "source": "eurostat",
+  "code": "namq_10_pe",
+  "geo": "DE",
+  "post": "yoy",
+  "freq": "Q",
+  "last_obs": "2026-07-01",
+  "stale": false
+ },
+ "FR.employment_yoy": {
+  "raw_key": "eurostat_namq_10_pe_ad0a8988",
+  "source": "eurostat",
+  "code": "namq_10_pe",
+  "geo": "FR",
+  "post": "yoy",
+  "freq": "Q",
+  "last_obs": "2026-04-01",
+  "stale": false
+ },
+ "SE.employment_yoy": {
+  "raw_key": "eurostat_namq_10_pe_f71c5ed9",
+  "source": "eurostat",
+  "code": "namq_10_pe",
+  "geo": "SE",
+  "post": "yoy",
+  "freq": "Q",
+  "last_obs": "2026-07-01",
+  "stale": false
+ },
+ "US.employment_yoy": {
+  "raw_key": "fred_PAYEMS_70d70ddb",
+  "source": "fred",
+  "code": "PAYEMS",
+  "geo": null,
+  "post": "yoy",
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "FI.wages_yoy": {
+  "raw_key": "eurostat_lc_lci_r2_q_2c6f874e",
+  "source": "eurostat",
+  "code": "lc_lci_r2_q",
+  "geo": "FI",
+  "post": null,
+  "freq": "Q",
+  "last_obs": "2026-04-01",
+  "stale": false
+ },
+ "EA.wages_yoy": {
+  "raw_key": "eurostat_lc_lci_r2_q_8003b107",
+  "source": "eurostat",
+  "code": "lc_lci_r2_q",
+  "geo": "EA",
+  "post": null,
+  "freq": "Q",
+  "last_obs": "2026-04-01",
+  "stale": false
+ },
+ "DE.wages_yoy": {
+  "raw_key": "eurostat_lc_lci_r2_q_b3661870",
+  "source": "eurostat",
+  "code": "lc_lci_r2_q",
+  "geo": "DE",
+  "post": null,
+  "freq": "Q",
+  "last_obs": "2026-04-01",
+  "stale": false
+ },
+ "FR.wages_yoy": {
+  "raw_key": "eurostat_lc_lci_r2_q_06b721f7",
+  "source": "eurostat",
+  "code": "lc_lci_r2_q",
+  "geo": "FR",
+  "post": null,
+  "freq": "Q",
+  "last_obs": "2026-04-01",
+  "stale": false
+ },
+ "SE.wages_yoy": {
+  "raw_key": "eurostat_lc_lci_r2_q_64c87045",
+  "source": "eurostat",
+  "code": "lc_lci_r2_q",
+  "geo": "SE",
+  "post": null,
+  "freq": "Q",
+  "last_obs": "2026-04-01",
+  "stale": false
+ },
+ "US.wages_yoy": {
+  "raw_key": "fred_CES0500000003_6b981d4d",
+  "source": "fred",
+  "code": "CES0500000003",
+  "geo": null,
+  "post": "yoy",
+  "freq": "M",
+  "last_obs": "2026-10-01",
+  "stale": false
+ },
+ "FI.vacancy_rate": {
+  "raw_key": "eurostat_jvs_q_nace2_339cec3e",
+  "source": "eurostat",
+  "code": "jvs_q_nace2",
+  "geo": "FI",
+  "post": null,
+  "freq": "Q",
+  "last_obs": "2025-10-01",
+  "stale": false
+ },
+ "EA.vacancy_rate": {
+  "raw_key": "eurostat_jvs_q_nace2_d0fd3b89",
+  "source": "eurostat",
+  "code": "jvs_q_nace2",
+  "geo": "EA21",
+  "post": null,
+  "freq": "Q",
+  "last_obs": "2025-10-01",
+  "stale": false
+ },
+ "DE.vacancy_rate": {
+  "raw_key": "eurostat_jvs_q_nace2_4ac4adc3",
+  "source": "eurostat",
+  "code": "jvs_q_nace2",
+  "geo": "DE",
+  "post": null,
+  "freq": "Q",
+  "last_obs": "2025-10-01",
+  "stale": false
+ },
+ "FR.vacancy_rate": {
+  "raw_key": "eurostat_jvs_q_nace2_2fb9ac8c",
+  "source": "eurostat",
+  "code": "jvs_q_nace2",
+  "geo": "FR",
+  "post": null,
+  "freq": "Q",
+  "last_obs": "2025-10-01",
+  "stale": false
+ },
+ "SE.vacancy_rate": {
+  "raw_key": "eurostat_jvs_q_nace2_59abade7",
+  "source": "eurostat",
+  "code": "jvs_q_nace2",
+  "geo": "SE",
+  "post": null,
+  "freq": "Q",
+  "last_obs": "2025-10-01",
+  "stale": false
+ },
+ "US.vacancy_rate": {
+  "raw_key": "fred_JTSJOR_19ca7a5d",
+  "source": "fred",
+  "code": "JTSJOR",
+  "geo": null,
+  "post": null,
+  "freq": "M",
+  "last_obs": "2026-09-01",
+  "stale": false
+ },
+ "FI.ca_gdp": {
+  "raw_key": "worldbank_BN_CAB_XOKA_GD_ZS_de7d9fe6",
+  "source": "worldbank",
+  "code": "BN.CAB.XOKA.GD.ZS",
+  "geo": "FIN",
+  "post": null,
+  "freq": "A",
+  "last_obs": "2025-01-01",
+  "stale": true
+ },
+ "DE.ca_gdp": {
+  "raw_key": "worldbank_BN_CAB_XOKA_GD_ZS_9eacc8f2",
+  "source": "worldbank",
+  "code": "BN.CAB.XOKA.GD.ZS",
+  "geo": "DEU",
+  "post": null,
+  "freq": "A",
+  "last_obs": "2025-01-01",
+  "stale": true
+ },
+ "FR.ca_gdp": {
+  "raw_key": "worldbank_BN_CAB_XOKA_GD_ZS_e4092a39",
+  "source": "worldbank",
+  "code": "BN.CAB.XOKA.GD.ZS",
+  "geo": "FRA",
+  "post": null,
+  "freq": "A",
+  "last_obs": "2025-01-01",
+  "stale": true
+ },
+ "SE.ca_gdp": {
+  "raw_key": "worldbank_BN_CAB_XOKA_GD_ZS_e4b3b037",
+  "source": "worldbank",
+  "code": "BN.CAB.XOKA.GD.ZS",
+  "geo": "SWE",
+  "post": null,
+  "freq": "A",
+  "last_obs": "2025-01-01",
+  "stale": true
+ },
+ "US.ca_gdp": {
+  "raw_key": "worldbank_BN_CAB_XOKA_GD_ZS_b011a9b8",
+  "source": "worldbank",
+  "code": "BN.CAB.XOKA.GD.ZS",
+  "geo": "USA",
+  "post": null,
+  "freq": "A",
+  "last_obs": "2025-01-01",
+  "stale": true
+ },
+ "UK.ca_gdp": {
+  "raw_key": "worldbank_BN_CAB_XOKA_GD_ZS_1bfee5bb",
+  "source": "worldbank",
+  "code": "BN.CAB.XOKA.GD.ZS",
+  "geo": "GBR",
+  "post": null,
+  "freq": "A",
+  "last_obs": "2025-01-01",
+  "stale": true
+ },
+ "JP.ca_gdp": {
+  "raw_key": "worldbank_BN_CAB_XOKA_GD_ZS_d2099113",
+  "source": "worldbank",
+  "code": "BN.CAB.XOKA.GD.ZS",
+  "geo": "JPN",
+  "post": null,
+  "freq": "A",
+  "last_obs": "2025-01-01",
+  "stale": true
+ },
+ "CN.ca_gdp": {
+  "raw_key": "worldbank_BN_CAB_XOKA_GD_ZS_fbd762f7",
+  "source": "worldbank",
+  "code": "BN.CAB.XOKA.GD.ZS",
+  "geo": "CHN",
+  "post": null,
+  "freq": "A",
+  "last_obs": "2025-01-01",
+  "stale": true
+ }
+}

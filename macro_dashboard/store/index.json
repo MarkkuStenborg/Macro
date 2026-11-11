@@ -1,0 +1,3789 @@
+{
+ "fred_GDPC1_122eaa68": {
+  "source": "fred",
+  "code": "GDPC1",
+  "geo": null,
+  "params": {},
+  "freq": "Q",
+  "fetched_at": "2026-11-10T23:59:51",
+  "n": 99,
+  "last_obs": "2026-07-01",
+  "error": null
+ },
+ "fred_CLVMNACSCAB1GQUK_2e7ab7db": {
+  "source": "fred",
+  "code": "CLVMNACSCAB1GQUK",
+  "geo": null,
+  "params": {},
+  "freq": "Q",
+  "fetched_at": "2026-11-10T23:59:51",
+  "n": 75,
+  "last_obs": "2020-07-01",
+  "error": null
+ },
+ "eurostat_namq_10_gdp_cc93e06d": {
+  "source": "eurostat",
+  "code": "namq_10_gdp",
+  "geo": "FR",
+  "params": {
+   "s_adj": "SCA",
+   "na_item": "B1GQ",
+   "unit": "CLV_PCH_SM",
+   "geo": "FR"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-10T23:59:50",
+  "n": 99,
+  "last_obs": "2026-07-01",
+  "error": null
+ },
+ "eurostat_namq_10_gdp_bf75240c": {
+  "source": "eurostat",
+  "code": "namq_10_gdp",
+  "geo": "EA",
+  "params": {
+   "s_adj": "SCA",
+   "na_item": "B1GQ",
+   "unit": "CLV_PCH_SM",
+   "geo": "EA"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-10T23:59:50",
+  "n": 99,
+  "last_obs": "2026-07-01",
+  "error": null
+ },
+ "eurostat_namq_10_gdp_c4f44a37": {
+  "source": "eurostat",
+  "code": "namq_10_gdp",
+  "geo": "FI",
+  "params": {
+   "s_adj": "SCA",
+   "na_item": "B1GQ",
+   "unit": "CLV_PCH_SM",
+   "geo": "FI"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-10T23:59:50",
+  "n": 99,
+  "last_obs": "2026-07-01",
+  "error": null
+ },
+ "fred_CLVMNACSCAB1GQJP_cb447d31": {
+  "source": "fred",
+  "code": "CLVMNACSCAB1GQJP",
+  "geo": null,
+  "params": {},
+  "freq": "Q",
+  "fetched_at": "2026-11-07T23:12:29",
+  "n": 0,
+  "last_obs": null,
+  "error": "FetchError: fred_CLVMNACSCAB1GQJP_cb447d31: FRED vastasi HTTP 400: {\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}"
+ },
+ "eurostat_namq_10_gdp_77428b04": {
+  "source": "eurostat",
+  "code": "namq_10_gdp",
+  "geo": "DE",
+  "params": {
+   "s_adj": "SCA",
+   "na_item": "B1GQ",
+   "unit": "CLV_PCH_SM",
+   "geo": "DE"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-10T23:59:50",
+  "n": 99,
+  "last_obs": "2026-07-01",
+  "error": null
+ },
+ "eurostat_namq_10_gdp_944b061c": {
+  "source": "eurostat",
+  "code": "namq_10_gdp",
+  "geo": "DE",
+  "params": {
+   "s_adj": "SCA",
+   "na_item": "B1GQ",
+   "unit": "CLV_PCH_PRE",
+   "geo": "DE"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-10T23:59:50",
+  "n": 99,
+  "last_obs": "2026-07-01",
+  "error": null
+ },
+ "fred_NAEXKP01CNQ189S_eeb639c3": {
+  "source": "fred",
+  "code": "NAEXKP01CNQ189S",
+  "geo": null,
+  "params": {},
+  "freq": "Q",
+  "fetched_at": "2026-11-07T23:12:30",
+  "n": 0,
+  "last_obs": null,
+  "error": "FetchError: fred_NAEXKP01CNQ189S_eeb639c3: FRED vastasi HTTP 400: {\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}"
+ },
+ "eurostat_namq_10_gdp_d98f796a": {
+  "source": "eurostat",
+  "code": "namq_10_gdp",
+  "geo": "FR",
+  "params": {
+   "s_adj": "SCA",
+   "na_item": "B1GQ",
+   "unit": "CLV_PCH_PRE",
+   "geo": "FR"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-10T23:59:51",
+  "n": 99,
+  "last_obs": "2026-07-01",
+  "error": null
+ },
+ "eurostat_namq_10_gdp_33da1bdf": {
+  "source": "eurostat",
+  "code": "namq_10_gdp",
+  "geo": "FI",
+  "params": {
+   "s_adj": "SCA",
+   "na_item": "B1GQ",
+   "unit": "CLV_PCH_PRE",
+   "geo": "FI"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-10T23:59:50",
+  "n": 99,
+  "last_obs": "2026-07-01",
+  "error": null
+ },
+ "eurostat_namq_10_gdp_823ec762": {
+  "source": "eurostat",
+  "code": "namq_10_gdp",
+  "geo": "SE",
+  "params": {
+   "s_adj": "SCA",
+   "na_item": "B1GQ",
+   "unit": "CLV_PCH_SM",
+   "geo": "SE"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-10T23:59:50",
+  "n": 99,
+  "last_obs": "2026-07-01",
+  "error": null
+ },
+ "eurostat_namq_10_gdp_ddd9e422": {
+  "source": "eurostat",
+  "code": "namq_10_gdp",
+  "geo": "EA",
+  "params": {
+   "s_adj": "SCA",
+   "na_item": "B1GQ",
+   "unit": "CLV_PCH_PRE",
+   "geo": "EA"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-10T23:59:50",
+  "n": 99,
+  "last_obs": "2026-07-01",
+  "error": null
+ },
+ "fred_CPIAUCSL_94bdc64b": {
+  "source": "fred",
+  "code": "CPIAUCSL",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-10T23:59:51",
+  "n": 298,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "eurostat_namq_10_gdp_fa53c65a": {
+  "source": "eurostat",
+  "code": "namq_10_gdp",
+  "geo": "SE",
+  "params": {
+   "s_adj": "SCA",
+   "na_item": "B1GQ",
+   "unit": "CLV_PCH_PRE",
+   "geo": "SE"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-10T23:59:51",
+  "n": 99,
+  "last_obs": "2026-07-01",
+  "error": null
+ },
+ "eurostat_prc_hicp_manr_e79d6eec": {
+  "source": "eurostat",
+  "code": "prc_hicp_manr",
+  "geo": "FR",
+  "params": {
+   "unit": "RCH_A",
+   "coicop": "CP00",
+   "geo": "FR"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-07T23:12:29",
+  "n": 289,
+  "last_obs": "2025-12-01",
+  "error": null
+ },
+ "fred_CPALTT01GBM659N_cbf74695": {
+  "source": "fred",
+  "code": "CPALTT01GBM659N",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-07T13:33:15",
+  "n": 280,
+  "last_obs": "2025-03-01",
+  "error": null
+ },
+ "fred_CPALTT01JPM659N_82b4b5e8": {
+  "source": "fred",
+  "code": "CPALTT01JPM659N",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-09T22:22:32",
+  "n": 235,
+  "last_obs": "2021-06-01",
+  "error": null
+ },
+ "eurostat_prc_hicp_manr_7e9e91b6": {
+  "source": "eurostat",
+  "code": "prc_hicp_manr",
+  "geo": "EA",
+  "params": {
+   "unit": "RCH_A",
+   "coicop": "CP00",
+   "geo": "EA"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-07T23:12:29",
+  "n": 289,
+  "last_obs": "2025-12-01",
+  "error": null
+ },
+ "fred_CPALTT01CNM659N_d36f25e0": {
+  "source": "fred",
+  "code": "CPALTT01CNM659N",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-07T13:33:16",
+  "n": 281,
+  "last_obs": "2025-04-01",
+  "error": null
+ },
+ "eurostat_prc_hicp_manr_881221fd": {
+  "source": "eurostat",
+  "code": "prc_hicp_manr",
+  "geo": "DE",
+  "params": {
+   "unit": "RCH_A",
+   "coicop": "CP00",
+   "geo": "DE"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-07T23:12:29",
+  "n": 289,
+  "last_obs": "2025-12-01",
+  "error": null
+ },
+ "eurostat_prc_hicp_manr_ad3993dd": {
+  "source": "eurostat",
+  "code": "prc_hicp_manr",
+  "geo": "SE",
+  "params": {
+   "unit": "RCH_A",
+   "coicop": "CP00",
+   "geo": "SE"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-07T23:12:29",
+  "n": 289,
+  "last_obs": "2025-12-01",
+  "error": null
+ },
+ "eurostat_prc_hicp_manr_dcca59f3": {
+  "source": "eurostat",
+  "code": "prc_hicp_manr",
+  "geo": "FI",
+  "params": {
+   "unit": "RCH_A",
+   "coicop": "CP00",
+   "geo": "FI"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-07T23:12:29",
+  "n": 289,
+  "last_obs": "2025-12-01",
+  "error": null
+ },
+ "fred_GBRCPIALLMINMEI_29116c22": {
+  "source": "fred",
+  "code": "GBRCPIALLMINMEI",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-07T13:33:17",
+  "n": 280,
+  "last_obs": "2025-03-01",
+  "error": null
+ },
+ "eurostat_prc_hicp_mmor_29c91439": {
+  "source": "eurostat",
+  "code": "prc_hicp_mmor",
+  "geo": "FI",
+  "params": {
+   "unit": "RCH_M",
+   "coicop": "CP00",
+   "geo": "FI"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-07T23:12:30",
+  "n": 289,
+  "last_obs": "2025-12-01",
+  "error": null
+ },
+ "eurostat_prc_hicp_mmor_cb38eb4d": {
+  "source": "eurostat",
+  "code": "prc_hicp_mmor",
+  "geo": "EA",
+  "params": {
+   "unit": "RCH_M",
+   "coicop": "CP00",
+   "geo": "EA"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-07T23:12:30",
+  "n": 289,
+  "last_obs": "2025-12-01",
+  "error": null
+ },
+ "fred_JPNCPIALLMINMEI_0604601a": {
+  "source": "fred",
+  "code": "JPNCPIALLMINMEI",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-09T22:22:33",
+  "n": 235,
+  "last_obs": "2021-06-01",
+  "error": null
+ },
+ "eurostat_prc_hicp_mmor_ab885bcc": {
+  "source": "eurostat",
+  "code": "prc_hicp_mmor",
+  "geo": "DE",
+  "params": {
+   "unit": "RCH_M",
+   "coicop": "CP00",
+   "geo": "DE"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-07T23:12:30",
+  "n": 289,
+  "last_obs": "2025-12-01",
+  "error": null
+ },
+ "eurostat_prc_hicp_mmor_8809b933": {
+  "source": "eurostat",
+  "code": "prc_hicp_mmor",
+  "geo": "FR",
+  "params": {
+   "unit": "RCH_M",
+   "coicop": "CP00",
+   "geo": "FR"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-07T23:12:30",
+  "n": 289,
+  "last_obs": "2025-12-01",
+  "error": null
+ },
+ "fred_CHNCPIALLMINMEI_95e85014": {
+  "source": "fred",
+  "code": "CHNCPIALLMINMEI",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-07T13:33:18",
+  "n": 281,
+  "last_obs": "2025-04-01",
+  "error": null
+ },
+ "fred_CPALTT01GBM657N_71222689": {
+  "source": "fred",
+  "code": "CPALTT01GBM657N",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-07T13:33:19",
+  "n": 267,
+  "last_obs": "2024-02-01",
+  "error": null
+ },
+ "eurostat_prc_hicp_mmor_8acf65d4": {
+  "source": "eurostat",
+  "code": "prc_hicp_mmor",
+  "geo": "SE",
+  "params": {
+   "unit": "RCH_M",
+   "coicop": "CP00",
+   "geo": "SE"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-07T23:12:30",
+  "n": 289,
+  "last_obs": "2025-12-01",
+  "error": null
+ },
+ "fred_CPALTT01JPM657N_c205f642": {
+  "source": "fred",
+  "code": "CPALTT01JPM657N",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-09T22:22:33",
+  "n": 235,
+  "last_obs": "2021-06-01",
+  "error": null
+ },
+ "eurostat_prc_hicp_manr_a33275bc": {
+  "source": "eurostat",
+  "code": "prc_hicp_manr",
+  "geo": "FI",
+  "params": {
+   "unit": "RCH_A",
+   "coicop": "TOT_X_NRG_FOOD",
+   "geo": "FI"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-07T23:12:30",
+  "n": 289,
+  "last_obs": "2025-12-01",
+  "error": null
+ },
+ "eurostat_prc_hicp_manr_f623becf": {
+  "source": "eurostat",
+  "code": "prc_hicp_manr",
+  "geo": "EA",
+  "params": {
+   "unit": "RCH_A",
+   "coicop": "TOT_X_NRG_FOOD",
+   "geo": "EA"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-07T23:12:30",
+  "n": 289,
+  "last_obs": "2025-12-01",
+  "error": null
+ },
+ "fred_CPALTT01CNM657N_f6dd8621": {
+  "source": "fred",
+  "code": "CPALTT01CNM657N",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-07T13:33:19",
+  "n": 268,
+  "last_obs": "2024-03-01",
+  "error": null
+ },
+ "eurostat_prc_hicp_manr_5ffe5969": {
+  "source": "eurostat",
+  "code": "prc_hicp_manr",
+  "geo": "DE",
+  "params": {
+   "unit": "RCH_A",
+   "coicop": "TOT_X_NRG_FOOD",
+   "geo": "DE"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-07T23:12:30",
+  "n": 289,
+  "last_obs": "2025-12-01",
+  "error": null
+ },
+ "fred_CPILFESL_10501336": {
+  "source": "fred",
+  "code": "CPILFESL",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-10T23:59:52",
+  "n": 298,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "eurostat_prc_hicp_manr_86b2714a": {
+  "source": "eurostat",
+  "code": "prc_hicp_manr",
+  "geo": "FR",
+  "params": {
+   "unit": "RCH_A",
+   "coicop": "TOT_X_NRG_FOOD",
+   "geo": "FR"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-07T23:12:30",
+  "n": 289,
+  "last_obs": "2025-12-01",
+  "error": null
+ },
+ "fred_CPGRLE01GBM659N_20433a7e": {
+  "source": "fred",
+  "code": "CPGRLE01GBM659N",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-07T13:33:20",
+  "n": 280,
+  "last_obs": "2025-03-01",
+  "error": null
+ },
+ "eurostat_prc_hicp_manr_af8db91f": {
+  "source": "eurostat",
+  "code": "prc_hicp_manr",
+  "geo": "SE",
+  "params": {
+   "unit": "RCH_A",
+   "coicop": "TOT_X_NRG_FOOD",
+   "geo": "SE"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-07T23:12:30",
+  "n": 289,
+  "last_obs": "2025-12-01",
+  "error": null
+ },
+ "fred_CPGRLE01JPM659N_80aae6c3": {
+  "source": "fred",
+  "code": "CPGRLE01JPM659N",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-10T23:59:54",
+  "n": 235,
+  "last_obs": "2021-06-01",
+  "error": null
+ },
+ "fred_CPGRLE01CNM659N_c0ea7b2f": {
+  "source": "fred",
+  "code": "CPGRLE01CNM659N",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-07T23:12:36",
+  "n": 0,
+  "last_obs": null,
+  "error": "FetchError: fred_CPGRLE01CNM659N_c0ea7b2f: FRED vastasi HTTP 400: {\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}"
+ },
+ "eurostat_sts_inpr_m_ed1cacc8": {
+  "source": "eurostat",
+  "code": "sts_inpr_m",
+  "geo": "FI",
+  "params": {
+   "indic_bt": "PRD",
+   "nace_r2": "B-D",
+   "s_adj": "SCA",
+   "unit": "I21",
+   "geo": "FI"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-10T23:59:53",
+  "n": 297,
+  "last_obs": "2026-08-01",
+  "error": null
+ },
+ "eurostat_sts_inpr_m_1a89095a": {
+  "source": "eurostat",
+  "code": "sts_inpr_m",
+  "geo": "EA",
+  "params": {
+   "indic_bt": "PRD",
+   "nace_r2": "B-D",
+   "s_adj": "SCA",
+   "unit": "I21",
+   "geo": "EA"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-10T23:59:53",
+  "n": 0,
+  "last_obs": null,
+  "error": "SchemaError: eurostat_sts_inpr_m_1a89095a: suodattimet eivät rajaa yhteen sarjaan, usean arvon dimensiot: {'geo': 0}"
+ },
+ "fred_JPNPROINDMISMEI_0d142f9e": {
+  "source": "fred",
+  "code": "JPNPROINDMISMEI",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-07T13:33:26",
+  "n": 268,
+  "last_obs": "2024-03-01",
+  "error": null
+ },
+ "eurostat_sts_inpr_m_8cb6e23f": {
+  "source": "eurostat",
+  "code": "sts_inpr_m",
+  "geo": "DE",
+  "params": {
+   "indic_bt": "PRD",
+   "nace_r2": "B-D",
+   "s_adj": "SCA",
+   "unit": "I21",
+   "geo": "DE"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-10T23:59:54",
+  "n": 298,
+  "last_obs": "2026-09-01",
+  "error": null
+ },
+ "fred_GBRPROINDMISMEI_a3c5c19b": {
+  "source": "fred",
+  "code": "GBRPROINDMISMEI",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-07T13:33:22",
+  "n": 268,
+  "last_obs": "2024-03-01",
+  "error": null
+ },
+ "eurostat_sts_inpr_m_e61b50e7": {
+  "source": "eurostat",
+  "code": "sts_inpr_m",
+  "geo": "FR",
+  "params": {
+   "indic_bt": "PRD",
+   "nace_r2": "B-D",
+   "s_adj": "SCA",
+   "unit": "I21",
+   "geo": "FR"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-10T23:59:54",
+  "n": 298,
+  "last_obs": "2026-09-01",
+  "error": null
+ },
+ "fred_INDPRO_6b12dca4": {
+  "source": "fred",
+  "code": "INDPRO",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-10T23:59:54",
+  "n": 298,
+  "last_obs": "2026-09-01",
+  "error": null
+ },
+ "fred_CHNPROINDMISMEI_999cee85": {
+  "source": "fred",
+  "code": "CHNPROINDMISMEI",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-07T23:12:37",
+  "n": 0,
+  "last_obs": null,
+  "error": "FetchError: fred_CHNPROINDMISMEI_999cee85: FRED vastasi HTTP 400: {\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}"
+ },
+ "eurostat_sts_inpr_m_f683b861": {
+  "source": "eurostat",
+  "code": "sts_inpr_m",
+  "geo": "SE",
+  "params": {
+   "indic_bt": "PRD",
+   "nace_r2": "B-D",
+   "s_adj": "SCA",
+   "unit": "I21",
+   "geo": "SE"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-10T23:59:54",
+  "n": 297,
+  "last_obs": "2026-08-01",
+  "error": null
+ },
+ "eurostat_sts_inpr_m_9aca092b": {
+  "source": "eurostat",
+  "code": "sts_inpr_m",
+  "geo": "EA21",
+  "params": {
+   "indic_bt": "PRD",
+   "nace_r2": "B-D",
+   "s_adj": "SCA",
+   "unit": "I21",
+   "geo": "EA21"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-10T23:59:54",
+  "n": 297,
+  "last_obs": "2026-08-01",
+  "error": null
+ },
+ "fred_PRMNTO01GBM661S_4fb21d78": {
+  "source": "fred",
+  "code": "PRMNTO01GBM661S",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-07T13:33:23",
+  "n": 0,
+  "last_obs": null,
+  "error": "FetchError: fred_PRMNTO01GBM661S_4fb21d78: FRED vastasi HTTP 400: {\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}"
+ },
+ "eurostat_sts_inno_m_482f0e24": {
+  "source": "eurostat",
+  "code": "sts_inno_m",
+  "geo": "FI",
+  "params": {
+   "nace_r2": "C",
+   "s_adj": "SCA",
+   "unit": "I21",
+   "geo": "FI"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-07T13:33:23",
+  "n": 0,
+  "last_obs": null,
+  "error": "FetchError: eurostat_sts_inno_m_482f0e24: Eurostat vastasi HTTP 404: { \"error\": [{\"status\": 404,\"id\": 100,\"label\": \"ERR_NOT_FOUND_4: STS_INNO_M (DATA_FLOW:ALL,1.0) is not available for dissemination.\"}]}"
+ },
+ "eurostat_sts_inno_m_26812b21": {
+  "source": "eurostat",
+  "code": "sts_inno_m",
+  "geo": "EA",
+  "params": {
+   "nace_r2": "C",
+   "s_adj": "SCA",
+   "unit": "I21",
+   "geo": "EA"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-07T13:33:23",
+  "n": 0,
+  "last_obs": null,
+  "error": "FetchError: eurostat_sts_inno_m_26812b21: Eurostat vastasi HTTP 404: { \"error\": [{\"status\": 404,\"id\": 100,\"label\": \"ERR_NOT_FOUND_4: STS_INNO_M (DATA_FLOW:ALL,1.0) is not available for dissemination.\"}]}"
+ },
+ "eurostat_sts_inno_m_b5e1890e": {
+  "source": "eurostat",
+  "code": "sts_inno_m",
+  "geo": "FR",
+  "params": {
+   "nace_r2": "C",
+   "s_adj": "SCA",
+   "unit": "I21",
+   "geo": "FR"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-07T13:33:23",
+  "n": 0,
+  "last_obs": null,
+  "error": "FetchError: eurostat_sts_inno_m_b5e1890e: Eurostat vastasi HTTP 404: { \"error\": [{\"status\": 404,\"id\": 100,\"label\": \"ERR_NOT_FOUND_4: STS_INNO_M (DATA_FLOW:ALL,1.0) is not available for dissemination.\"}]}"
+ },
+ "eurostat_sts_inno_m_53f4cf2b": {
+  "source": "eurostat",
+  "code": "sts_inno_m",
+  "geo": "DE",
+  "params": {
+   "nace_r2": "C",
+   "s_adj": "SCA",
+   "unit": "I21",
+   "geo": "DE"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-07T13:33:23",
+  "n": 0,
+  "last_obs": null,
+  "error": "FetchError: eurostat_sts_inno_m_53f4cf2b: Eurostat vastasi HTTP 404: { \"error\": [{\"status\": 404,\"id\": 100,\"label\": \"ERR_NOT_FOUND_4: STS_INNO_M (DATA_FLOW:ALL,1.0) is not available for dissemination.\"}]}"
+ },
+ "eurostat_sts_inno_m_171b4e1b": {
+  "source": "eurostat",
+  "code": "sts_inno_m",
+  "geo": "FI",
+  "params": {
+   "nace_r2": "C",
+   "s_adj": "SCA",
+   "unit": "I15",
+   "geo": "FI"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-07T13:33:23",
+  "n": 0,
+  "last_obs": null,
+  "error": "FetchError: eurostat_sts_inno_m_171b4e1b: Eurostat vastasi HTTP 404: { \"error\": [{\"status\": 404,\"id\": 100,\"label\": \"ERR_NOT_FOUND_4: STS_INNO_M (DATA_FLOW:ALL,1.0) is not available for dissemination.\"}]}"
+ },
+ "eurostat_sts_inno_m_80f3f993": {
+  "source": "eurostat",
+  "code": "sts_inno_m",
+  "geo": "SE",
+  "params": {
+   "nace_r2": "C",
+   "s_adj": "SCA",
+   "unit": "I21",
+   "geo": "SE"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-07T13:33:23",
+  "n": 0,
+  "last_obs": null,
+  "error": "FetchError: eurostat_sts_inno_m_80f3f993: Eurostat vastasi HTTP 404: { \"error\": [{\"status\": 404,\"id\": 100,\"label\": \"ERR_NOT_FOUND_4: STS_INNO_M (DATA_FLOW:ALL,1.0) is not available for dissemination.\"}]}"
+ },
+ "fred_PRMNTO01JPM661S_b33271da": {
+  "source": "fred",
+  "code": "PRMNTO01JPM661S",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-07T13:33:23",
+  "n": 0,
+  "last_obs": null,
+  "error": "FetchError: fred_PRMNTO01JPM661S_b33271da: FRED vastasi HTTP 400: {\"error_code\":400,\"error_message\":\"Bad Request.  The series does not exist.\"}"
+ },
+ "eurostat_sts_inno_m_000c418c": {
+  "source": "eurostat",
+  "code": "sts_inno_m",
+  "geo": "EA21",
+  "params": {
+   "nace_r2": "C",
+   "s_adj": "SCA",
+   "unit": "I21",
+   "geo": "EA21"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-07T13:33:23",
+  "n": 0,
+  "last_obs": null,
+  "error": "FetchError: eurostat_sts_inno_m_000c418c: Eurostat vastasi HTTP 404: { \"error\": [{\"status\": 404,\"id\": 100,\"label\": \"ERR_NOT_FOUND_4: STS_INNO_M (DATA_FLOW:ALL,1.0) is not available for dissemination.\"}]}"
+ },
+ "eurostat_sts_inno_m_260abff6": {
+  "source": "eurostat",
+  "code": "sts_inno_m",
+  "geo": "FR",
+  "params": {
+   "nace_r2": "C",
+   "s_adj": "SCA",
+   "unit": "I15",
+   "geo": "FR"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-07T13:33:23",
+  "n": 0,
+  "last_obs": null,
+  "error": "FetchError: eurostat_sts_inno_m_260abff6: Eurostat vastasi HTTP 404: { \"error\": [{\"status\": 404,\"id\": 100,\"label\": \"ERR_NOT_FOUND_4: STS_INNO_M (DATA_FLOW:ALL,1.0) is not available for dissemination.\"}]}"
+ },
+ "eurostat_sts_inno_m_fdb586d0": {
+  "source": "eurostat",
+  "code": "sts_inno_m",
+  "geo": "DE",
+  "params": {
+   "nace_r2": "C",
+   "s_adj": "SCA",
+   "unit": "I15",
+   "geo": "DE"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-07T13:33:23",
+  "n": 0,
+  "last_obs": null,
+  "error": "FetchError: eurostat_sts_inno_m_fdb586d0: Eurostat vastasi HTTP 404: { \"error\": [{\"status\": 404,\"id\": 100,\"label\": \"ERR_NOT_FOUND_4: STS_INNO_M (DATA_FLOW:ALL,1.0) is not available for dissemination.\"}]}"
+ },
+ "eurostat_sts_inno_m_25782047": {
+  "source": "eurostat",
+  "code": "sts_inno_m",
+  "geo": "SE",
+  "params": {
+   "nace_r2": "C",
+   "s_adj": "SCA",
+   "unit": "I15",
+   "geo": "SE"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-07T13:33:23",
+  "n": 0,
+  "last_obs": null,
+  "error": "FetchError: eurostat_sts_inno_m_25782047: Eurostat vastasi HTTP 404: { \"error\": [{\"status\": 404,\"id\": 100,\"label\": \"ERR_NOT_FOUND_4: STS_INNO_M (DATA_FLOW:ALL,1.0) is not available for dissemination.\"}]}"
+ },
+ "eurostat_sts_inno_m_c0aaa4a6": {
+  "source": "eurostat",
+  "code": "sts_inno_m",
+  "geo": "EA20",
+  "params": {
+   "nace_r2": "C",
+   "s_adj": "SCA",
+   "unit": "I21",
+   "geo": "EA20"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-07T13:33:23",
+  "n": 0,
+  "last_obs": null,
+  "error": "FetchError: eurostat_sts_inno_m_c0aaa4a6: Eurostat vastasi HTTP 404: { \"error\": [{\"status\": 404,\"id\": 100,\"label\": \"ERR_NOT_FOUND_4: STS_INNO_M (DATA_FLOW:ALL,1.0) is not available for dissemination.\"}]}"
+ },
+ "eurostat_sts_inno_m_10fc7ab1": {
+  "source": "eurostat",
+  "code": "sts_inno_m",
+  "geo": "EA",
+  "params": {
+   "nace_r2": "C",
+   "s_adj": "SCA",
+   "unit": "I15",
+   "geo": "EA"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-07T13:33:24",
+  "n": 0,
+  "last_obs": null,
+  "error": "FetchError: eurostat_sts_inno_m_10fc7ab1: Eurostat vastasi HTTP 404: { \"error\": [{\"status\": 404,\"id\": 100,\"label\": \"ERR_NOT_FOUND_4: STS_INNO_M (DATA_FLOW:ALL,1.0) is not available for dissemination.\"}]}"
+ },
+ "eurostat_sts_inno_m_c5ca599e": {
+  "source": "eurostat",
+  "code": "sts_inno_m",
+  "geo": "EA21",
+  "params": {
+   "nace_r2": "C",
+   "s_adj": "SCA",
+   "unit": "I15",
+   "geo": "EA21"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-07T13:33:24",
+  "n": 0,
+  "last_obs": null,
+  "error": "FetchError: eurostat_sts_inno_m_c5ca599e: Eurostat vastasi HTTP 404: { \"error\": [{\"status\": 404,\"id\": 100,\"label\": \"ERR_NOT_FOUND_4: STS_INNO_M (DATA_FLOW:ALL,1.0) is not available for dissemination.\"}]}"
+ },
+ "eurostat_sts_inno_m_9505c501": {
+  "source": "eurostat",
+  "code": "sts_inno_m",
+  "geo": "EA20",
+  "params": {
+   "nace_r2": "C",
+   "s_adj": "SCA",
+   "unit": "I15",
+   "geo": "EA20"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-07T13:33:24",
+  "n": 0,
+  "last_obs": null,
+  "error": "FetchError: eurostat_sts_inno_m_9505c501: Eurostat vastasi HTTP 404: { \"error\": [{\"status\": 404,\"id\": 100,\"label\": \"ERR_NOT_FOUND_4: STS_INNO_M (DATA_FLOW:ALL,1.0) is not available for dissemination.\"}]}"
+ },
+ "fred_BSCICP03EZM665S_fac00ecb": {
+  "source": "fred",
+  "code": "BSCICP03EZM665S",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-07T13:33:24",
+  "n": 266,
+  "last_obs": "2024-01-01",
+  "error": null
+ },
+ "fred_DGORDER_0e6e2c95": {
+  "source": "fred",
+  "code": "DGORDER",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-10T23:59:54",
+  "n": 298,
+  "last_obs": "2026-09-01",
+  "error": null
+ },
+ "fred_BSCICP03FIM665S_7c1d161c": {
+  "source": "fred",
+  "code": "BSCICP03FIM665S",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-07T13:33:26",
+  "n": 266,
+  "last_obs": "2024-01-01",
+  "error": null
+ },
+ "fred_BSCICP03DEM665S_307778b2": {
+  "source": "fred",
+  "code": "BSCICP03DEM665S",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-07T13:33:27",
+  "n": 266,
+  "last_obs": "2024-01-01",
+  "error": null
+ },
+ "fred_BSCICP03FRM665S_200f6eaa": {
+  "source": "fred",
+  "code": "BSCICP03FRM665S",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-07T13:33:28",
+  "n": 266,
+  "last_obs": "2024-01-01",
+  "error": null
+ },
+ "fred_BSCICP03SEM665S_34ccaebb": {
+  "source": "fred",
+  "code": "BSCICP03SEM665S",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-07T13:33:28",
+  "n": 266,
+  "last_obs": "2024-01-01",
+  "error": null
+ },
+ "fred_BSCICP03USM665S_35c81fe9": {
+  "source": "fred",
+  "code": "BSCICP03USM665S",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-07T13:33:31",
+  "n": 266,
+  "last_obs": "2024-01-01",
+  "error": null
+ },
+ "fred_BSCICP03GBM665S_408a7093": {
+  "source": "fred",
+  "code": "BSCICP03GBM665S",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-07T23:12:51",
+  "n": 266,
+  "last_obs": "2024-01-01",
+  "error": null
+ },
+ "fred_BSCICP03JPM665S_661321a8": {
+  "source": "fred",
+  "code": "BSCICP03JPM665S",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-07T23:13:01",
+  "n": 265,
+  "last_obs": "2023-12-01",
+  "error": null
+ },
+ "fred_BSCICP03CNM665S_df3bb5fc": {
+  "source": "fred",
+  "code": "BSCICP03CNM665S",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-09T22:22:51",
+  "n": 266,
+  "last_obs": "2024-01-01",
+  "error": null
+ },
+ "fred_CSCICP03FIM665S_5e999ffd": {
+  "source": "fred",
+  "code": "CSCICP03FIM665S",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-09T22:23:01",
+  "n": 266,
+  "last_obs": "2024-01-01",
+  "error": null
+ },
+ "fred_CSCICP03EZM665S_ae0a3c33": {
+  "source": "fred",
+  "code": "CSCICP03EZM665S",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-07T13:33:37",
+  "n": 266,
+  "last_obs": "2024-01-01",
+  "error": null
+ },
+ "fred_CSCICP03DEM665S_2cf4f2a7": {
+  "source": "fred",
+  "code": "CSCICP03DEM665S",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-07T13:33:39",
+  "n": 266,
+  "last_obs": "2024-01-01",
+  "error": null
+ },
+ "fred_CSCICP03FRM665S_ff9bdcf3": {
+  "source": "fred",
+  "code": "CSCICP03FRM665S",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-07T13:33:41",
+  "n": 266,
+  "last_obs": "2024-01-01",
+  "error": null
+ },
+ "fred_CSCICP03SEM665S_a470e861": {
+  "source": "fred",
+  "code": "CSCICP03SEM665S",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-07T13:33:42",
+  "n": 266,
+  "last_obs": "2024-01-01",
+  "error": null
+ },
+ "fred_CSCICP03USM665S_ff32465c": {
+  "source": "fred",
+  "code": "CSCICP03USM665S",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-07T13:33:42",
+  "n": 266,
+  "last_obs": "2024-01-01",
+  "error": null
+ },
+ "fred_CSCICP03GBM665S_6e038535": {
+  "source": "fred",
+  "code": "CSCICP03GBM665S",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-07T13:33:43",
+  "n": 266,
+  "last_obs": "2024-01-01",
+  "error": null
+ },
+ "fred_CSCICP03JPM665S_9f795ee2": {
+  "source": "fred",
+  "code": "CSCICP03JPM665S",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-07T13:33:45",
+  "n": 266,
+  "last_obs": "2024-01-01",
+  "error": null
+ },
+ "fred_CSCICP03CNM665S_963d783f": {
+  "source": "fred",
+  "code": "CSCICP03CNM665S",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-07T13:33:45",
+  "n": 265,
+  "last_obs": "2023-12-01",
+  "error": null
+ },
+ "fred_FINLOLITOAASTSAM_595f2743": {
+  "source": "fred",
+  "code": "FINLOLITOAASTSAM",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-07T23:13:33",
+  "n": 252,
+  "last_obs": "2022-11-01",
+  "error": null
+ },
+ "fred_EA19LOLITOAASTSAM_7d8163d0": {
+  "source": "fred",
+  "code": "EA19LOLITOAASTSAM",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-07T23:14:01",
+  "n": 252,
+  "last_obs": "2022-11-01",
+  "error": null
+ },
+ "fred_DEULOLITOAASTSAM_bfd81775": {
+  "source": "fred",
+  "code": "DEULOLITOAASTSAM",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-07T13:33:50",
+  "n": 298,
+  "last_obs": "2026-09-01",
+  "error": null
+ },
+ "fred_FRALOLITOAASTSAM_b33dd9f6": {
+  "source": "fred",
+  "code": "FRALOLITOAASTSAM",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-07T13:33:51",
+  "n": 298,
+  "last_obs": "2026-09-01",
+  "error": null
+ },
+ "fred_UMCSENT_d3e61554": {
+  "source": "fred",
+  "code": "UMCSENT",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-07T13:33:51",
+  "n": 298,
+  "last_obs": "2026-09-01",
+  "error": null
+ },
+ "eurostat_ei_bssi_m_r2_d54693d8": {
+  "source": "eurostat",
+  "code": "ei_bssi_m_r2",
+  "geo": "FI",
+  "params": {
+   "indic": "BS-ESI-I",
+   "s_adj": "SA",
+   "geo": "FI"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:28",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "fred_SWELOLITOAASTSAM_080859cb": {
+  "source": "fred",
+  "code": "SWELOLITOAASTSAM",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-07T23:13:45",
+  "n": 252,
+  "last_obs": "2022-11-01",
+  "error": null
+ },
+ "eurostat_ei_bssi_m_r2_9fe13ae5": {
+  "source": "eurostat",
+  "code": "ei_bssi_m_r2",
+  "geo": "EA",
+  "params": {
+   "indic": "BS-ESI-I",
+   "s_adj": "SA",
+   "geo": "EA"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:28",
+  "n": 0,
+  "last_obs": null,
+  "error": "SchemaError: eurostat_ei_bssi_m_r2_9fe13ae5: suodattimet eivät rajaa yhteen sarjaan, usean arvon dimensiot: {'geo': 0}"
+ },
+ "eurostat_ei_bssi_m_r2_a03bc7e1": {
+  "source": "eurostat",
+  "code": "ei_bssi_m_r2",
+  "geo": "EA21",
+  "params": {
+   "indic": "BS-ESI-I",
+   "s_adj": "SA",
+   "geo": "EA21"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:28",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "eurostat_ei_bssi_m_r2_80e263f0": {
+  "source": "eurostat",
+  "code": "ei_bssi_m_r2",
+  "geo": "FR",
+  "params": {
+   "indic": "BS-ESI-I",
+   "s_adj": "SA",
+   "geo": "FR"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:28",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "eurostat_ei_bssi_m_r2_5d2a34a2": {
+  "source": "eurostat",
+  "code": "ei_bssi_m_r2",
+  "geo": "DE",
+  "params": {
+   "indic": "BS-ESI-I",
+   "s_adj": "SA",
+   "geo": "DE"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:28",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "eurostat_ei_bssi_m_r2_0ae7e3bb": {
+  "source": "eurostat",
+  "code": "ei_bssi_m_r2",
+  "geo": "SE",
+  "params": {
+   "indic": "BS-ESI-I",
+   "s_adj": "SA",
+   "geo": "SE"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:29",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "fred_USALOLITOAASTSAM_ac707151": {
+  "source": "fred",
+  "code": "USALOLITOAASTSAM",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-07T13:33:54",
+  "n": 298,
+  "last_obs": "2026-09-01",
+  "error": null
+ },
+ "eurostat_ei_bssi_m_r2_367ae9e7": {
+  "source": "eurostat",
+  "code": "ei_bssi_m_r2",
+  "geo": "EA",
+  "params": {
+   "indic": "BS-ICI-BAL",
+   "s_adj": "SA",
+   "geo": "EA"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:29",
+  "n": 0,
+  "last_obs": null,
+  "error": "SchemaError: eurostat_ei_bssi_m_r2_367ae9e7: suodattimet eivät rajaa yhteen sarjaan, usean arvon dimensiot: {'geo': 0}"
+ },
+ "eurostat_ei_bssi_m_r2_f641b465": {
+  "source": "eurostat",
+  "code": "ei_bssi_m_r2",
+  "geo": "FI",
+  "params": {
+   "indic": "BS-ICI-BAL",
+   "s_adj": "SA",
+   "geo": "FI"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:28",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "eurostat_ei_bssi_m_r2_d4b92931": {
+  "source": "eurostat",
+  "code": "ei_bssi_m_r2",
+  "geo": "DE",
+  "params": {
+   "indic": "BS-ICI-BAL",
+   "s_adj": "SA",
+   "geo": "DE"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:29",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "eurostat_ei_bssi_m_r2_8e2f8bdc": {
+  "source": "eurostat",
+  "code": "ei_bssi_m_r2",
+  "geo": "EA21",
+  "params": {
+   "indic": "BS-ICI-BAL",
+   "s_adj": "SA",
+   "geo": "EA21"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:29",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "eurostat_ei_bssi_m_r2_3f889c76": {
+  "source": "eurostat",
+  "code": "ei_bssi_m_r2",
+  "geo": "FR",
+  "params": {
+   "indic": "BS-ICI-BAL",
+   "s_adj": "SA",
+   "geo": "FR"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:29",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "fred_GBRLOLITOAASTSAM_7616c7b1": {
+  "source": "fred",
+  "code": "GBRLOLITOAASTSAM",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-07T13:33:56",
+  "n": 298,
+  "last_obs": "2026-09-01",
+  "error": null
+ },
+ "eurostat_ei_bssi_m_r2_0b33734a": {
+  "source": "eurostat",
+  "code": "ei_bssi_m_r2",
+  "geo": "SE",
+  "params": {
+   "indic": "BS-ICI-BAL",
+   "s_adj": "SA",
+   "geo": "SE"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:29",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "eurostat_ei_bssi_m_r2_20c432d9": {
+  "source": "eurostat",
+  "code": "ei_bssi_m_r2",
+  "geo": "FI",
+  "params": {
+   "indic": "BS-CSMCI-BAL",
+   "s_adj": "SA",
+   "geo": "FI"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:29",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "eurostat_ei_bssi_m_r2_8968cd31": {
+  "source": "eurostat",
+  "code": "ei_bssi_m_r2",
+  "geo": "DE",
+  "params": {
+   "indic": "BS-CSMCI-BAL",
+   "s_adj": "SA",
+   "geo": "DE"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:30",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "eurostat_ei_bssi_m_r2_c36decf6": {
+  "source": "eurostat",
+  "code": "ei_bssi_m_r2",
+  "geo": "EA",
+  "params": {
+   "indic": "BS-CSMCI-BAL",
+   "s_adj": "SA",
+   "geo": "EA"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:30",
+  "n": 0,
+  "last_obs": null,
+  "error": "SchemaError: eurostat_ei_bssi_m_r2_c36decf6: suodattimet eivät rajaa yhteen sarjaan, usean arvon dimensiot: {'geo': 0}"
+ },
+ "eurostat_une_rt_m_84e2e1f3": {
+  "source": "eurostat",
+  "code": "une_rt_m",
+  "geo": "FI",
+  "params": {
+   "s_adj": "SA",
+   "age": "TOTAL",
+   "unit": "PC_ACT",
+   "sex": "T",
+   "geo": "FI"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:30",
+  "n": 298,
+  "last_obs": "2026-09-01",
+  "error": null
+ },
+ "eurostat_une_rt_m_7501f028": {
+  "source": "eurostat",
+  "code": "une_rt_m",
+  "geo": "DE",
+  "params": {
+   "s_adj": "SA",
+   "age": "TOTAL",
+   "unit": "PC_ACT",
+   "sex": "T",
+   "geo": "DE"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:30",
+  "n": 298,
+  "last_obs": "2026-09-01",
+  "error": null
+ },
+ "eurostat_ei_bssi_m_r2_2d4efe15": {
+  "source": "eurostat",
+  "code": "ei_bssi_m_r2",
+  "geo": "EA21",
+  "params": {
+   "indic": "BS-CSMCI-BAL",
+   "s_adj": "SA",
+   "geo": "EA21"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:30",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "eurostat_une_rt_m_b9a9a73e": {
+  "source": "eurostat",
+  "code": "une_rt_m",
+  "geo": "FR",
+  "params": {
+   "s_adj": "SA",
+   "age": "TOTAL",
+   "unit": "PC_ACT",
+   "sex": "T",
+   "geo": "FR"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:31",
+  "n": 298,
+  "last_obs": "2026-09-01",
+  "error": null
+ },
+ "eurostat_ei_bssi_m_r2_f574f0a2": {
+  "source": "eurostat",
+  "code": "ei_bssi_m_r2",
+  "geo": "FR",
+  "params": {
+   "indic": "BS-CSMCI-BAL",
+   "s_adj": "SA",
+   "geo": "FR"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:30",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "fred_JPNLOLITOAASTSAM_a583d6da": {
+  "source": "fred",
+  "code": "JPNLOLITOAASTSAM",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-07T13:33:57",
+  "n": 298,
+  "last_obs": "2026-09-01",
+  "error": null
+ },
+ "eurostat_ei_bssi_m_r2_cf0a583f": {
+  "source": "eurostat",
+  "code": "ei_bssi_m_r2",
+  "geo": "SE",
+  "params": {
+   "indic": "BS-CSMCI-BAL",
+   "s_adj": "SA",
+   "geo": "SE"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:30",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "fred_CHNLOLITOAASTSAM_2c1defbd": {
+  "source": "fred",
+  "code": "CHNLOLITOAASTSAM",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-07T13:33:58",
+  "n": 298,
+  "last_obs": "2026-09-01",
+  "error": null
+ },
+ "eurostat_une_rt_m_61531fae": {
+  "source": "eurostat",
+  "code": "une_rt_m",
+  "geo": "EA",
+  "params": {
+   "s_adj": "SA",
+   "age": "TOTAL",
+   "unit": "PC_ACT",
+   "sex": "T",
+   "geo": "EA"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:30",
+  "n": 0,
+  "last_obs": null,
+  "error": "SchemaError: eurostat_une_rt_m_61531fae: suodattimet eivät rajaa yhteen sarjaan, usean arvon dimensiot: {'geo': 0}"
+ },
+ "fred_UNRATE_9b96493f": {
+  "source": "fred",
+  "code": "UNRATE",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:34",
+  "n": 298,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "eurostat_une_rt_m_3202a860": {
+  "source": "eurostat",
+  "code": "une_rt_m",
+  "geo": "SE",
+  "params": {
+   "s_adj": "SA",
+   "age": "TOTAL",
+   "unit": "PC_ACT",
+   "sex": "T",
+   "geo": "SE"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:31",
+  "n": 298,
+  "last_obs": "2026-09-01",
+  "error": null
+ },
+ "eurostat_une_rt_m_6a41ca3c": {
+  "source": "eurostat",
+  "code": "une_rt_m",
+  "geo": "FI",
+  "params": {
+   "s_adj": "SA",
+   "age": "Y_LT25",
+   "unit": "PC_ACT",
+   "sex": "T",
+   "geo": "FI"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:34",
+  "n": 298,
+  "last_obs": "2026-09-01",
+  "error": null
+ },
+ "eurostat_une_rt_m_24cb19e6": {
+  "source": "eurostat",
+  "code": "une_rt_m",
+  "geo": "EA",
+  "params": {
+   "s_adj": "SA",
+   "age": "Y_LT25",
+   "unit": "PC_ACT",
+   "sex": "T",
+   "geo": "EA"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:35",
+  "n": 0,
+  "last_obs": null,
+  "error": "SchemaError: eurostat_une_rt_m_24cb19e6: suodattimet eivät rajaa yhteen sarjaan, usean arvon dimensiot: {'geo': 0}"
+ },
+ "fred_LRHUTTTTGBM156S_20078225": {
+  "source": "fred",
+  "code": "LRHUTTTTGBM156S",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:38",
+  "n": 295,
+  "last_obs": "2026-06-01",
+  "error": null
+ },
+ "fred_LRHUTTTTJPM156S_ada7522b": {
+  "source": "fred",
+  "code": "LRHUTTTTJPM156S",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:45",
+  "n": 297,
+  "last_obs": "2026-08-01",
+  "error": null
+ },
+ "eurostat_une_rt_m_532c4164": {
+  "source": "eurostat",
+  "code": "une_rt_m",
+  "geo": "EA21",
+  "params": {
+   "s_adj": "SA",
+   "age": "TOTAL",
+   "unit": "PC_ACT",
+   "sex": "T",
+   "geo": "EA21"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:30",
+  "n": 298,
+  "last_obs": "2026-09-01",
+  "error": null
+ },
+ "fred_LNS14024887_eeda69c3": {
+  "source": "fred",
+  "code": "LNS14024887",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:49",
+  "n": 298,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "eurostat_une_rt_m_c368732e": {
+  "source": "eurostat",
+  "code": "une_rt_m",
+  "geo": "DE",
+  "params": {
+   "s_adj": "SA",
+   "age": "Y_LT25",
+   "unit": "PC_ACT",
+   "sex": "T",
+   "geo": "DE"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:35",
+  "n": 298,
+  "last_obs": "2026-09-01",
+  "error": null
+ },
+ "eurostat_une_rt_m_5955f0cb": {
+  "source": "eurostat",
+  "code": "une_rt_m",
+  "geo": "SE",
+  "params": {
+   "s_adj": "SA",
+   "age": "Y_LT25",
+   "unit": "PC_ACT",
+   "sex": "T",
+   "geo": "SE"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:35",
+  "n": 298,
+  "last_obs": "2026-09-01",
+  "error": null
+ },
+ "eurostat_une_rt_m_aa664bf0": {
+  "source": "eurostat",
+  "code": "une_rt_m",
+  "geo": "FR",
+  "params": {
+   "s_adj": "SA",
+   "age": "Y_LT25",
+   "unit": "PC_ACT",
+   "sex": "T",
+   "geo": "FR"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:35",
+  "n": 298,
+  "last_obs": "2026-09-01",
+  "error": null
+ },
+ "fred_PAYEMS_70d70ddb": {
+  "source": "fred",
+  "code": "PAYEMS",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:51",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "eurostat_une_rt_m_c4490b51": {
+  "source": "eurostat",
+  "code": "une_rt_m",
+  "geo": "EA21",
+  "params": {
+   "s_adj": "SA",
+   "age": "Y_LT25",
+   "unit": "PC_ACT",
+   "sex": "T",
+   "geo": "EA21"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:35",
+  "n": 298,
+  "last_obs": "2026-09-01",
+  "error": null
+ },
+ "eurostat_namq_10_pe_19610cc4": {
+  "source": "eurostat",
+  "code": "namq_10_pe",
+  "geo": "EA",
+  "params": {
+   "s_adj": "SCA",
+   "na_item": "EMP_DC",
+   "unit": "THS_PER",
+   "nace_r2": "TOTAL",
+   "geo": "EA"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-07T13:34:02",
+  "n": 0,
+  "last_obs": null,
+  "error": "FetchError: eurostat_namq_10_pe_19610cc4: Eurostat vastasi HTTP 400: { \"error\": [{\"status\": 400,\"id\": 150,\"label\": \"INVALID_QUERY_DIMENSION: Query is invalid as per its structure's definition. Dimension \\\"NACE_R2\\\" is not defined\"}]}"
+ },
+ "eurostat_namq_10_pe_52a0d412": {
+  "source": "eurostat",
+  "code": "namq_10_pe",
+  "geo": "DE",
+  "params": {
+   "s_adj": "SCA",
+   "na_item": "EMP_DC",
+   "unit": "THS_PER",
+   "nace_r2": "TOTAL",
+   "geo": "DE"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-07T13:34:02",
+  "n": 0,
+  "last_obs": null,
+  "error": "FetchError: eurostat_namq_10_pe_52a0d412: Eurostat vastasi HTTP 400: { \"error\": [{\"status\": 400,\"id\": 150,\"label\": \"INVALID_QUERY_DIMENSION: Query is invalid as per its structure's definition. Dimension \\\"NACE_R2\\\" is not defined\"}]}"
+ },
+ "eurostat_namq_10_pe_57854f69": {
+  "source": "eurostat",
+  "code": "namq_10_pe",
+  "geo": "FI",
+  "params": {
+   "s_adj": "SCA",
+   "na_item": "EMP_DC",
+   "unit": "THS_PER",
+   "nace_r2": "TOTAL",
+   "geo": "FI"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-07T13:34:02",
+  "n": 0,
+  "last_obs": null,
+  "error": "FetchError: eurostat_namq_10_pe_57854f69: Eurostat vastasi HTTP 400: { \"error\": [{\"status\": 400,\"id\": 150,\"label\": \"INVALID_QUERY_DIMENSION: Query is invalid as per its structure's definition. Dimension \\\"NACE_R2\\\" is not defined\"}]}"
+ },
+ "eurostat_namq_10_pe_8029cde4": {
+  "source": "eurostat",
+  "code": "namq_10_pe",
+  "geo": "FR",
+  "params": {
+   "s_adj": "SCA",
+   "na_item": "EMP_DC",
+   "unit": "THS_PER",
+   "nace_r2": "TOTAL",
+   "geo": "FR"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-07T13:34:02",
+  "n": 0,
+  "last_obs": null,
+  "error": "FetchError: eurostat_namq_10_pe_8029cde4: Eurostat vastasi HTTP 400: { \"error\": [{\"status\": 400,\"id\": 150,\"label\": \"INVALID_QUERY_DIMENSION: Query is invalid as per its structure's definition. Dimension \\\"NACE_R2\\\" is not defined\"}]}"
+ },
+ "eurostat_namq_10_pe_7178c915": {
+  "source": "eurostat",
+  "code": "namq_10_pe",
+  "geo": "SE",
+  "params": {
+   "s_adj": "SCA",
+   "na_item": "EMP_DC",
+   "unit": "THS_PER",
+   "nace_r2": "TOTAL",
+   "geo": "SE"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-07T13:34:03",
+  "n": 0,
+  "last_obs": null,
+  "error": "FetchError: eurostat_namq_10_pe_7178c915: Eurostat vastasi HTTP 400: { \"error\": [{\"status\": 400,\"id\": 150,\"label\": \"INVALID_QUERY_DIMENSION: Query is invalid as per its structure's definition. Dimension \\\"NACE_R2\\\" is not defined\"}]}"
+ },
+ "eurostat_lc_lci_r2_q_444c57d7": {
+  "source": "eurostat",
+  "code": "lc_lci_r2_q",
+  "geo": "EA",
+  "params": {
+   "lcstruct": "D11",
+   "nace_r2": "B-S_X_O",
+   "s_adj": "SCA",
+   "unit": "PCH_SM",
+   "geo": "EA"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-07T13:34:03",
+  "n": 0,
+  "last_obs": null,
+  "error": "SchemaError: eurostat_lc_lci_r2_q_444c57d7: suodattimet eivät rajaa yhteen sarjaan, usean arvon dimensiot: {'nace_r2': 0}"
+ },
+ "eurostat_namq_10_pe_f094b498": {
+  "source": "eurostat",
+  "code": "namq_10_pe",
+  "geo": "DE",
+  "params": {
+   "s_adj": "SCA",
+   "na_item": "EMP_DC",
+   "unit": "THS_PER",
+   "geo": "DE"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-11T00:00:38",
+  "n": 99,
+  "last_obs": "2026-07-01",
+  "error": null
+ },
+ "eurostat_namq_10_pe_32c4810d": {
+  "source": "eurostat",
+  "code": "namq_10_pe",
+  "geo": "EA21",
+  "params": {
+   "s_adj": "SCA",
+   "na_item": "EMP_DC",
+   "unit": "THS_PER",
+   "nace_r2": "TOTAL",
+   "geo": "EA21"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-07T13:34:04",
+  "n": 0,
+  "last_obs": null,
+  "error": "FetchError: eurostat_namq_10_pe_32c4810d: Eurostat vastasi HTTP 400: { \"error\": [{\"status\": 400,\"id\": 150,\"label\": \"INVALID_QUERY_DIMENSION: Query is invalid as per its structure's definition. Dimension \\\"NACE_R2\\\" is not defined\"}]}"
+ },
+ "eurostat_namq_10_pe_8ee90110": {
+  "source": "eurostat",
+  "code": "namq_10_pe",
+  "geo": "FR",
+  "params": {
+   "s_adj": "SCA",
+   "na_item": "EMP_DC",
+   "unit": "THS_PER",
+   "geo": "FR"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-11T00:00:39",
+  "n": 0,
+  "last_obs": null,
+  "error": "RuntimeError: ei havaintoja"
+ },
+ "eurostat_namq_10_pe_ea60a55e": {
+  "source": "eurostat",
+  "code": "namq_10_pe",
+  "geo": "FI",
+  "params": {
+   "s_adj": "SCA",
+   "na_item": "EMP_DC",
+   "unit": "THS_PER",
+   "geo": "FI"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-11T00:00:36",
+  "n": 99,
+  "last_obs": "2026-07-01",
+  "error": null
+ },
+ "eurostat_lc_lci_r2_q_c685b203": {
+  "source": "eurostat",
+  "code": "lc_lci_r2_q",
+  "geo": "FI",
+  "params": {
+   "lcstruct": "D11",
+   "nace_r2": "B-S_X_O",
+   "s_adj": "SCA",
+   "unit": "PCH_SM",
+   "geo": "FI"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-07T13:34:05",
+  "n": 0,
+  "last_obs": null,
+  "error": "SchemaError: eurostat_lc_lci_r2_q_c685b203: suodattimet eivät rajaa yhteen sarjaan, usean arvon dimensiot: {'nace_r2': 0}"
+ },
+ "eurostat_lc_lci_r2_q_dd197dcd": {
+  "source": "eurostat",
+  "code": "lc_lci_r2_q",
+  "geo": "DE",
+  "params": {
+   "lcstruct": "D11",
+   "nace_r2": "B-S_X_O",
+   "s_adj": "SCA",
+   "unit": "PCH_SM",
+   "geo": "DE"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-07T13:34:05",
+  "n": 0,
+  "last_obs": null,
+  "error": "SchemaError: eurostat_lc_lci_r2_q_dd197dcd: suodattimet eivät rajaa yhteen sarjaan, usean arvon dimensiot: {'nace_r2': 0}"
+ },
+ "fred_CES0500000003_6b981d4d": {
+  "source": "fred",
+  "code": "CES0500000003",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:55",
+  "n": 248,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "eurostat_lc_lci_r2_q_53616e1c": {
+  "source": "eurostat",
+  "code": "lc_lci_r2_q",
+  "geo": "FR",
+  "params": {
+   "lcstruct": "D11",
+   "nace_r2": "B-S_X_O",
+   "s_adj": "SCA",
+   "unit": "PCH_SM",
+   "geo": "FR"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-07T13:34:06",
+  "n": 0,
+  "last_obs": null,
+  "error": "SchemaError: eurostat_lc_lci_r2_q_53616e1c: suodattimet eivät rajaa yhteen sarjaan, usean arvon dimensiot: {'nace_r2': 0}"
+ },
+ "eurostat_lc_lci_r2_q_b5c761d4": {
+  "source": "eurostat",
+  "code": "lc_lci_r2_q",
+  "geo": "SE",
+  "params": {
+   "lcstruct": "D11",
+   "nace_r2": "B-S_X_O",
+   "s_adj": "SCA",
+   "unit": "PCH_SM",
+   "geo": "SE"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-07T13:34:06",
+  "n": 0,
+  "last_obs": null,
+  "error": "SchemaError: eurostat_lc_lci_r2_q_b5c761d4: suodattimet eivät rajaa yhteen sarjaan, usean arvon dimensiot: {'nace_r2': 0}"
+ },
+ "eurostat_lc_lci_r2_q_6b952bbc": {
+  "source": "eurostat",
+  "code": "lc_lci_r2_q",
+  "geo": "EA21",
+  "params": {
+   "lcstruct": "D11",
+   "nace_r2": "B-S_X_O",
+   "s_adj": "SCA",
+   "unit": "PCH_SM",
+   "geo": "EA21"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-07T13:34:06",
+  "n": 0,
+  "last_obs": null,
+  "error": "SchemaError: eurostat_lc_lci_r2_q_6b952bbc: suodattimet eivät rajaa yhteen sarjaan, usean arvon dimensiot: {'nace_r2': 0}"
+ },
+ "eurostat_namq_10_pe_9fbde1be": {
+  "source": "eurostat",
+  "code": "namq_10_pe",
+  "geo": "EA20",
+  "params": {
+   "s_adj": "SCA",
+   "na_item": "EMP_DC",
+   "unit": "THS_PER",
+   "nace_r2": "TOTAL",
+   "geo": "EA20"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-07T13:34:06",
+  "n": 0,
+  "last_obs": null,
+  "error": "FetchError: eurostat_namq_10_pe_9fbde1be: Eurostat vastasi HTTP 400: { \"error\": [{\"status\": 400,\"id\": 150,\"label\": \"INVALID_QUERY_DIMENSION: Query is invalid as per its structure's definition. Dimension \\\"NACE_R2\\\" is not defined\"}]}"
+ },
+ "eurostat_namq_10_pe_f71c5ed9": {
+  "source": "eurostat",
+  "code": "namq_10_pe",
+  "geo": "SE",
+  "params": {
+   "s_adj": "SCA",
+   "na_item": "EMP_DC",
+   "unit": "THS_PER",
+   "geo": "SE"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-11T00:00:39",
+  "n": 99,
+  "last_obs": "2026-07-01",
+  "error": null
+ },
+ "eurostat_lc_lci_r2_q_c86dae63": {
+  "source": "eurostat",
+  "code": "lc_lci_r2_q",
+  "geo": "FR",
+  "params": {
+   "lcstruct": "D11",
+   "nace_r2": "B-S_X_O",
+   "s_adj": "CA",
+   "unit": "PCH_SM",
+   "geo": "FR"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-07T13:34:07",
+  "n": 0,
+  "last_obs": null,
+  "error": "SchemaError: eurostat_lc_lci_r2_q_c86dae63: suodattimet eivät rajaa yhteen sarjaan, usean arvon dimensiot: {'nace_r2': 0}"
+ },
+ "eurostat_lc_lci_r2_q_bf2e5f54": {
+  "source": "eurostat",
+  "code": "lc_lci_r2_q",
+  "geo": "DE",
+  "params": {
+   "lcstruct": "D11",
+   "nace_r2": "B-S_X_O",
+   "s_adj": "CA",
+   "unit": "PCH_SM",
+   "geo": "DE"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-07T13:34:07",
+  "n": 0,
+  "last_obs": null,
+  "error": "SchemaError: eurostat_lc_lci_r2_q_bf2e5f54: suodattimet eivät rajaa yhteen sarjaan, usean arvon dimensiot: {'nace_r2': 0}"
+ },
+ "eurostat_jvs_q_nace2_647135d7": {
+  "source": "eurostat",
+  "code": "jvs_q_nace2",
+  "geo": "FI",
+  "params": {
+   "nace_r2": "B-S",
+   "s_adj": "NSA",
+   "indic_em": "JOBRATE",
+   "unit": "PC",
+   "geo": "FI"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-07T13:34:08",
+  "n": 0,
+  "last_obs": null,
+  "error": "FetchError: eurostat_jvs_q_nace2_647135d7: Eurostat vastasi HTTP 400: { \"error\": [{\"status\": 400,\"id\": 150,\"label\": \"INVALID_QUERY_DIMENSION: Query is invalid as per its structure's definition. Dimension \\\"UNIT\\\" is not defined\"}]}"
+ },
+ "eurostat_lc_lci_r2_q_717b9182": {
+  "source": "eurostat",
+  "code": "lc_lci_r2_q",
+  "geo": "FI",
+  "params": {
+   "lcstruct": "D11",
+   "nace_r2": "B-S_X_O",
+   "s_adj": "CA",
+   "unit": "PCH_SM",
+   "geo": "FI"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-07T13:34:09",
+  "n": 0,
+  "last_obs": null,
+  "error": "SchemaError: eurostat_lc_lci_r2_q_717b9182: suodattimet eivät rajaa yhteen sarjaan, usean arvon dimensiot: {'nace_r2': 0}"
+ },
+ "eurostat_lc_lci_r2_q_994c5dac": {
+  "source": "eurostat",
+  "code": "lc_lci_r2_q",
+  "geo": "SE",
+  "params": {
+   "lcstruct": "D11",
+   "nace_r2": "B-S_X_O",
+   "s_adj": "CA",
+   "unit": "PCH_SM",
+   "geo": "SE"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-07T13:34:09",
+  "n": 0,
+  "last_obs": null,
+  "error": "SchemaError: eurostat_lc_lci_r2_q_994c5dac: suodattimet eivät rajaa yhteen sarjaan, usean arvon dimensiot: {'nace_r2': 0}"
+ },
+ "eurostat_lc_lci_r2_q_6a96a961": {
+  "source": "eurostat",
+  "code": "lc_lci_r2_q",
+  "geo": "EA20",
+  "params": {
+   "lcstruct": "D11",
+   "nace_r2": "B-S_X_O",
+   "s_adj": "SCA",
+   "unit": "PCH_SM",
+   "geo": "EA20"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-07T13:34:09",
+  "n": 0,
+  "last_obs": null,
+  "error": "SchemaError: eurostat_lc_lci_r2_q_6a96a961: suodattimet eivät rajaa yhteen sarjaan, usean arvon dimensiot: {'nace_r2': 0}"
+ },
+ "eurostat_namq_10_pe_92579663": {
+  "source": "eurostat",
+  "code": "namq_10_pe",
+  "geo": "EA",
+  "params": {
+   "s_adj": "SCA",
+   "na_item": "EMP_DC",
+   "unit": "THS_PER",
+   "geo": "EA"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-11T00:00:37",
+  "n": 98,
+  "last_obs": "2026-04-01",
+  "error": null
+ },
+ "eurostat_lc_lci_r2_q_7c542340": {
+  "source": "eurostat",
+  "code": "lc_lci_r2_q",
+  "geo": "SE",
+  "params": {
+   "lcstruct": "D11",
+   "nace_r2": "B-S_X_O",
+   "s_adj": "NSA",
+   "unit": "PCH_SM",
+   "geo": "SE"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-07T13:34:10",
+  "n": 0,
+  "last_obs": null,
+  "error": "SchemaError: eurostat_lc_lci_r2_q_7c542340: suodattimet eivät rajaa yhteen sarjaan, usean arvon dimensiot: {'nace_r2': 0}"
+ },
+ "eurostat_lc_lci_r2_q_a3c9956a": {
+  "source": "eurostat",
+  "code": "lc_lci_r2_q",
+  "geo": "FI",
+  "params": {
+   "lcstruct": "D11",
+   "nace_r2": "B-S_X_O",
+   "s_adj": "NSA",
+   "unit": "PCH_SM",
+   "geo": "FI"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-07T13:34:10",
+  "n": 0,
+  "last_obs": null,
+  "error": "SchemaError: eurostat_lc_lci_r2_q_a3c9956a: suodattimet eivät rajaa yhteen sarjaan, usean arvon dimensiot: {'nace_r2': 0}"
+ },
+ "eurostat_lc_lci_r2_q_e363fb75": {
+  "source": "eurostat",
+  "code": "lc_lci_r2_q",
+  "geo": "DE",
+  "params": {
+   "lcstruct": "D11",
+   "nace_r2": "B-S_X_O",
+   "s_adj": "NSA",
+   "unit": "PCH_SM",
+   "geo": "DE"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-07T13:34:11",
+  "n": 0,
+  "last_obs": null,
+  "error": "SchemaError: eurostat_lc_lci_r2_q_e363fb75: suodattimet eivät rajaa yhteen sarjaan, usean arvon dimensiot: {'nace_r2': 0}"
+ },
+ "eurostat_lc_lci_r2_q_7909dd00": {
+  "source": "eurostat",
+  "code": "lc_lci_r2_q",
+  "geo": "EA",
+  "params": {
+   "lcstruct": "D11",
+   "nace_r2": "B-S_X_O",
+   "s_adj": "CA",
+   "unit": "PCH_SM",
+   "geo": "EA"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-07T13:34:11",
+  "n": 0,
+  "last_obs": null,
+  "error": "SchemaError: eurostat_lc_lci_r2_q_7909dd00: suodattimet eivät rajaa yhteen sarjaan, usean arvon dimensiot: {'nace_r2': 0}"
+ },
+ "fred_JTSJOR_19ca7a5d": {
+  "source": "fred",
+  "code": "JTSJOR",
+  "geo": null,
+  "params": {},
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:57",
+  "n": 298,
+  "last_obs": "2026-09-01",
+  "error": null
+ },
+ "eurostat_jvs_q_nace2_4783af2c": {
+  "source": "eurostat",
+  "code": "jvs_q_nace2",
+  "geo": "SE",
+  "params": {
+   "nace_r2": "B-S",
+   "s_adj": "NSA",
+   "indic_em": "JOBRATE",
+   "unit": "PC",
+   "geo": "SE"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-07T13:34:11",
+  "n": 0,
+  "last_obs": null,
+  "error": "FetchError: eurostat_jvs_q_nace2_4783af2c: Eurostat vastasi HTTP 400: { \"error\": [{\"status\": 400,\"id\": 150,\"label\": \"INVALID_QUERY_DIMENSION: Query is invalid as per its structure's definition. Dimension \\\"UNIT\\\" is not defined\"}]}"
+ },
+ "eurostat_jvs_q_nace2_3ef20b00": {
+  "source": "eurostat",
+  "code": "jvs_q_nace2",
+  "geo": "EA",
+  "params": {
+   "nace_r2": "B-S",
+   "s_adj": "NSA",
+   "indic_em": "JOBRATE",
+   "unit": "PC",
+   "geo": "EA"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-07T13:34:11",
+  "n": 0,
+  "last_obs": null,
+  "error": "FetchError: eurostat_jvs_q_nace2_3ef20b00: Eurostat vastasi HTTP 400: { \"error\": [{\"status\": 400,\"id\": 150,\"label\": \"INVALID_QUERY_DIMENSION: Query is invalid as per its structure's definition. Dimension \\\"UNIT\\\" is not defined\"}]}"
+ },
+ "worldbank_BN_CAB_XOKA_GD_ZS_de7d9fe6": {
+  "source": "worldbank",
+  "code": "BN.CAB.XOKA.GD.ZS",
+  "geo": "FIN",
+  "params": {},
+  "freq": "A",
+  "fetched_at": "2026-11-11T00:00:42",
+  "n": 24,
+  "last_obs": "2025-01-01",
+  "error": null
+ },
+ "eurostat_jvs_q_nace2_214c6fdf": {
+  "source": "eurostat",
+  "code": "jvs_q_nace2",
+  "geo": "DE",
+  "params": {
+   "nace_r2": "B-S",
+   "s_adj": "NSA",
+   "indic_em": "JOBRATE",
+   "unit": "PC",
+   "geo": "DE"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-07T13:34:12",
+  "n": 0,
+  "last_obs": null,
+  "error": "FetchError: eurostat_jvs_q_nace2_214c6fdf: Eurostat vastasi HTTP 400: { \"error\": [{\"status\": 400,\"id\": 150,\"label\": \"INVALID_QUERY_DIMENSION: Query is invalid as per its structure's definition. Dimension \\\"UNIT\\\" is not defined\"}]}"
+ },
+ "eurostat_jvs_q_nace2_1be01abd": {
+  "source": "eurostat",
+  "code": "jvs_q_nace2",
+  "geo": "FI",
+  "params": {
+   "nace_r2": "B-S",
+   "s_adj": "SA",
+   "indic_em": "JOBRATE",
+   "unit": "PC",
+   "geo": "FI"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-07T13:34:12",
+  "n": 0,
+  "last_obs": null,
+  "error": "FetchError: eurostat_jvs_q_nace2_1be01abd: Eurostat vastasi HTTP 400: { \"error\": [{\"status\": 400,\"id\": 150,\"label\": \"INVALID_QUERY_DIMENSION: Query is invalid as per its structure's definition. Dimension \\\"UNIT\\\" is not defined\"}]}"
+ },
+ "worldbank_BN_CAB_XOKA_GD_ZS_7f6a498a": {
+  "source": "worldbank",
+  "code": "BN.CAB.XOKA.GD.ZS",
+  "geo": "EMU",
+  "params": {},
+  "freq": "A",
+  "fetched_at": "2026-11-07T23:13:51",
+  "n": 0,
+  "last_obs": null,
+  "error": "RuntimeError: ei havaintoja"
+ },
+ "eurostat_jvs_q_nace2_937b00b3": {
+  "source": "eurostat",
+  "code": "jvs_q_nace2",
+  "geo": "FR",
+  "params": {
+   "nace_r2": "B-S",
+   "s_adj": "NSA",
+   "indic_em": "JOBRATE",
+   "unit": "PC",
+   "geo": "FR"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-07T13:34:12",
+  "n": 0,
+  "last_obs": null,
+  "error": "FetchError: eurostat_jvs_q_nace2_937b00b3: Eurostat vastasi HTTP 400: { \"error\": [{\"status\": 400,\"id\": 150,\"label\": \"INVALID_QUERY_DIMENSION: Query is invalid as per its structure's definition. Dimension \\\"UNIT\\\" is not defined\"}]}"
+ },
+ "worldbank_BN_CAB_XOKA_GD_ZS_9eacc8f2": {
+  "source": "worldbank",
+  "code": "BN.CAB.XOKA.GD.ZS",
+  "geo": "DEU",
+  "params": {},
+  "freq": "A",
+  "fetched_at": "2026-11-11T00:00:42",
+  "n": 24,
+  "last_obs": "2025-01-01",
+  "error": null
+ },
+ "eurostat_lc_lci_r2_q_493e549d": {
+  "source": "eurostat",
+  "code": "lc_lci_r2_q",
+  "geo": "FR",
+  "params": {
+   "lcstruct": "D11",
+   "nace_r2": "B-S_X_O",
+   "s_adj": "NSA",
+   "unit": "PCH_SM",
+   "geo": "FR"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-07T13:34:12",
+  "n": 0,
+  "last_obs": null,
+  "error": "SchemaError: eurostat_lc_lci_r2_q_493e549d: suodattimet eivät rajaa yhteen sarjaan, usean arvon dimensiot: {'nace_r2': 0}"
+ },
+ "worldbank_BN_CAB_XOKA_GD_ZS_e4b3b037": {
+  "source": "worldbank",
+  "code": "BN.CAB.XOKA.GD.ZS",
+  "geo": "SWE",
+  "params": {},
+  "freq": "A",
+  "fetched_at": "2026-11-11T00:00:43",
+  "n": 24,
+  "last_obs": "2025-01-01",
+  "error": null
+ },
+ "worldbank_BN_CAB_XOKA_GD_ZS_e4092a39": {
+  "source": "worldbank",
+  "code": "BN.CAB.XOKA.GD.ZS",
+  "geo": "FRA",
+  "params": {},
+  "freq": "A",
+  "fetched_at": "2026-11-11T00:00:43",
+  "n": 24,
+  "last_obs": "2025-01-01",
+  "error": null
+ },
+ "worldbank_BN_CAB_XOKA_GD_ZS_b011a9b8": {
+  "source": "worldbank",
+  "code": "BN.CAB.XOKA.GD.ZS",
+  "geo": "USA",
+  "params": {},
+  "freq": "A",
+  "fetched_at": "2026-11-11T00:00:44",
+  "n": 24,
+  "last_obs": "2025-01-01",
+  "error": null
+ },
+ "eurostat_jvs_q_nace2_ff3d2993": {
+  "source": "eurostat",
+  "code": "jvs_q_nace2",
+  "geo": "SE",
+  "params": {
+   "nace_r2": "B-S",
+   "s_adj": "SA",
+   "indic_em": "JOBRATE",
+   "unit": "PC",
+   "geo": "SE"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-07T13:34:13",
+  "n": 0,
+  "last_obs": null,
+  "error": "FetchError: eurostat_jvs_q_nace2_ff3d2993: Eurostat vastasi HTTP 400: { \"error\": [{\"status\": 400,\"id\": 150,\"label\": \"INVALID_QUERY_DIMENSION: Query is invalid as per its structure's definition. Dimension \\\"UNIT\\\" is not defined\"}]}"
+ },
+ "worldbank_BN_CAB_XOKA_GD_ZS_1bfee5bb": {
+  "source": "worldbank",
+  "code": "BN.CAB.XOKA.GD.ZS",
+  "geo": "GBR",
+  "params": {},
+  "freq": "A",
+  "fetched_at": "2026-11-11T00:00:44",
+  "n": 24,
+  "last_obs": "2025-01-01",
+  "error": null
+ },
+ "worldbank_BN_CAB_XOKA_GD_ZS_d2099113": {
+  "source": "worldbank",
+  "code": "BN.CAB.XOKA.GD.ZS",
+  "geo": "JPN",
+  "params": {},
+  "freq": "A",
+  "fetched_at": "2026-11-11T00:00:44",
+  "n": 24,
+  "last_obs": "2025-01-01",
+  "error": null
+ },
+ "eurostat_lc_lci_r2_q_6b78b981": {
+  "source": "eurostat",
+  "code": "lc_lci_r2_q",
+  "geo": "EA21",
+  "params": {
+   "lcstruct": "D11",
+   "nace_r2": "B-S_X_O",
+   "s_adj": "CA",
+   "unit": "PCH_SM",
+   "geo": "EA21"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-07T13:34:13",
+  "n": 0,
+  "last_obs": null,
+  "error": "SchemaError: eurostat_lc_lci_r2_q_6b78b981: suodattimet eivät rajaa yhteen sarjaan, usean arvon dimensiot: {'nace_r2': 0}"
+ },
+ "eurostat_jvs_q_nace2_0f3c15a9": {
+  "source": "eurostat",
+  "code": "jvs_q_nace2",
+  "geo": "EA21",
+  "params": {
+   "nace_r2": "B-S",
+   "s_adj": "NSA",
+   "indic_em": "JOBRATE",
+   "unit": "PC",
+   "geo": "EA21"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-07T13:34:13",
+  "n": 0,
+  "last_obs": null,
+  "error": "FetchError: eurostat_jvs_q_nace2_0f3c15a9: Eurostat vastasi HTTP 400: { \"error\": [{\"status\": 400,\"id\": 150,\"label\": \"INVALID_QUERY_DIMENSION: Query is invalid as per its structure's definition. Dimension \\\"UNIT\\\" is not defined\"}]}"
+ },
+ "worldbank_BN_CAB_XOKA_GD_ZS_fbd762f7": {
+  "source": "worldbank",
+  "code": "BN.CAB.XOKA.GD.ZS",
+  "geo": "CHN",
+  "params": {},
+  "freq": "A",
+  "fetched_at": "2026-11-11T00:00:45",
+  "n": 24,
+  "last_obs": "2025-01-01",
+  "error": null
+ },
+ "eurostat_jvs_q_nace2_27f6a64f": {
+  "source": "eurostat",
+  "code": "jvs_q_nace2",
+  "geo": "DE",
+  "params": {
+   "nace_r2": "B-S",
+   "s_adj": "SA",
+   "indic_em": "JOBRATE",
+   "unit": "PC",
+   "geo": "DE"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-07T13:34:14",
+  "n": 0,
+  "last_obs": null,
+  "error": "FetchError: eurostat_jvs_q_nace2_27f6a64f: Eurostat vastasi HTTP 400: { \"error\": [{\"status\": 400,\"id\": 150,\"label\": \"INVALID_QUERY_DIMENSION: Query is invalid as per its structure's definition. Dimension \\\"UNIT\\\" is not defined\"}]}"
+ },
+ "eurostat_jvs_q_nace2_06a5ca20": {
+  "source": "eurostat",
+  "code": "jvs_q_nace2",
+  "geo": "FR",
+  "params": {
+   "nace_r2": "B-S",
+   "s_adj": "SA",
+   "indic_em": "JOBRATE",
+   "unit": "PC",
+   "geo": "FR"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-07T13:34:14",
+  "n": 0,
+  "last_obs": null,
+  "error": "FetchError: eurostat_jvs_q_nace2_06a5ca20: Eurostat vastasi HTTP 400: { \"error\": [{\"status\": 400,\"id\": 150,\"label\": \"INVALID_QUERY_DIMENSION: Query is invalid as per its structure's definition. Dimension \\\"UNIT\\\" is not defined\"}]}"
+ },
+ "eurostat_jvs_q_nace2_374cefef": {
+  "source": "eurostat",
+  "code": "jvs_q_nace2",
+  "geo": "EA20",
+  "params": {
+   "nace_r2": "B-S",
+   "s_adj": "NSA",
+   "indic_em": "JOBRATE",
+   "unit": "PC",
+   "geo": "EA20"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-07T13:34:15",
+  "n": 0,
+  "last_obs": null,
+  "error": "FetchError: eurostat_jvs_q_nace2_374cefef: Eurostat vastasi HTTP 400: { \"error\": [{\"status\": 400,\"id\": 150,\"label\": \"INVALID_QUERY_DIMENSION: Query is invalid as per its structure's definition. Dimension \\\"UNIT\\\" is not defined\"}]}"
+ },
+ "eurostat_lc_lci_r2_q_e40536a2": {
+  "source": "eurostat",
+  "code": "lc_lci_r2_q",
+  "geo": "EA20",
+  "params": {
+   "lcstruct": "D11",
+   "nace_r2": "B-S_X_O",
+   "s_adj": "CA",
+   "unit": "PCH_SM",
+   "geo": "EA20"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-07T13:34:15",
+  "n": 0,
+  "last_obs": null,
+  "error": "SchemaError: eurostat_lc_lci_r2_q_e40536a2: suodattimet eivät rajaa yhteen sarjaan, usean arvon dimensiot: {'nace_r2': 0}"
+ },
+ "eurostat_jvs_q_nace2_902ad04f": {
+  "source": "eurostat",
+  "code": "jvs_q_nace2",
+  "geo": "EA",
+  "params": {
+   "nace_r2": "B-S",
+   "s_adj": "SA",
+   "indic_em": "JOBRATE",
+   "unit": "PC",
+   "geo": "EA"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-07T13:34:16",
+  "n": 0,
+  "last_obs": null,
+  "error": "FetchError: eurostat_jvs_q_nace2_902ad04f: Eurostat vastasi HTTP 400: { \"error\": [{\"status\": 400,\"id\": 150,\"label\": \"INVALID_QUERY_DIMENSION: Query is invalid as per its structure's definition. Dimension \\\"UNIT\\\" is not defined\"}]}"
+ },
+ "eurostat_lc_lci_r2_q_588c54fc": {
+  "source": "eurostat",
+  "code": "lc_lci_r2_q",
+  "geo": "EA",
+  "params": {
+   "lcstruct": "D11",
+   "nace_r2": "B-S_X_O",
+   "s_adj": "NSA",
+   "unit": "PCH_SM",
+   "geo": "EA"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-07T13:34:16",
+  "n": 0,
+  "last_obs": null,
+  "error": "SchemaError: eurostat_lc_lci_r2_q_588c54fc: suodattimet eivät rajaa yhteen sarjaan, usean arvon dimensiot: {'nace_r2': 0}"
+ },
+ "eurostat_jvs_q_nace2_3dd70117": {
+  "source": "eurostat",
+  "code": "jvs_q_nace2",
+  "geo": "EA21",
+  "params": {
+   "nace_r2": "B-S",
+   "s_adj": "SA",
+   "indic_em": "JOBRATE",
+   "unit": "PC",
+   "geo": "EA21"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-07T13:34:17",
+  "n": 0,
+  "last_obs": null,
+  "error": "FetchError: eurostat_jvs_q_nace2_3dd70117: Eurostat vastasi HTTP 400: { \"error\": [{\"status\": 400,\"id\": 150,\"label\": \"INVALID_QUERY_DIMENSION: Query is invalid as per its structure's definition. Dimension \\\"UNIT\\\" is not defined\"}]}"
+ },
+ "eurostat_lc_lci_r2_q_abf95c6a": {
+  "source": "eurostat",
+  "code": "lc_lci_r2_q",
+  "geo": "EA21",
+  "params": {
+   "lcstruct": "D11",
+   "nace_r2": "B-S_X_O",
+   "s_adj": "NSA",
+   "unit": "PCH_SM",
+   "geo": "EA21"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-07T13:34:18",
+  "n": 0,
+  "last_obs": null,
+  "error": "SchemaError: eurostat_lc_lci_r2_q_abf95c6a: suodattimet eivät rajaa yhteen sarjaan, usean arvon dimensiot: {'nace_r2': 0}"
+ },
+ "eurostat_jvs_q_nace2_56802fd8": {
+  "source": "eurostat",
+  "code": "jvs_q_nace2",
+  "geo": "EA20",
+  "params": {
+   "nace_r2": "B-S",
+   "s_adj": "SA",
+   "indic_em": "JOBRATE",
+   "unit": "PC",
+   "geo": "EA20"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-07T13:34:18",
+  "n": 0,
+  "last_obs": null,
+  "error": "FetchError: eurostat_jvs_q_nace2_56802fd8: Eurostat vastasi HTTP 400: { \"error\": [{\"status\": 400,\"id\": 150,\"label\": \"INVALID_QUERY_DIMENSION: Query is invalid as per its structure's definition. Dimension \\\"UNIT\\\" is not defined\"}]}"
+ },
+ "eurostat_lc_lci_r2_q_d9be1be3": {
+  "source": "eurostat",
+  "code": "lc_lci_r2_q",
+  "geo": "EA20",
+  "params": {
+   "lcstruct": "D11",
+   "nace_r2": "B-S_X_O",
+   "s_adj": "NSA",
+   "unit": "PCH_SM",
+   "geo": "EA20"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-07T13:34:19",
+  "n": 0,
+  "last_obs": null,
+  "error": "SchemaError: eurostat_lc_lci_r2_q_d9be1be3: suodattimet eivät rajaa yhteen sarjaan, usean arvon dimensiot: {'nace_r2': 0}"
+ },
+ "oecd_OECD_SDD_TPS_DSD_PRICES_DF_PRICES_ALL_fc27ed29": {
+  "source": "oecd",
+  "code": "OECD.SDD.TPS,DSD_PRICES@DF_PRICES_ALL",
+  "geo": "GBR",
+  "params": {
+   "key": "GBR.M.N.CPI.PA._T.N.GY"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-10T23:59:51",
+  "n": 298,
+  "last_obs": "2026-09-01",
+  "error": null
+ },
+ "oecd_OECD_SDD_TPS_DSD_PRICES_DF_PRICES_ALL_84ef64f5": {
+  "source": "oecd",
+  "code": "OECD.SDD.TPS,DSD_PRICES@DF_PRICES_ALL",
+  "geo": "JPN",
+  "params": {
+   "key": "JPN.M.N.CPI.PA._T.N.GY"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-09T22:22:32",
+  "n": 235,
+  "last_obs": "2021-06-01",
+  "error": null
+ },
+ "oecd_OECD_SDD_TPS_DSD_PRICES_DF_PRICES_ALL_764d2c77": {
+  "source": "oecd",
+  "code": "OECD.SDD.TPS,DSD_PRICES@DF_PRICES_ALL",
+  "geo": "CHN",
+  "params": {
+   "key": "CHN.M.N.CPI.PA._T.N.GY"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-10T23:59:52",
+  "n": 298,
+  "last_obs": "2026-09-01",
+  "error": null
+ },
+ "oecd_OECD_SDD_TPS_DSD_PRICES_DF_PRICES_ALL_cf64db13": {
+  "source": "oecd",
+  "code": "OECD.SDD.TPS,DSD_PRICES@DF_PRICES_ALL",
+  "geo": "GBR",
+  "params": {
+   "key": "GBR.M.N.CPI.PC._T.N.G1"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-10T23:59:52",
+  "n": 298,
+  "last_obs": "2026-09-01",
+  "error": null
+ },
+ "oecd_OECD_SDD_TPS_DSD_PRICES_DF_PRICES_ALL_661cba87": {
+  "source": "oecd",
+  "code": "OECD.SDD.TPS,DSD_PRICES@DF_PRICES_ALL",
+  "geo": "JPN",
+  "params": {
+   "key": "JPN.M.N.CPI.PC._T.N.G1"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-09T22:22:33",
+  "n": 235,
+  "last_obs": "2021-06-01",
+  "error": null
+ },
+ "oecd_OECD_SDD_TPS_DSD_PRICES_DF_PRICES_ALL_fcd9505b": {
+  "source": "oecd",
+  "code": "OECD.SDD.TPS,DSD_PRICES@DF_PRICES_ALL",
+  "geo": "CHN",
+  "params": {
+   "key": "CHN.M.N.CPI.PC._T.N.G1"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-10T23:59:53",
+  "n": 298,
+  "last_obs": "2026-09-01",
+  "error": null
+ },
+ "oecd_OECD_SDD_TPS_DSD_PRICES_DF_PRICES_ALL_28b79728": {
+  "source": "oecd",
+  "code": "OECD.SDD.TPS,DSD_PRICES@DF_PRICES_ALL",
+  "geo": "GBR",
+  "params": {
+   "key": "GBR.M.N.CPI.PA._TXCP01_NRG.N.GY"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-10T23:59:53",
+  "n": 298,
+  "last_obs": "2026-09-01",
+  "error": null
+ },
+ "oecd_OECD_SDD_TPS_DSD_PRICES_DF_PRICES_ALL_70f6e915": {
+  "source": "oecd",
+  "code": "OECD.SDD.TPS,DSD_PRICES@DF_PRICES_ALL",
+  "geo": "JPN",
+  "params": {
+   "key": "JPN.M.N.CPI.PA._TXCP01_NRG.N.GY"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-10T23:59:53",
+  "n": 235,
+  "last_obs": "2021-06-01",
+  "error": null
+ },
+ "oecd_OECD_SDD_TPS_DSD_PRICES_DF_PRICES_ALL_06c434aa": {
+  "source": "oecd",
+  "code": "OECD.SDD.TPS,DSD_PRICES@DF_PRICES_ALL",
+  "geo": "CHN",
+  "params": {
+   "key": "CHN.M.N.CPI.PA._TXCP01_NRG.N.GY"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-07T23:12:35",
+  "n": 0,
+  "last_obs": null,
+  "error": "FetchError: oecd_OECD_SDD_TPS_DSD_PRICES_DF_PRICES_ALL_06c434aa: OECD vastasi HTTP 404: NoRecordsFound"
+ },
+ "oecd_OECD_SDD_STES_DSD_STES_DF_INDSERV_a5860ba7": {
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_INDSERV",
+  "geo": "GBR",
+  "params": {
+   "key": "GBR.M.PRVM.IX.BTE.Y._Z._Z.N"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-10T23:59:54",
+  "n": 297,
+  "last_obs": "2026-08-01",
+  "error": null
+ },
+ "oecd_OECD_SDD_STES_DSD_STES_DF_INDSERV_515602df": {
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_INDSERV",
+  "geo": "JPN",
+  "params": {
+   "key": "JPN.M.PRVM.IX.BTE.Y._Z._Z.N"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-10T23:59:55",
+  "n": 298,
+  "last_obs": "2026-09-01",
+  "error": null
+ },
+ "oecd_OECD_SDD_STES_DSD_STES_DF_INDSERV_44f00a78": {
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_INDSERV",
+  "geo": "CHN",
+  "params": {
+   "key": "CHN.M.PRVM.IX.BTE.Y._Z._Z.N"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-07T23:12:37",
+  "n": 0,
+  "last_obs": null,
+  "error": "FetchError: oecd_OECD_SDD_STES_DSD_STES_DF_INDSERV_44f00a78: OECD vastasi HTTP 404: NoRecordsFound"
+ },
+ "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_34493d25": {
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "FIN",
+  "params": {
+   "key": "FIN.M.BCICP.IX._Z.AA.IX._Z.H"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-10T23:59:55",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_66bb0a3f": {
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "EA20",
+  "params": {
+   "key": "EA20.M.BCICP.IX._Z.AA.IX._Z.H"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-10T23:59:55",
+  "n": 298,
+  "last_obs": "2026-09-01",
+  "error": null
+ },
+ "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_8b798006": {
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "DEU",
+  "params": {
+   "key": "DEU.M.BCICP.IX._Z.AA.IX._Z.H"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-10T23:59:55",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_f090b16c": {
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "FRA",
+  "params": {
+   "key": "FRA.M.BCICP.IX._Z.AA.IX._Z.H"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-10T23:59:56",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_ee087877": {
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "SWE",
+  "params": {
+   "key": "SWE.M.BCICP.IX._Z.AA.IX._Z.H"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-10T23:59:56",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_9bdc8914": {
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "USA",
+  "params": {
+   "key": "USA.M.BCICP.IX._Z.AA.IX._Z.H"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-10T23:59:56",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_ad161947": {
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "GBR",
+  "params": {
+   "key": "GBR.M.BCICP.IX._Z.AA.IX._Z.H"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-10T23:59:56",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_3cb7beac": {
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "JPN",
+  "params": {
+   "key": "JPN.M.BCICP.IX._Z.AA.IX._Z.H"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-10T23:59:56",
+  "n": 298,
+  "last_obs": "2026-09-01",
+  "error": null
+ },
+ "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_3d422cbf": {
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "CHN",
+  "params": {
+   "key": "CHN.M.BCICP.IX._Z.AA.IX._Z.H"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:03",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_4b6e97a9": {
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "FIN",
+  "params": {
+   "key": "FIN.M.CCICP.IX._Z.AA.IX._Z.H"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:04",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_68adbcb1": {
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "EA20",
+  "params": {
+   "key": "EA20.M.CCICP.IX._Z.AA.IX._Z.H"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:07",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_6f82fce4": {
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "DEU",
+  "params": {
+   "key": "DEU.M.CCICP.IX._Z.AA.IX._Z.H"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:11",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_e526a309": {
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "FRA",
+  "params": {
+   "key": "FRA.M.CCICP.IX._Z.AA.IX._Z.H"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:14",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_60b9a061": {
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "SWE",
+  "params": {
+   "key": "SWE.M.CCICP.IX._Z.AA.IX._Z.H"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:17",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_a615db19": {
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "USA",
+  "params": {
+   "key": "USA.M.CCICP.IX._Z.AA.IX._Z.H"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:21",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_d167ba36": {
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "GBR",
+  "params": {
+   "key": "GBR.M.CCICP.IX._Z.AA.IX._Z.H"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:24",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_80fa7822": {
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "JPN",
+  "params": {
+   "key": "JPN.M.CCICP.IX._Z.AA.IX._Z.H"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:28",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_e27fbee8": {
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "CHN",
+  "params": {
+   "key": "CHN.M.CCICP.IX._Z.AA.IX._Z.H"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:28",
+  "n": 298,
+  "last_obs": "2026-09-01",
+  "error": null
+ },
+ "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_e2154384": {
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "FIN",
+  "params": {
+   "key": "FIN.M.LI.IX._Z.AA.IX._Z.H"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-07T23:13:33",
+  "n": 0,
+  "last_obs": null,
+  "error": "FetchError: oecd_OECD_SDD_STES_DSD_STES_DF_CLI_e2154384: OECD vastasi HTTP 404: NoRecordsFound"
+ },
+ "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_bd93f160": {
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "EA20",
+  "params": {
+   "key": "EA20.M.LI.IX._Z.AA.IX._Z.H"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-07T23:13:37",
+  "n": 0,
+  "last_obs": null,
+  "error": "FetchError: oecd_OECD_SDD_STES_DSD_STES_DF_CLI_bd93f160: OECD vastasi HTTP 404: NoRecordsFound"
+ },
+ "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_282ff4bc": {
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "DEU",
+  "params": {
+   "key": "DEU.M.LI.IX._Z.AA.IX._Z.H"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:31",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_81ec1903": {
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "FRA",
+  "params": {
+   "key": "FRA.M.LI.IX._Z.AA.IX._Z.H"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:34",
+  "n": 298,
+  "last_obs": "2026-09-01",
+  "error": null
+ },
+ "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_7385ee1d": {
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "SWE",
+  "params": {
+   "key": "SWE.M.LI.IX._Z.AA.IX._Z.H"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-07T23:13:45",
+  "n": 0,
+  "last_obs": null,
+  "error": "FetchError: oecd_OECD_SDD_STES_DSD_STES_DF_CLI_7385ee1d: OECD vastasi HTTP 404: NoRecordsFound"
+ },
+ "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_1401443e": {
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "USA",
+  "params": {
+   "key": "USA.M.LI.IX._Z.AA.IX._Z.H"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:38",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "eurostat_lc_lci_r2_q_2c6f874e": {
+  "source": "eurostat",
+  "code": "lc_lci_r2_q",
+  "geo": "FI",
+  "params": {
+   "lcstruct": "D11",
+   "nace_r2": "B-S",
+   "s_adj": "SCA",
+   "unit": "PCH_SM",
+   "geo": "FI"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-11T00:00:39",
+  "n": 98,
+  "last_obs": "2026-04-01",
+  "error": null
+ },
+ "eurostat_namq_10_pe_ad0a8988": {
+  "source": "eurostat",
+  "code": "namq_10_pe",
+  "geo": "FR",
+  "params": {
+   "s_adj": "SA",
+   "na_item": "EMP_DC",
+   "unit": "THS_PER",
+   "geo": "FR"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-11T00:00:40",
+  "n": 98,
+  "last_obs": "2026-04-01",
+  "error": null
+ },
+ "eurostat_lc_lci_r2_q_8003b107": {
+  "source": "eurostat",
+  "code": "lc_lci_r2_q",
+  "geo": "EA",
+  "params": {
+   "lcstruct": "D11",
+   "nace_r2": "B-S",
+   "s_adj": "SCA",
+   "unit": "PCH_SM",
+   "geo": "EA"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-11T00:00:39",
+  "n": 70,
+  "last_obs": "2026-04-01",
+  "error": null
+ },
+ "eurostat_lc_lci_r2_q_b3661870": {
+  "source": "eurostat",
+  "code": "lc_lci_r2_q",
+  "geo": "DE",
+  "params": {
+   "lcstruct": "D11",
+   "nace_r2": "B-S",
+   "s_adj": "SCA",
+   "unit": "PCH_SM",
+   "geo": "DE"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-11T00:00:39",
+  "n": 98,
+  "last_obs": "2026-04-01",
+  "error": null
+ },
+ "eurostat_lc_lci_r2_q_06b721f7": {
+  "source": "eurostat",
+  "code": "lc_lci_r2_q",
+  "geo": "FR",
+  "params": {
+   "lcstruct": "D11",
+   "nace_r2": "B-S",
+   "s_adj": "SCA",
+   "unit": "PCH_SM",
+   "geo": "FR"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-11T00:00:40",
+  "n": 70,
+  "last_obs": "2026-04-01",
+  "error": null
+ },
+ "eurostat_lc_lci_r2_q_64c87045": {
+  "source": "eurostat",
+  "code": "lc_lci_r2_q",
+  "geo": "SE",
+  "params": {
+   "lcstruct": "D11",
+   "nace_r2": "B-S",
+   "s_adj": "SCA",
+   "unit": "PCH_SM",
+   "geo": "SE"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-11T00:00:40",
+  "n": 70,
+  "last_obs": "2026-04-01",
+  "error": null
+ },
+ "eurostat_jvs_q_nace2_339cec3e": {
+  "source": "eurostat",
+  "code": "jvs_q_nace2",
+  "geo": "FI",
+  "params": {
+   "indic_em": "JVR",
+   "nace_r2": "B-S",
+   "s_adj": "SA",
+   "sizeclas": "TOTAL",
+   "geo": "FI"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-11T00:00:40",
+  "n": 52,
+  "last_obs": "2025-10-01",
+  "error": null
+ },
+ "eurostat_jvs_q_nace2_b46d10d2": {
+  "source": "eurostat",
+  "code": "jvs_q_nace2",
+  "geo": "EA",
+  "params": {
+   "indic_em": "JVR",
+   "nace_r2": "B-S",
+   "s_adj": "SA",
+   "sizeclas": "TOTAL",
+   "geo": "EA"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-11T00:00:41",
+  "n": 0,
+  "last_obs": null,
+  "error": "SchemaError: eurostat_jvs_q_nace2_b46d10d2: suodattimet eivät rajaa yhteen sarjaan, usean arvon dimensiot: {'geo': 0}"
+ },
+ "eurostat_jvs_q_nace2_4ac4adc3": {
+  "source": "eurostat",
+  "code": "jvs_q_nace2",
+  "geo": "DE",
+  "params": {
+   "indic_em": "JVR",
+   "nace_r2": "B-S",
+   "s_adj": "SA",
+   "sizeclas": "TOTAL",
+   "geo": "DE"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-11T00:00:41",
+  "n": 61,
+  "last_obs": "2025-10-01",
+  "error": null
+ },
+ "eurostat_jvs_q_nace2_2fb9ac8c": {
+  "source": "eurostat",
+  "code": "jvs_q_nace2",
+  "geo": "FR",
+  "params": {
+   "indic_em": "JVR",
+   "nace_r2": "B-S",
+   "s_adj": "SA",
+   "sizeclas": "TOTAL",
+   "geo": "FR"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-11T00:00:41",
+  "n": 58,
+  "last_obs": "2025-10-01",
+  "error": null
+ },
+ "eurostat_jvs_q_nace2_59abade7": {
+  "source": "eurostat",
+  "code": "jvs_q_nace2",
+  "geo": "SE",
+  "params": {
+   "indic_em": "JVR",
+   "nace_r2": "B-S",
+   "s_adj": "SA",
+   "sizeclas": "TOTAL",
+   "geo": "SE"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-11T00:00:41",
+  "n": 64,
+  "last_obs": "2025-10-01",
+  "error": null
+ },
+ "eurostat_jvs_q_nace2_d0fd3b89": {
+  "source": "eurostat",
+  "code": "jvs_q_nace2",
+  "geo": "EA21",
+  "params": {
+   "indic_em": "JVR",
+   "nace_r2": "B-S",
+   "s_adj": "SA",
+   "sizeclas": "TOTAL",
+   "geo": "EA21"
+  },
+  "freq": "Q",
+  "fetched_at": "2026-11-11T00:00:41",
+  "n": 80,
+  "last_obs": "2025-10-01",
+  "error": null
+ },
+ "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_b48997fa": {
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "GBR",
+  "params": {
+   "key": "GBR.M.LI.IX._Z.AA.IX._Z.H"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:41",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_0aecc761": {
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "JPN",
+  "params": {
+   "key": "JPN.M.LI.IX._Z.AA.IX._Z.H"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:44",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_a7ef52ea": {
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "CHN",
+  "params": {
+   "key": "CHN.M.LI.IX._Z.AA.IX._Z.H"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-11T00:00:48",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "oecd_OECD_SDD_STES_DSD_STES_DF_CLI_d8c3e93b": {
+  "source": "oecd",
+  "code": "OECD.SDD.STES,DSD_STES@DF_CLI",
+  "geo": "EA21",
+  "params": {
+   "key": "EA21.M.LI.IX._Z.AA.IX._Z.H"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-07T23:14:01",
+  "n": 0,
+  "last_obs": null,
+  "error": "FetchError: oecd_OECD_SDD_STES_DSD_STES_DF_CLI_d8c3e93b: OECD vastasi HTTP 404: NoRecordsFound"
+ },
+ "eurostat_prc_hicp_minr_821089e4": {
+  "source": "eurostat",
+  "code": "prc_hicp_minr",
+  "geo": "FI",
+  "params": {
+   "unit": "RCH_A",
+   "coicop18": "TOTAL",
+   "geo": "FI"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-10T23:59:51",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "eurostat_prc_hicp_minr_3e49073e": {
+  "source": "eurostat",
+  "code": "prc_hicp_minr",
+  "geo": "FR",
+  "params": {
+   "unit": "RCH_A",
+   "coicop18": "TOTAL",
+   "geo": "FR"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-10T23:59:51",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "eurostat_prc_hicp_minr_b2a6d7ea": {
+  "source": "eurostat",
+  "code": "prc_hicp_minr",
+  "geo": "DE",
+  "params": {
+   "unit": "RCH_A",
+   "coicop18": "TOTAL",
+   "geo": "DE"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-10T23:59:51",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "eurostat_prc_hicp_minr_d338297c": {
+  "source": "eurostat",
+  "code": "prc_hicp_minr",
+  "geo": "EA",
+  "params": {
+   "unit": "RCH_A",
+   "coicop18": "TOTAL",
+   "geo": "EA"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-10T23:59:51",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "eurostat_prc_hicp_minr_7410f39b": {
+  "source": "eurostat",
+  "code": "prc_hicp_minr",
+  "geo": "SE",
+  "params": {
+   "unit": "RCH_A",
+   "coicop18": "TOTAL",
+   "geo": "SE"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-10T23:59:51",
+  "n": 298,
+  "last_obs": "2026-09-01",
+  "error": null
+ },
+ "eurostat_prc_hicp_minr_728a27b3": {
+  "source": "eurostat",
+  "code": "prc_hicp_minr",
+  "geo": "FI",
+  "params": {
+   "unit": "RCH_M",
+   "coicop18": "TOTAL",
+   "geo": "FI"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-10T23:59:51",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "eurostat_prc_hicp_minr_8d6ceb1a": {
+  "source": "eurostat",
+  "code": "prc_hicp_minr",
+  "geo": "EA",
+  "params": {
+   "unit": "RCH_M",
+   "coicop18": "TOTAL",
+   "geo": "EA"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-10T23:59:51",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "eurostat_prc_hicp_minr_7899a67b": {
+  "source": "eurostat",
+  "code": "prc_hicp_minr",
+  "geo": "DE",
+  "params": {
+   "unit": "RCH_M",
+   "coicop18": "TOTAL",
+   "geo": "DE"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-10T23:59:51",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "eurostat_prc_hicp_minr_1f1c51ca": {
+  "source": "eurostat",
+  "code": "prc_hicp_minr",
+  "geo": "FR",
+  "params": {
+   "unit": "RCH_M",
+   "coicop18": "TOTAL",
+   "geo": "FR"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-10T23:59:51",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "eurostat_prc_hicp_minr_26b21a4c": {
+  "source": "eurostat",
+  "code": "prc_hicp_minr",
+  "geo": "SE",
+  "params": {
+   "unit": "RCH_M",
+   "coicop18": "TOTAL",
+   "geo": "SE"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-10T23:59:51",
+  "n": 298,
+  "last_obs": "2026-09-01",
+  "error": null
+ },
+ "eurostat_prc_hicp_minr_b7ea8d8e": {
+  "source": "eurostat",
+  "code": "prc_hicp_minr",
+  "geo": "FI",
+  "params": {
+   "unit": "RCH_A",
+   "coicop18": "TOT_X_NRG_FOOD_NP",
+   "geo": "FI"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-09T22:22:32",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "eurostat_prc_hicp_minr_e4bf7174": {
+  "source": "eurostat",
+  "code": "prc_hicp_minr",
+  "geo": "EA",
+  "params": {
+   "unit": "RCH_A",
+   "coicop18": "TOT_X_NRG_FOOD_NP",
+   "geo": "EA"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-09T22:22:33",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "eurostat_prc_hicp_minr_f2319c64": {
+  "source": "eurostat",
+  "code": "prc_hicp_minr",
+  "geo": "DE",
+  "params": {
+   "unit": "RCH_A",
+   "coicop18": "TOT_X_NRG_FOOD_NP",
+   "geo": "DE"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-09T22:22:33",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "eurostat_prc_hicp_minr_1b844b1e": {
+  "source": "eurostat",
+  "code": "prc_hicp_minr",
+  "geo": "FR",
+  "params": {
+   "unit": "RCH_A",
+   "coicop18": "TOT_X_NRG_FOOD_NP",
+   "geo": "FR"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-09T22:22:33",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "eurostat_prc_hicp_minr_9d01e5d4": {
+  "source": "eurostat",
+  "code": "prc_hicp_minr",
+  "geo": "SE",
+  "params": {
+   "unit": "RCH_A",
+   "coicop18": "TOT_X_NRG_FOOD_NP",
+   "geo": "SE"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-09T22:22:33",
+  "n": 298,
+  "last_obs": "2026-09-01",
+  "error": null
+ },
+ "oecd_OECD_SDD_TPS_DSD_PRICES_COICOP2018_DF_PR_e80241c3": {
+  "source": "oecd",
+  "code": "OECD.SDD.TPS,DSD_PRICES_COICOP2018@DF_PRICES_C2018_ALL",
+  "geo": "JPN",
+  "params": {
+   "key": "JPN.M.N.CPI.PA._T.N.GY"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-10T23:59:52",
+  "n": 298,
+  "last_obs": "2026-09-01",
+  "error": null
+ },
+ "eurostat_prc_hicp_minr_89df2a76": {
+  "source": "eurostat",
+  "code": "prc_hicp_minr",
+  "geo": "DE",
+  "params": {
+   "unit": "RCH_A",
+   "coicop18": "TOT_X_NRG_FOOD",
+   "geo": "DE"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-10T23:59:52",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "eurostat_prc_hicp_minr_9ab3bee1": {
+  "source": "eurostat",
+  "code": "prc_hicp_minr",
+  "geo": "EA",
+  "params": {
+   "unit": "RCH_A",
+   "coicop18": "TOT_X_NRG_FOOD",
+   "geo": "EA"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-10T23:59:52",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "eurostat_prc_hicp_minr_f605185c": {
+  "source": "eurostat",
+  "code": "prc_hicp_minr",
+  "geo": "FI",
+  "params": {
+   "unit": "RCH_A",
+   "coicop18": "TOT_X_NRG_FOOD",
+   "geo": "FI"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-10T23:59:52",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "eurostat_prc_hicp_minr_a8c8e5da": {
+  "source": "eurostat",
+  "code": "prc_hicp_minr",
+  "geo": "FR",
+  "params": {
+   "unit": "RCH_A",
+   "coicop18": "TOT_X_NRG_FOOD",
+   "geo": "FR"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-10T23:59:52",
+  "n": 299,
+  "last_obs": "2026-10-01",
+  "error": null
+ },
+ "oecd_OECD_SDD_TPS_DSD_PRICES_COICOP2018_DF_PR_af151bf7": {
+  "source": "oecd",
+  "code": "OECD.SDD.TPS,DSD_PRICES_COICOP2018@DF_PRICES_C2018_ALL",
+  "geo": "JPN",
+  "params": {
+   "key": "JPN.M.N.CPI.PC._T.N.G1"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-10T23:59:53",
+  "n": 298,
+  "last_obs": "2026-09-01",
+  "error": null
+ },
+ "eurostat_prc_hicp_minr_c773d8e2": {
+  "source": "eurostat",
+  "code": "prc_hicp_minr",
+  "geo": "SE",
+  "params": {
+   "unit": "RCH_A",
+   "coicop18": "TOT_X_NRG_FOOD",
+   "geo": "SE"
+  },
+  "freq": "M",
+  "fetched_at": "2026-11-10T23:59:53",
+  "n": 298,
+  "last_obs": "2026-09-01",
+  "error": null
+ }
+}

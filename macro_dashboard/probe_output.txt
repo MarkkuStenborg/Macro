@@ -1,0 +1,169 @@
+=== dbn-series STATJP/CPIm all items  (Japanin KPI (Statistics Bureau))
+sarjoja yhteensä 9; näytetään 9:
+  STATJP/CPIm/001  [2026-09=114.5]  All items
+  STATJP/CPIm/733  [2026-09=113.8]  All items, less fresh food
+  STATJP/CPIm/735  [2026-09=116.9]  All items, less imputed rent
+  STATJP/CPIm/738  [2026-09=116.3]  All items, less imputed rent & fresh food
+  STATJP/CPIm/740  [2026-09=113.4]  All items, less fresh food and energy
+  STATJP/CPIm/741  [2026-09=107.9]  All items, less food (less alcoholic beverages) and energy
+  STATJP/CPIm/901  [2026-09=114.7]  All items, seasonally adjusted
+  STATJP/CPIm/902  [2026-09=114.1]  All items, less fresh food, seasonally adjusted
+  STATJP/CPIm/903  [2026-09=113.4]  All items, less fresh food and energy, seasonally adjusted
+
+=== dbn-series ESRI/ritu-jk   (Japanin BKT, muutos % (Cabinet Office, kausitasoitettu))
+sarjoja yhteensä 24; näytetään 20:
+  ESRI/ritu-jk/ChPrIn  [2025-Q2=NA]  Change in Private Inventories
+  ESRI/ritu-jk/ChPuIn  [2025-Q2=NA]  Change in Public Inventories
+  ESRI/ritu-jk/CoHo  [2025-Q2=0.4]  Consumption of Households
+  ESRI/ritu-jk/DoDe  [2025-Q2=0.2]  Domestic Demand
+  ESRI/ritu-jk/ExImRe  [2025-Q2=0.4]  Excluding Imputed Rent
+  ESRI/ritu-jk/FSDP  [2025-Q2=0.6]  Final Sales of Domestic Product
+  ESRI/ritu-jk/GDI  [2025-Q2=1.1]  GDI
+  ESRI/ritu-jk/GDP  [2025-Q2=0.5]  GDP
+  ESRI/ritu-jk/GFCF  [2025-Q2=0.4]  Gross Fixed Capital Formation
+  ESRI/ritu-jk/GNI  [2025-Q2=0.5]  GNI
+  ESRI/ritu-jk/GSNE  [2025-Q2=NA]  Goods & Services, Net Exports
+  ESRI/ritu-jk/GoCo  [2025-Q2=0.0]  Government Consumption
+  ESRI/ritu-jk/GoSeEx  [2025-Q2=2.0]  Goods & Services, Exports
+  ESRI/ritu-jk/GoSeIm  [2025-Q2=0.6]  Goods & Services, Imports
+  ESRI/ritu-jk/IfRWN  [2025-Q2=NA]  Income from/to the Rest of the World, Net
+  ESRI/ritu-jk/IfRWP  [2025-Q2=0.6]  Income from/to the Rest of the World, Payment
+  ESRI/ritu-jk/IfRWR  [2025-Q2=-4.6]  Income from/to the Rest of the World, Receipt
+  ESRI/ritu-jk/PrCo  [2025-Q2=0.4]  Private Consumption
+  ESRI/ritu-jk/PrDe  [2025-Q2=0.4]  Private Demand
+  ESRI/ritu-jk/PrNo  [2025-Q2=0.6]  Private Non-Resi.Investment
+
+=== dbn-series ESRI/gaku-jk   (Japanin BKT, taso (Cabinet Office, kausitasoitettu))
+sarjoja yhteensä 25; näytetään 20:
+  ESRI/gaku-jk/ChPrIn  [2025-Q2=2942.0]  Change in Private Inventories
+  ESRI/gaku-jk/ChPuIn  [2025-Q2=-119.4]  Change in Public Inventories
+  ESRI/gaku-jk/CoHo  [2025-Q2=292765.7]  Consumption of Households
+  ESRI/gaku-jk/DoDe  [2025-Q2=561179.2]  Domestic Demand
+  ESRI/gaku-jk/ExImRe  [2025-Q2=242559.9]  Excluding Imputed Rent
+  ESRI/gaku-jk/FSDP  [2025-Q2=561614.7]  Final Sales of Domestic Product
+  ESRI/gaku-jk/GDI  [2025-Q2=559856.9]  GDI
+  ESRI/gaku-jk/GDP  [2025-Q2=564278.8]  GDP
+  ESRI/gaku-jk/GFCF  [2025-Q2=138323.5]  Gross Fixed Capital Formation
+  ESRI/gaku-jk/GNI  [2025-Q2=594061.4]  GNI
+  ESRI/gaku-jk/GSNE  [2025-Q2=3104.8]  Goods & Services, Net Exports
+  ESRI/gaku-jk/GoCo  [2025-Q2=119300.8]  Government Consumption
+  ESRI/gaku-jk/GoSeEx  [2025-Q2=117794.7]  Goods & Services, Exports
+  ESRI/gaku-jk/GoSeIm  [2025-Q2=114689.9]  Goods & Services, Imports
+  ESRI/gaku-jk/IfRWN  [2025-Q2=34204.4]  Income from/to the Rest of the World, Net
+  ESRI/gaku-jk/IfRWP  [2025-Q2=23313.9]  Income from/to the Rest of the World, Payment
+  ESRI/gaku-jk/IfRWR  [2025-Q2=57518.3]  Income from/to the Rest of the World, Receipt
+  ESRI/gaku-jk/PrCo  [2025-Q2=300860.9]  Private Consumption
+  ESRI/gaku-jk/PrDe  [2025-Q2=416201.3]  Private Demand
+  ESRI/gaku-jk/PrNo  [2025-Q2=93710.2]  Private Non-Resi.Investment
+
+=== dbn-datasets NBS   (Kiinan NBS: aineistot (KPI, teollisuus, BKT))
+aineistoja 500, avainsanoilla 174:
+  NBS/A_A0102: Per Capita Output of Major Industrial and Agricultural Products
+  NBS/A_A010301: Number of Legal Entities by Three Strata of Industry
+  NBS/A_A010504: Investment in Fixed Assets in Ethnic Minority Autonomous Regions
+  NBS/A_A010507: Industry in Ethnic Minority Autonomous Regions
+  NBS/A_A0201: Gross Domestic Product
+  NBS/A_A020201: Indices of Gross Domestic Product (preceding year=100)
+  NBS/A_A020202: Indices of Gross Domestic Product (1978=100)
+  NBS/A_A0203: Composition of GDP by the three strata of industry
+  NBS/A_A0204: Value-added by industries
+  NBS/A_A020501: Value-added index by industries (preceding year=100)
+  NBS/A_A020502: Value-added index by industries (1978=100)
+  NBS/A_A0206: Composition of GDP by industries
+  NBS/A_A0207: Share of the Contributions of the Three Strata of Industry  to the Increase of the GDP
+  NBS/A_A0208: Contribution of the Three Strata of Industry to GDP Growth
+  NBS/A_A0209: Gross Domestic Product by Expenditure Approach
+  NBS/A_A020A: Contribution Share and Contribution of the Three Components of GDP to the Growth of GDP
+  NBS/A_A020C0109: Chemical Industry
+  NBS/A_A020C010F: Wholesale and Retail Trades, Hotels and Catering _Services
+  NBS/A_A020C0209: Exports
+  NBS/A_A020C020B: Imports
+  NBS/A_A020D08: Direct Input Coefficients of Input-Output, Chemical _Industry
+  NBS/A_A020D0E: Direct Input Coefficients of Input-Output, Wholesale _and Retail Trades, Hotels and Cateri
+  NBS/A_A020E08: Total Input Coefficients of Input-Output, Chemical _Industry
+  NBS/A_A020E0E: Total Input Coefficients of Input-Output, Wholesale _and Retail Trades, Hotels and Caterin
+  NBS/A_A020I: Gross Domestic Product at Constant Prices
+  NBS/A_A0402: Number of Employed Persons by Three Strata of Industry
+  NBS/A_A040N: Registered Unemployed Persons and Unemployment Rate in Urban Area
+  NBS/A_A0501: Total Investment in Fixed Assets in the Whole Country
+  NBS/A_A0502: Growth Rate of Actual Funds Available for Investment in Total Investment in Fixed Assets i
+  NBS/A_A0503: Non-governmental Investment in Fixed Assets  (Excluding Rural Households) and Growth Rate
+  NBS/A_A0504: Investment in Fixed Assets (Excluding Rural Households) and Growth Rate by Three Strata of
+  NBS/A_A0505: Growth Rate of Total Investment in Fixed Assets over Preceding Year by Region and Field (E
+  NBS/A_A0506: Growth Rate of Actual Funds Available for Investment in Fixed Assets (Excluding Rural Hous
+  NBS/A_A0507: Growth Rate of Investment in Fixed Assets  (Excluding Rural Households) over Preceding Yea
+  NBS/A_A0508: Investment in Fixed Assets (Excluding Rural _Households) by Sources of Funds
+  NBS/A_A0509: Investment in Fixed Assets (Excluding Rural _Households) by Jurisdiction of Management
+  NBS/A_A050A: Growth Rate of Investment in Fixed Assets  (Excluding Rural Households) over Preceding Yea
+  NBS/A_A050B: Growth Rate of Investment in Fixed Assets  (Excluding Rural Households) over Preceding Yea
+  NBS/A_A050C: Growth Rate of Construction and Installation Investment in Fixed Assets  (Excluding Rural 
+  NBS/A_A050D: Growth Rate of Purchase of Equipment and Instruments Investment in Fixed Assets  (Excludin
+  NBS/A_A050E: Growth Rate of Other Expenses Investment in Fixed Assets  (Excluding Rural Households) ove
+  NBS/A_A050F: Growth Rate of New Construction Investment in Fixed Assets  (Excluding Rural Households) o
+  NBS/A_A050G: Growth Rate of Expansion Investment in Fixed Assets  (Excluding Rural Households) over Pre
+  NBS/A_A050H: Growth Rate of Reconstruction and Technical Transformation Investment in Fixed Assets  (Ex
+  NBS/A_A050I: Growth Rate of Central Government Investment in Fixed Assets  (Excluding Rural Households)
+  NBS/A_A050J: Growth Rate of Local Investment in Fixed Assets  (Excluding Rural Households) over Precedi
+  NBS/A_A050K: Growth Rate of Domestic Funded Investment in Fixed Assets  (Excluding Rural Households) ov
+  NBS/A_A050L: Growth Rate of Funds from Hong Kong, Macao and Taiwan Investment in Fixed Assets  (Excludi
+  NBS/A_A050M: Growth Rate of Foreign Funded Investment in Fixed Assets  (Excluding Rural Households) ove
+  NBS/A_A050N: Growth Rate of State-holding Investment in Fixed Assets  (Excluding Rural Households) over
+  NBS/A_A050O: Growth Rate of Collective-holding Investment in Fixed Assets  (Excluding Rural Households)
+  NBS/A_A050P: Growth Rate of Private-holding Investment in Fixed Assets  (Excluding Rural Households) ov
+  NBS/A_A050Q: Growth Rate of Investment in Fixed Assets (Excluding Rural Households), Actual Funds  Avai
+  NBS/A_A050R: Growth Rate of Investment in Fixed Assets (Excluding Rural Households), State Budget over 
+  NBS/A_A050S: Growth Rate of Investment in Fixed Assets (Excluding Rural Households), Domestic Loans ove
+  NBS/A_A050T: Growth Rate of Investment in Fixed Assets (Excluding Rural Households), Foreign Investment
+  NBS/A_A050U: Growth Rate of Investment in Fixed Assets (Excluding Rural Households), Self-raised Funds 
+  NBS/A_A050V: Growth Rate of Investment in Fixed Assets (Excluding Rural Households), Other Funds over P
+  NBS/A_A050W: Growth Rate of Investment in Fixed Assets of Rural Households over Preceding Year
+  NBS/A_A0601: Total Value of Imports and Exports
+  NBS/A_A0602: Exports Value by Category of Commodities(SITC)
+  NBS/A_A0603: Imports Value by Category of Commodities(SITC)
+  NBS/A_A060401: Exports Value by Category of Commodities
+  NBS/A_A060402: Imports Value by Category of Commodities
+  NBS/A_A06050101: Total Value of Imports and Exports, Countries(Regions) in Asia
+  NBS/A_A06050102: Total Value of Imports and Exports, Countries(Regions) in Africa
+  NBS/A_A06050103: Total Value of Imports and Exports, Countries (Regions) in Europe
+  NBS/A_A06050104: Total Value of Imports and Exports, Countries (Regions) in Latin America
+  NBS/A_A06050105: Total Value of Imports and Exports, Countries (Regions) in North America
+  NBS/A_A06050106: Total Value of Imports and Exports, Countries (Regions) in Oceanic and Pacific Islands
+  NBS/A_A06050107: Total Value of Imports and Exports, Others
+  NBS/A_A06050201: Total Value of Exports, Countries(Regions) in Asia
+  NBS/A_A06050202: Total Value of Exports, Countries(Regions) in Africa
+  NBS/A_A06050203: Total Value of Exports, Countries (Regions) in Europe
+  NBS/A_A06050204: Total Value of Exports, Countries (Regions) in Latin America
+  NBS/A_A06050205: Total Value of Exports, Countries (Regions) in North America
+  NBS/A_A06050206: Total Value of Exports, Countries (Regions) in Oceanic and Pacific Islands
+  NBS/A_A06050207: Total Value of Exports, Others
+  NBS/A_A06050301: Total Value of Imports, Countries(Regions) in Asia
+  NBS/A_A06050302: Total Value of Imports, Countries(Regions) in Africa
+
+=== dbn-series OECD/DSD_NAMAIN1@DF_QNA_EXPENDITURE_GROWTH_OECD Japan gross domestic product  (OECD BKT-kasvu: Japani, UK (avainrakenne))
+sarjoja yhteensä 5; näytetään 5:
+  OECD/DSD_NAMAIN1@DF_QNA_EXPENDITURE_GROWTH_OECD/A.Y.JPN.S1.S1.B1GQ._Z._Z._Z.PC.L.G1.T0102  [2025=1.058453807]  Annual – Calendar and seasonally adjusted – Japan – Total economy – Total economy – Gross 
+  OECD/DSD_NAMAIN1@DF_QNA_EXPENDITURE_GROWTH_OECD/A.Y.JPN.S1.S1.B1GQ._Z._Z._Z.PC.L.GY.T0102  [2025=1.058453807]  Annual – Calendar and seasonally adjusted – Japan – Total economy – Total economy – Gross 
+  OECD/DSD_NAMAIN1@DF_QNA_EXPENDITURE_GROWTH_OECD/Q.Y.JPN.S1.S1.B1GQ._Z._Z._Z.PC.L.G1.T0102  [2026-Q1=0.452632124]  Quarterly – Calendar and seasonally adjusted – Japan – Total economy – Total economy – Gro
+  OECD/DSD_NAMAIN1@DF_QNA_EXPENDITURE_GROWTH_OECD/Q.Y.JPN.S1.S1.B1GQ._Z._Z._Z.PC.L.GCM.T0102  [2026-Q1=4.586424224]  Quarterly – Calendar and seasonally adjusted – Japan – Total economy – Total economy – Gro
+  OECD/DSD_NAMAIN1@DF_QNA_EXPENDITURE_GROWTH_OECD/Q.Y.JPN.S1.S1.B1GQ._Z._Z._Z.PC.L.GY.T0102  [2026-Q1=0.317040504]  Quarterly – Calendar and seasonally adjusted – Japan – Total economy – Total economy – Gro
+
+=== dbn-series OECD/DSD_NAMAIN1@DF_QNA_EXPENDITURE_GROWTH_G20 China gross domestic product  (OECD BKT-kasvu: Kiina)
+sarjoja yhteensä 4; näytetään 4:
+  OECD/DSD_NAMAIN1@DF_QNA_EXPENDITURE_GROWTH_G20/A.Y.CHN.S1.S1.B1GQ._Z._Z._Z.PC.L.G1.T0102  [2025=5.0]  Annual – Calendar and seasonally adjusted – China (People’s Republic of) – Total economy –
+  OECD/DSD_NAMAIN1@DF_QNA_EXPENDITURE_GROWTH_G20/A.Y.CHN.S1.S1.B1GQ._Z._Z._Z.PC.L.GY.T0102  [2025=5.0]  Annual – Calendar and seasonally adjusted – China (People’s Republic of) – Total economy –
+  OECD/DSD_NAMAIN1@DF_QNA_EXPENDITURE_GROWTH_G20/Q.Y.CHN.S1.S1.B1GQ._Z._Z._Z.PC.L.G1.T0102  [2026-Q1=1.3]  Quarterly – Calendar and seasonally adjusted – China (People’s Republic of) – Total econom
+  OECD/DSD_NAMAIN1@DF_QNA_EXPENDITURE_GROWTH_G20/Q.Y.CHN.S1.S1.B1GQ._Z._Z._Z.PC.L.GY.T0102  [2026-Q1=5.0]  Quarterly – Calendar and seasonally adjusted – China (People’s Republic of) – Total econom
+
+=== dbn-series OECD/DSD_PRICES_COICOP2018@DF_PRICES_C2018_ALL Japan all items  (OECD KPI (COICOP 2018): Japani, avainrakenne)
+sarjoja yhteensä 11; näytetään 11:
+  OECD/DSD_PRICES_COICOP2018@DF_PRICES_C2018_ALL/JPN.A.N.CPI.IX._TXCP01_NRG.N._Z  [2025=107.262]  Japan – Annual – National – Consumer price index – Index – All items non-food non-energy –
+  OECD/DSD_PRICES_COICOP2018@DF_PRICES_C2018_ALL/JPN.A.N.CPI.PA._TXCP01_NRG.N.GY  [2025=1.717664]  Japan – Annual – National – Consumer price index – Percent per annum – All items non-food 
+  OECD/DSD_PRICES_COICOP2018@DF_PRICES_C2018_ALL/JPN.A.N.CPI.PC._TXCP01_NRG.N.G1  [2025=1.717664]  Japan – Annual – National – Consumer price index – Percentage change – All items non-food 
+  OECD/DSD_PRICES_COICOP2018@DF_PRICES_C2018_ALL/JPN.A.N.IT_W.10P3EXP_CNSMR._TXCP01_NRG.N._Z  [2025=720.4483]  Japan – Annual – National – Item weights – Per 1 000 of consumer expenditure – All items n
+  OECD/DSD_PRICES_COICOP2018@DF_PRICES_C2018_ALL/JPN.M.N.CPI.IX._TXCP01_NRG.N._Z  [2026-04=108.1719]  Japan – Monthly – National – Consumer price index – Index – All items non-food non-energy 
+  OECD/DSD_PRICES_COICOP2018@DF_PRICES_C2018_ALL/JPN.M.N.CPI.PA._TXCP01_NRG.N.GY  [2026-04=1.134215]  Japan – Monthly – National – Consumer price index – Percent per annum – All items non-food
+  OECD/DSD_PRICES_COICOP2018@DF_PRICES_C2018_ALL/JPN.M.N.CPI.PC._TXCP01_NRG.N.G1  [2026-04=-0.1865672]  Japan – Monthly – National – Consumer price index – Percentage change – All items non-food
+  OECD/DSD_PRICES_COICOP2018@DF_PRICES_C2018_ALL/JPN.M.N.CPI.PD._TXCP01_NRG.N.GOY  [2026-04=0.7337587]  Japan – Monthly – National – Consumer price index – Percentage points – All items non-food
+  OECD/DSD_PRICES_COICOP2018@DF_PRICES_C2018_ALL/JPN.Q.N.CPI.IX._TXCP01_NRG.N._Z  [2026-Q1=108.0034]  Japan – Quarterly – National – Consumer price index – Index – All items non-food non-energ
+  OECD/DSD_PRICES_COICOP2018@DF_PRICES_C2018_ALL/JPN.Q.N.CPI.PA._TXCP01_NRG.N.GY  [2026-Q1=1.552598]  Japan – Quarterly – National – Consumer price index – Percent per annum – All items non-fo
+  OECD/DSD_PRICES_COICOP2018@DF_PRICES_C2018_ALL/JPN.Q.N.CPI.PC._TXCP01_NRG.N.G1  [2026-Q1=-0.06236358]  Japan – Quarterly – National – Consumer price index – Percentage change – All items non-fo

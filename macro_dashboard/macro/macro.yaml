@@ -1,0 +1,358 @@
+# Tallennuspaikka: C:\Users\markk\Talous\macro_dashboard\catalog\macro.yaml
+#
+# Makroseurannan sarjaluettelo: alue x indikaattori.
+#
+#   regions:     alueet (järjestys = sarakejärjestys ja piirtojärjestys)
+#   themes:      sivun osiot
+#   indicators:  yksi rivi = yksi indikaattori kaikille alueille
+#     eurostat:  lista lohkoja {code, regions, filters, freq, post}; kullekin alueelle
+#                kokeillaan lohkot järjestyksessä ja alueen geo-ehdokkaat järjestyksessä
+#     other:     alue -> lista ehdokkaita {source, code, freq, post, geo, params}
+#
+#     oecd:      lista lohkoja {flow, key, regions, freq, post}; key-mallin {geo} korvataan alueen
+#                oecd-koodilla (esim. FIN, EA20). Ehdokasjärjestys: eurostat, oecd, other.
+#
+# post: yoy = vuosimuutos-%, pch = muutos edelliseen jaksoon -%, diff = erotus.
+# Ensimmäinen ehdokas, jonka data on tuoretta, voittaa; muut ovat varavaihtoehtoja.
+# Sarjakoodit on kirjoitettu muistista: aja `python build_site.py --check`, niin saat
+# listan koodeista, jotka eivät toimi. Korjaa vain tähän tiedostoon.
+
+regions:
+  FI: {name: Suomi, oecd: FIN,        geo: [FI],               color: "#0A2A5E"}
+  EA: {name: Euroalue, oecd: [EA20, EA21, EA19],     geo: [EA, EA21, EA20],   color: "#7F8790", ref: true}
+  DE: {name: Saksa, oecd: DEU,        geo: [DE],               color: "#C8102E"}
+  FR: {name: Ranska, oecd: FRA,       geo: [FR],               color: "#E08A00"}
+  SE: {name: Ruotsi, oecd: SWE,       geo: [SE],               color: "#1B998B"}
+  US: {name: Yhdysvallat, oecd: USA,  color: "#4A90D9",        ref: true}
+  UK: {name: Iso-Britannia, oecd: GBR, color: "#5B8C2A"}
+  JP: {name: Japani, oecd: JPN,       color: "#8E44AD"}
+  CN: {name: Kiina, oecd: CHN,        color: "#B8860B"}
+
+themes:
+  gdp: BKT
+  prices: Inflaatio
+  industry: Teollisuus ja tilaukset
+  confidence: Luottamus
+  labour: Työmarkkinat
+  external: Ulkoinen tasapaino
+
+indicators:
+
+  # ---------------------------------------------------------------- BKT
+  - id: gdp_yoy
+    title: BKT, määrän vuosimuutos
+    theme: gdp
+    unit: "%, y/y"
+    freq: Q
+    years: 12
+    note: "EU-maat ja euroalue: Eurostat, kausitasoitettu. Muut: FRED (Eurostat/OECD-peilit), vuosimuutos laskettu tasosta."
+    eurostat:
+      - {code: namq_10_gdp, regions: [FI, EA, DE, FR, SE], freq: Q,
+         filters: {s_adj: SCA, na_item: B1GQ, unit: CLV_PCH_SM}}
+    other:
+      US: [{source: fred, code: GDPC1, freq: Q, post: yoy}]
+      UK: [{source: fred, code: CLVMNACSCAB1GQUK, freq: Q, post: yoy}]
+      JP: [{source: fred, code: CLVMNACSCAB1GQJP, freq: Q, post: yoy}]
+      CN: [{source: fred, code: NAEXKP01CNQ189S, freq: Q, post: yoy}]
+
+  - id: gdp_qoq
+    title: BKT, määrän muutos edellisestä neljänneksestä
+    theme: gdp
+    unit: "%, q/q"
+    freq: Q
+    kind: bar
+    years: 12
+    eurostat:
+      - {code: namq_10_gdp, regions: [FI, EA, DE, FR, SE], freq: Q,
+         filters: {s_adj: SCA, na_item: B1GQ, unit: CLV_PCH_PRE}}
+    other:
+      US: [{source: fred, code: GDPC1, freq: Q, post: pch}]
+      UK: [{source: fred, code: CLVMNACSCAB1GQUK, freq: Q, post: pch}]
+      JP: [{source: fred, code: CLVMNACSCAB1GQJP, freq: Q, post: pch}]
+      CN: [{source: fred, code: NAEXKP01CNQ189S, freq: Q, post: pch}]
+
+  # ----------------------------------------------------------- Inflaatio
+  - id: cpi_yoy
+    title: Inflaatio, vuosimuutos
+    theme: prices
+    unit: "%, y/y"
+    freq: M
+    note: "EU-maat ja euroalue: HICP (Eurostat, ECOICOP ver. 2 vuodesta 2026). USA: CPI-U. Muut: kansallinen KPI (OECD, FRED-peili)."
+    eurostat:
+      - {code: prc_hicp_minr, regions: [FI, EA, DE, FR, SE], filters: {unit: RCH_A, coicop18: TOTAL}}
+      - {code: prc_hicp_manr, regions: [FI, EA, DE, FR, SE], filters: {unit: RCH_A, coicop: CP00}}
+    oecd:
+      - {flow: "OECD.SDD.TPS,DSD_PRICES@DF_PRICES_ALL", key: "{geo}.M.N.CPI.PA._T.N.GY", regions: [UK, JP, CN]}
+    other:
+      US: [{source: fred, code: CPIAUCSL, post: yoy}]
+      UK: [{source: fred, code: CPALTT01GBM659N}, {source: fred, code: GBRCPIALLMINMEI, post: yoy}]
+      JP: [{source: fred, code: CPALTT01JPM659N}, {source: fred, code: JPNCPIALLMINMEI, post: yoy}]
+      CN: [{source: fred, code: CPALTT01CNM659N}, {source: fred, code: CHNCPIALLMINMEI, post: yoy}]
+
+  - id: cpi_mom
+    title: Inflaatio, kuukausimuutos
+    theme: prices
+    unit: "%, m/m"
+    freq: M
+    kind: bar
+    years: 5
+    note: "Eurostatin HICP:n kuukausimuutos on kausitasoittamaton; USA:n CPI kausitasoitettu."
+    eurostat:
+      - {code: prc_hicp_minr, regions: [FI, EA, DE, FR, SE], filters: {unit: RCH_M, coicop18: TOTAL}}
+      - {code: prc_hicp_mmor, regions: [FI, EA, DE, FR, SE], filters: {unit: RCH_M, coicop: CP00}}
+    oecd:
+      - {flow: "OECD.SDD.TPS,DSD_PRICES@DF_PRICES_ALL", key: "{geo}.M.N.CPI.PC._T.N.G1", regions: [UK, JP, CN]}
+    other:
+      US: [{source: fred, code: CPIAUCSL, post: pch}]
+      UK: [{source: fred, code: CPALTT01GBM657N}]
+      JP: [{source: fred, code: CPALTT01JPM657N}]
+      CN: [{source: fred, code: CPALTT01CNM657N}]
+
+  - id: core_yoy
+    title: Ydininflaatio, vuosimuutos (ilman energiaa ja ruokaa)
+    theme: prices
+    unit: "%, y/y"
+    freq: M
+    note: "EU: HICP ilman energiaa, ruokaa, alkoholia ja tupakkaa. USA: CPI ilman ruokaa ja energiaa."
+    eurostat:
+      - {code: prc_hicp_minr, regions: [FI, EA, DE, FR, SE], filters: {unit: RCH_A, coicop18: TOT_X_NRG_FOOD_NP}}
+      - {code: prc_hicp_minr, regions: [FI, EA, DE, FR, SE], filters: {unit: RCH_A, coicop18: TOT_X_NRG_FOOD}}
+      - {code: prc_hicp_manr, regions: [FI, EA, DE, FR, SE], filters: {unit: RCH_A, coicop: TOT_X_NRG_FOOD}}
+    oecd:
+      - {flow: "OECD.SDD.TPS,DSD_PRICES@DF_PRICES_ALL", key: "{geo}.M.N.CPI.PA._TXCP01_NRG.N.GY", regions: [UK, JP]}
+    other:
+      US: [{source: fred, code: CPILFESL, post: yoy}]
+      UK: [{source: fred, code: CPGRLE01GBM659N}]
+      JP: [{source: fred, code: CPGRLE01JPM659N}]
+
+  # ------------------------------------------------- Teollisuus ja tilaukset
+  - id: ip_yoy
+    title: Teollisuustuotanto, vuosimuutos
+    theme: industry
+    unit: "%, y/y"
+    freq: M
+    note: "EU: Eurostat, kausi- ja kalenterivaikutuksista oikaistu, teollisuus ilman rakentamista. Muut: FRED."
+    eurostat:
+      - {code: sts_inpr_m, regions: [FI, EA, DE, FR, SE], post: yoy,
+         filters: {indic_bt: PRD, nace_r2: B-D, s_adj: SCA, unit: I21}}
+      - {code: sts_inpr_m, regions: [FI, EA, DE, FR, SE], post: yoy,
+         filters: {indic_bt: PRD, nace_r2: B-D, s_adj: SCA, unit: I15}}
+    oecd:
+      - {flow: "OECD.SDD.STES,DSD_STES@DF_INDSERV", key: "{geo}.M.PRVM.IX.BTE.Y._Z._Z.N", regions: [UK, JP], post: yoy}
+    other:
+      US: [{source: fred, code: INDPRO, post: yoy}]
+      UK: [{source: fred, code: GBRPROINDMISMEI, post: yoy}, {source: fred, code: PRMNTO01GBM661S, post: yoy}]
+      JP: [{source: fred, code: JPNPROINDMISMEI, post: yoy}, {source: fred, code: PRMNTO01JPM661S, post: yoy}]
+
+  - id: ip_mom
+    title: Teollisuustuotanto, kuukausimuutos
+    theme: industry
+    unit: "%, m/m"
+    freq: M
+    kind: bar
+    years: 5
+    eurostat:
+      - {code: sts_inpr_m, regions: [FI, EA, DE, FR, SE], post: pch,
+         filters: {indic_bt: PRD, nace_r2: B-D, s_adj: SCA, unit: I21}}
+      - {code: sts_inpr_m, regions: [FI, EA, DE, FR, SE], post: pch,
+         filters: {indic_bt: PRD, nace_r2: B-D, s_adj: SCA, unit: I15}}
+    oecd:
+      - {flow: "OECD.SDD.STES,DSD_STES@DF_INDSERV", key: "{geo}.M.PRVM.IX.BTE.Y._Z._Z.N", regions: [UK, JP], post: pch}
+    other:
+      US: [{source: fred, code: INDPRO, post: pch}]
+      UK: [{source: fred, code: GBRPROINDMISMEI, post: pch}, {source: fred, code: PRMNTO01GBM661S, post: pch}]
+      JP: [{source: fred, code: JPNPROINDMISMEI, post: pch}, {source: fred, code: PRMNTO01JPM661S, post: pch}]
+
+  - id: orders_yoy
+    title: Teollisuuden uudet tilaukset, vuosimuutos
+    theme: industry
+    unit: "%, y/y"
+    freq: M
+    note: "Eurostat ei enää julkaise tilauskantasarjoja (sts_inno_m/sts_inor_m poistuneet); EU-maiden sarjat tulossa EKP:n STS-tietokannasta. USA: kestotavaratilaukset."
+    other:
+      US: [{source: fred, code: DGORDER, post: yoy}]
+
+  # ---------------------------------------------------------- Luottamus
+  - id: bci
+    title: Yritysluottamus (OECD, 100 = pitkän ajan keskiarvo)
+    theme: confidence
+    unit: "indeksi"
+    freq: M
+    years: 10
+    note: "OECD:n yritysluottamusindikaattori (amplitudioikaistu), vertailukelpoinen maiden välillä. Lähde FRED."
+    oecd:
+      - {flow: "OECD.SDD.STES,DSD_STES@DF_CLI", key: "{geo}.M.BCICP.IX._Z.AA.IX._Z.H", regions: [FI, EA, DE, FR, SE, US, UK, JP, CN]}
+    other:
+      FI: [{source: fred, code: BSCICP03FIM665S}]
+      EA: [{source: fred, code: BSCICP03EZM665S}]
+      DE: [{source: fred, code: BSCICP03DEM665S}]
+      FR: [{source: fred, code: BSCICP03FRM665S}]
+      SE: [{source: fred, code: BSCICP03SEM665S}]
+      US: [{source: fred, code: BSCICP03USM665S}]
+      UK: [{source: fred, code: BSCICP03GBM665S}]
+      JP: [{source: fred, code: BSCICP03JPM665S}]
+      CN: [{source: fred, code: BSCICP03CNM665S}]
+
+  - id: cci
+    title: Kuluttajaluottamus (OECD, 100 = pitkän ajan keskiarvo)
+    theme: confidence
+    unit: "indeksi"
+    freq: M
+    note: "OECD:n kuluttajaluottamusindikaattori (amplitudioikaistu). Lähde FRED."
+    oecd:
+      - {flow: "OECD.SDD.STES,DSD_STES@DF_CLI", key: "{geo}.M.CCICP.IX._Z.AA.IX._Z.H", regions: [FI, EA, DE, FR, SE, US, UK, JP, CN]}
+    other:
+      FI: [{source: fred, code: CSCICP03FIM665S}]
+      EA: [{source: fred, code: CSCICP03EZM665S}]
+      DE: [{source: fred, code: CSCICP03DEM665S}]
+      FR: [{source: fred, code: CSCICP03FRM665S}]
+      SE: [{source: fred, code: CSCICP03SEM665S}]
+      US: [{source: fred, code: CSCICP03USM665S}, {source: fred, code: UMCSENT}]
+      UK: [{source: fred, code: CSCICP03GBM665S}]
+      JP: [{source: fred, code: CSCICP03JPM665S}]
+      CN: [{source: fred, code: CSCICP03CNM665S}]
+
+  - id: cli
+    title: OECD:n johtava indikaattori (CLI)
+    theme: confidence
+    unit: "indeksi"
+    freq: M
+    note: "Ennakoi suhdannekäännöksiä noin 6-9 kk etukäteen. OECD ei laske CLI:tä Suomelle, Ruotsille eikä euroalueelle."
+    oecd:
+      - {flow: "OECD.SDD.STES,DSD_STES@DF_CLI", key: "{geo}.M.LI.IX._Z.AA.IX._Z.H", regions: [DE, FR, US, UK, JP, CN]}
+    other:
+      DE: [{source: fred, code: DEULOLITOAASTSAM}]
+      FR: [{source: fred, code: FRALOLITOAASTSAM}]
+      US: [{source: fred, code: USALOLITOAASTSAM}]
+      UK: [{source: fred, code: GBRLOLITOAASTSAM}]
+      JP: [{source: fred, code: JPNLOLITOAASTSAM}]
+      CN: [{source: fred, code: CHNLOLITOAASTSAM}]
+
+  - id: esi
+    title: Talouden ilmapiiri (ESI, Euroopan komissio)
+    theme: confidence
+    unit: "indeksi"
+    freq: M
+    note: "Vain EU-maat ja euroalue. Pitkän ajan keskiarvo 100."
+    eurostat:
+      - {code: ei_bssi_m_r2, regions: [FI, EA, DE, FR, SE], filters: {indic: BS-ESI-I, s_adj: SA}}
+
+  - id: conf_industry
+    title: Teollisuusluottamus (EK:n kysely, saldoluku)
+    theme: confidence
+    unit: "saldoluku"
+    freq: M
+    note: "Vain EU-maat ja euroalue."
+    eurostat:
+      - {code: ei_bssi_m_r2, regions: [FI, EA, DE, FR, SE], filters: {indic: BS-ICI-BAL, s_adj: SA}}
+
+  - id: conf_consumer
+    title: Kuluttajaluottamus (EK:n kysely, saldoluku)
+    theme: confidence
+    unit: "saldoluku"
+    freq: M
+    note: "Vain EU-maat ja euroalue."
+    eurostat:
+      - {code: ei_bssi_m_r2, regions: [FI, EA, DE, FR, SE], filters: {indic: BS-CSMCI-BAL, s_adj: SA}}
+
+  # ------------------------------------------------------- Työmarkkinat
+  - id: unemp
+    title: Työttömyysaste
+    theme: labour
+    unit: "% työvoimasta"
+    freq: M
+    years: 15
+    note: "EU: Eurostat (kausitasoitettu, 15-74-vuotiaat). USA: BLS. UK, Japani: OECD (FRED). Kiinasta ei luotettavaa kuukausisarjaa."
+    eurostat:
+      - {code: une_rt_m, regions: [FI, EA, DE, FR, SE],
+         filters: {s_adj: SA, age: TOTAL, unit: PC_ACT, sex: T}}
+    other:
+      US: [{source: fred, code: UNRATE}]
+      UK: [{source: fred, code: LRHUTTTTGBM156S}]
+      JP: [{source: fred, code: LRHUTTTTJPM156S}]
+
+  - id: unemp_youth
+    title: Nuorisotyöttömyys (alle 25-vuotiaat)
+    theme: labour
+    unit: "% työvoimasta"
+    freq: M
+    years: 15
+    note: "EU: alle 25-vuotiaat. USA: 16-24-vuotiaat."
+    eurostat:
+      - {code: une_rt_m, regions: [FI, EA, DE, FR, SE],
+         filters: {s_adj: SA, age: Y_LT25, unit: PC_ACT, sex: T}}
+    other:
+      US: [{source: fred, code: LNS14024887}]
+
+  - id: employment_yoy
+    title: Työllisten määrä, vuosimuutos
+    theme: labour
+    unit: "%, y/y"
+    freq: Q
+    years: 12
+    note: "EU: kansantalouden tilinpito, työlliset (kotimaakäsite), neljännesvuosi. USA: palkkatyöläiset (nonfarm payrolls), kuukausi."
+    eurostat:
+      - {code: namq_10_pe, regions: [FI, EA, DE, FR, SE], freq: Q, post: yoy,
+         filters: {s_adj: SCA, na_item: EMP_DC, unit: THS_PER}}
+      - {code: namq_10_pe, regions: [FI, EA, DE, FR, SE], freq: Q, post: yoy,
+         filters: {s_adj: SA, na_item: EMP_DC, unit: THS_PER}}
+      - {code: namq_10_pe, regions: [FI, EA, DE, FR, SE], freq: Q, post: yoy,
+         filters: {s_adj: NSA, na_item: EMP_DC, unit: THS_PER}}
+      - {code: namq_10_pe, regions: [FI, EA, DE, FR, SE], freq: Q, post: yoy,
+         filters: {s_adj: SCA, na_item: EMP_NC, unit: THS_PER}}
+      - {code: namq_10_pe, regions: [FI, EA, DE, FR, SE], freq: Q, post: yoy,
+         filters: {s_adj: NSA, na_item: EMP_NC, unit: THS_PER}}
+    other:
+      US: [{source: fred, code: PAYEMS, freq: M, post: yoy}]
+
+  - id: wages_yoy
+    title: Palkkakustannukset, vuosimuutos
+    theme: labour
+    unit: "%, y/y"
+    freq: Q
+    years: 12
+    note: "EU: työvoimakustannusindeksin palkat ja palkkiot (Eurostat), neljännesvuosi. USA: yksityisen sektorin keskituntiansio, kuukausi."
+    eurostat:
+      - {code: lc_lci_r2_q, regions: [FI, EA, DE, FR, SE], freq: Q,
+         filters: {lcstruct: D11, nace_r2: B-S, s_adj: SCA, unit: PCH_SM}}
+      - {code: lc_lci_r2_q, regions: [FI, EA, DE, FR, SE], freq: Q,
+         filters: {lcstruct: D11, nace_r2: B-S, s_adj: CA, unit: PCH_SM}}
+      - {code: lc_lci_r2_q, regions: [FI, EA, DE, FR, SE], freq: Q,
+         filters: {lcstruct: D11, nace_r2: B-S, s_adj: NSA, unit: PCH_SM}}
+    other:
+      US: [{source: fred, code: CES0500000003, freq: M, post: yoy}]
+
+  - id: vacancy_rate
+    title: Avoimien työpaikkojen osuus
+    theme: labour
+    unit: "%"
+    freq: Q
+    years: 12
+    note: "EU: Eurostat työpaikkatilasto, neljännesvuosi. USA: JOLTS, kuukausi."
+    eurostat:
+      - {code: jvs_q_nace2, regions: [FI, EA, DE, FR, SE], freq: Q,
+         filters: {indic_em: JVR, nace_r2: B-S, s_adj: SA, sizeclas: TOTAL}}
+      - {code: jvs_q_nace2, regions: [FI, EA, DE, FR, SE], freq: Q,
+         filters: {indic_em: JVR, nace_r2: B-S, s_adj: NSA, sizeclas: TOTAL}}
+    other:
+      US: [{source: fred, code: JTSJOR, freq: M}]
+
+  # ------------------------------------------------ Ulkoinen tasapaino
+  - id: ca_gdp
+    title: Vaihtotase, osuus BKT:sta
+    theme: external
+    unit: "% BKT:sta"
+    freq: A
+    years: 25
+    kind: bar
+    note: "Maailmanpankki (vuosidata, viive 1-2 vuotta). Neljännesvuosisarjat lisätään myöhemmin."
+    other:
+      FI: [{source: worldbank, code: BN.CAB.XOKA.GD.ZS, freq: A, geo: FIN}]
+      EA: [{source: worldbank, code: BN.CAB.XOKA.GD.ZS, freq: A, geo: EMU}]
+      DE: [{source: worldbank, code: BN.CAB.XOKA.GD.ZS, freq: A, geo: DEU}]
+      FR: [{source: worldbank, code: BN.CAB.XOKA.GD.ZS, freq: A, geo: FRA}]
+      SE: [{source: worldbank, code: BN.CAB.XOKA.GD.ZS, freq: A, geo: SWE}]
+      US: [{source: worldbank, code: BN.CAB.XOKA.GD.ZS, freq: A, geo: USA}]
+      UK: [{source: worldbank, code: BN.CAB.XOKA.GD.ZS, freq: A, geo: GBR}]
+      JP: [{source: worldbank, code: BN.CAB.XOKA.GD.ZS, freq: A, geo: JPN}]
+      CN: [{source: worldbank, code: BN.CAB.XOKA.GD.ZS, freq: A, geo: CHN}]
