@@ -2,6 +2,11 @@
 
 __pycache__/
 *.pyc
+.cache/
+tree.txt
+
+__pycache__/
+*.pyc
 
 # Local cache
 
