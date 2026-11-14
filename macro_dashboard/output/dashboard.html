@@ -3,24 +3,191 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Macro Dashboard</title>
+
+<title>Talouden indikaattorit</title>
+
+<style>
+
+body {
+    font-family: Segoe UI, Arial, sans-serif;
+    background: #f5f5f5;
+    margin: 40px;
+}
+
+h1 {
+    color: #0b2f6b;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+}
+
+.card {
+
+    background: white;
+
+    border: 1px solid #d7dbe2;
+
+    padding: 22px;
+
+    min-height: 150px;
+}
+
+.country {
+
+    color: #0b2f6b;
+
+    font-weight: 700;
+
+    text-transform: uppercase;
+
+    font-size: 14px;
+}
+
+.title {
+
+    color: #556070;
+
+    margin-top: 6px;
+
+    font-size: 18px;
+}
+
+.value {
+
+    color: #0b2f6b;
+
+    font-weight: 700;
+
+    font-size: 52px;
+
+    margin-top: 20px;
+}
+
+.date {
+
+    margin-top: 16px;
+
+    color: #556070;
+}
+
+.change {
+
+    margin-top: 10px;
+
+    color: #2b3e50;
+}
+
+</style>
 </head>
+
 <body>
 
-<h1>Macro Dashboard</h1>
+<h1>Talouden indikaattorit</h1>
 
-<h2>Finland</h2>
-<p>GDP</p>
-<p>Inflation</p>
-<p>Unemployment</p>
+<div class="grid">
 
-<h2>Euro Area</h2>
-<p>GDP</p>
-<p>Inflation</p>
 
-<h2>USA</h2>
-<p>GDP</p>
-<p>Inflation</p>
+<div class="card">
+
+    <div class="country">
+        SUOMI
+    </div>
+
+    <div class="title">
+        BKT Q/Q
+    </div>
+
+    <div class="value">
+        0,5 %
+    </div>
+
+    <div class="date">
+        2026 Q3
+    </div>
+
+    <div class="change">
+        +0,1 %-yks.
+    </div>
+
+</div>
+
+<div class="card">
+
+    <div class="country">
+        EUROALUE
+    </div>
+
+    <div class="title">
+        BKT Q/Q
+    </div>
+
+    <div class="value">
+        0,4 %
+    </div>
+
+    <div class="date">
+        2026 Q3
+    </div>
+
+    <div class="change">
+        -0,2 %-yks.
+    </div>
+
+</div>
+
+<div class="card">
+
+    <div class="country">
+        SUOMI
+    </div>
+
+    <div class="title">
+        INFLAATIO (HICP)
+    </div>
+
+    <div class="value">
+        1,7 %
+    </div>
+
+    <div class="date">
+        12/2025
+    </div>
+
+    <div class="change">
+        +0,2 %-yks.
+    </div>
+
+</div>
+
+<div class="card">
+
+    <div class="country">
+        EUROALUE
+    </div>
+
+    <div class="title">
+        INFLAATIO (HICP)
+    </div>
+
+    <div class="value">
+        2,0 %
+    </div>
+
+    <div class="date">
+        12/2025
+    </div>
+
+    <div class="change">
+        -0,1 %-yks.
+    </div>
+
+</div>
+
+
+</div>
 
 </body>
 </html>

@@ -1,0 +1,30 @@
+{
+  "_metadata": {
+    "file": "macro_dashboard/store/latest.json",
+    "purpose": "Latest observations for dashboard and DSGE"
+  },
+
+  "GDP_FI": {
+    "value": 0.5,
+    "unit": "%",
+    "date": "2026-Q3",
+    "change": 0.1,
+    "source": "Eurostat"
+  },
+
+  "HICP_FI": {
+    "value": 1.7,
+    "unit": "%",
+    "date": "2026-09",
+    "change": 0.2,
+    "source": "Eurostat"
+  },
+
+  "FI_10Y": {
+    "value": 3.65,
+    "unit": "%",
+    "date": "2026-11-11",
+    "change": -0.08,
+    "source": "BankOfFinland"
+  }
+}

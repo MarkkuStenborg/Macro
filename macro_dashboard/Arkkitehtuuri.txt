@@ -1,0 +1,16 @@
+Arkkitehtuuri
+
+Kortti kuvaa MITÄ näytetään
+latest.json sisältää MIKÄ arvo näytetään
+
+fetchers
+    ↓
+latest.json
+    ↓
+latest_loader.py
+    ↓
+dashboard_data.py
+    ↓
+dashboard_builder.py
+    ↓
+dashboard.html
